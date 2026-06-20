@@ -42,6 +42,13 @@ public final class DragonOptConfig {
     public static volatile boolean disableEntityShadows = false;
     public static volatile boolean lightCacheMerge = true;
     public static volatile boolean lazyChunkLoad = true;
+    public static volatile boolean cityRenderOptimizer = true;
+    public static volatile int cityLowFpsThreshold = 45;
+    public static volatile int cityPlayerNearDistance = 16;
+    public static volatile int cityPlayerFarDistance = 32;
+    public static volatile int cityMaxRenderedPlayers = 24;
+    public static volatile int cityEmergencyRenderedPlayers = 12;
+    public static volatile int cityEmergencyRenderDistance = 6;
     public static volatile boolean dragonCoreCompat = true;
     public static volatile int dragonCoreHeartbeatSec = 15;
     public static volatile String guiHotkey = "key.keyboard.o";
@@ -73,6 +80,13 @@ public final class DragonOptConfig {
                 disableEntityShadows = true;
                 lightCacheMerge = true;
                 lazyChunkLoad = true;
+                cityRenderOptimizer = true;
+                cityLowFpsThreshold = 50;
+                cityPlayerNearDistance = 12;
+                cityPlayerFarDistance = 24;
+                cityMaxRenderedPlayers = 16;
+                cityEmergencyRenderedPlayers = 8;
+                cityEmergencyRenderDistance = 5;
                 break;
             case BALANCED:
                 workerThreads = Math.max(2, Runtime.getRuntime().availableProcessors() / 2);
@@ -86,6 +100,13 @@ public final class DragonOptConfig {
                 disableEntityShadows = false;
                 lightCacheMerge = true;
                 lazyChunkLoad = true;
+                cityRenderOptimizer = true;
+                cityLowFpsThreshold = 45;
+                cityPlayerNearDistance = 16;
+                cityPlayerFarDistance = 32;
+                cityMaxRenderedPlayers = 24;
+                cityEmergencyRenderedPlayers = 12;
+                cityEmergencyRenderDistance = 6;
                 break;
             case QUALITY:
                 workerThreads = Math.max(2, Runtime.getRuntime().availableProcessors());
@@ -99,6 +120,13 @@ public final class DragonOptConfig {
                 disableEntityShadows = false;
                 lightCacheMerge = false;
                 lazyChunkLoad = false;
+                cityRenderOptimizer = false;
+                cityLowFpsThreshold = 35;
+                cityPlayerNearDistance = 24;
+                cityPlayerFarDistance = 64;
+                cityMaxRenderedPlayers = 64;
+                cityEmergencyRenderedPlayers = 32;
+                cityEmergencyRenderDistance = 10;
                 break;
         }
         activePreset = preset;
@@ -128,6 +156,13 @@ public final class DragonOptConfig {
         disableEntityShadows = cfg.getBoolean("disableEntityShadows", "render", false, "");
         lightCacheMerge = cfg.getBoolean("lightCacheMerge", "render", true, "");
         lazyChunkLoad = cfg.getBoolean("lazyChunkLoad", "render", true, "");
+        cityRenderOptimizer = cfg.getBoolean("cityRenderOptimizer", "city", true, "");
+        cityLowFpsThreshold = cfg.getInt("cityLowFpsThreshold", "city", 45, 10, 240, "");
+        cityPlayerNearDistance = cfg.getInt("cityPlayerNearDistance", "city", 16, 4, 128, "");
+        cityPlayerFarDistance = cfg.getInt("cityPlayerFarDistance", "city", 32, 8, 256, "");
+        cityMaxRenderedPlayers = cfg.getInt("cityMaxRenderedPlayers", "city", 24, 1, 256, "");
+        cityEmergencyRenderedPlayers = cfg.getInt("cityEmergencyRenderedPlayers", "city", 12, 1, 128, "");
+        cityEmergencyRenderDistance = cfg.getInt("cityEmergencyRenderDistance", "city", 6, 2, 32, "");
 
         dragonCoreCompat = cfg.getBoolean("dragonCoreCompat", "dragoncore", true, "");
         dragonCoreHeartbeatSec = cfg.getInt("dragonCoreHeartbeatSec", "dragoncore", 15, 1, 120, "");
@@ -159,6 +194,14 @@ public final class DragonOptConfig {
         setBool("render", "disableEntityShadows", disableEntityShadows);
         setBool("render", "lightCacheMerge", lightCacheMerge);
         setBool("render", "lazyChunkLoad", lazyChunkLoad);
+
+        setBool("city", "cityRenderOptimizer", cityRenderOptimizer);
+        setInt("city", "cityLowFpsThreshold", cityLowFpsThreshold);
+        setInt("city", "cityPlayerNearDistance", cityPlayerNearDistance);
+        setInt("city", "cityPlayerFarDistance", cityPlayerFarDistance);
+        setInt("city", "cityMaxRenderedPlayers", cityMaxRenderedPlayers);
+        setInt("city", "cityEmergencyRenderedPlayers", cityEmergencyRenderedPlayers);
+        setInt("city", "cityEmergencyRenderDistance", cityEmergencyRenderDistance);
 
         setBool("dragoncore", "dragonCoreCompat", dragonCoreCompat);
         setInt("dragoncore", "dragonCoreHeartbeatSec", dragonCoreHeartbeatSec);

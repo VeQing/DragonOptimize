@@ -29,6 +29,14 @@ final class JsonConfigExporter {
         root.dragoncore = new JsonDragonCore();
         root.dragoncore.dragonCoreCompat = DragonOptConfig.dragonCoreCompat;
         root.dragoncore.dragonCoreHeartbeatSec = DragonOptConfig.dragonCoreHeartbeatSec;
+        root.city = new JsonCity();
+        root.city.cityRenderOptimizer = DragonOptConfig.cityRenderOptimizer;
+        root.city.cityLowFpsThreshold = DragonOptConfig.cityLowFpsThreshold;
+        root.city.cityPlayerNearDistance = DragonOptConfig.cityPlayerNearDistance;
+        root.city.cityPlayerFarDistance = DragonOptConfig.cityPlayerFarDistance;
+        root.city.cityMaxRenderedPlayers = DragonOptConfig.cityMaxRenderedPlayers;
+        root.city.cityEmergencyRenderedPlayers = DragonOptConfig.cityEmergencyRenderedPlayers;
+        root.city.cityEmergencyRenderDistance = DragonOptConfig.cityEmergencyRenderDistance;
         root.client = new JsonClient();
         root.client.guiHotkey = DragonOptConfig.guiHotkey;
         return GSON.toJson(root);
@@ -39,6 +47,7 @@ final class JsonConfigExporter {
         JsonScheduler scheduler;
         JsonRender render;
         JsonDragonCore dragoncore;
+        JsonCity city;
         JsonClient client;
     }
 
@@ -62,6 +71,16 @@ final class JsonConfigExporter {
     static class JsonDragonCore {
         boolean dragonCoreCompat;
         int dragonCoreHeartbeatSec;
+    }
+
+    static class JsonCity {
+        boolean cityRenderOptimizer;
+        int cityLowFpsThreshold;
+        int cityPlayerNearDistance;
+        int cityPlayerFarDistance;
+        int cityMaxRenderedPlayers;
+        int cityEmergencyRenderedPlayers;
+        int cityEmergencyRenderDistance;
     }
 
     static class JsonClient {

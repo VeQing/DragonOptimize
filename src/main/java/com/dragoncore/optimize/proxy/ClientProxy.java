@@ -1,6 +1,7 @@
 package com.dragoncore.optimize.proxy;
 
 import com.dragoncore.optimize.gui.GuiEventHandler;
+import com.dragoncore.optimize.render.CityRenderOptimizer;
 import com.dragoncore.optimize.render.RenderEventHandler;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,5 +27,6 @@ public class ClientProxy extends CommonProxy {
     public void init(FMLInitializationEvent event) {
         MinecraftForge.EVENT_BUS.register(new GuiEventHandler());
         MinecraftForge.EVENT_BUS.register(new RenderEventHandler());
+        MinecraftForge.EVENT_BUS.register(new CityRenderOptimizer());
     }
 }

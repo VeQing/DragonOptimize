@@ -2,7 +2,7 @@
     {
         "modid": "dragonoptimize",
         "name": "DragonOptimize",
-        "description": "面向 Minecraft 1.12.2 / Java 8 的客户端性能优化模组：并行 tick 调度、异步 AI、光照缓存、区块懒加载，专为龙核 (DragonCore) 服务器打造。",
+        "description": "面向 Minecraft 1.12.2 / Java 8 的客户端性能优化模组：主城玩家/时装渲染裁剪、动态粒子与视距保护、并行 tick 调度，专为龙核 (DragonCore) 服务器打造。",
         "version": "${version}",
         "mcversion": "${mcversion}",
         "url": "https://github.com/VeQing/DragonOptimize",
