@@ -1,0 +1,29 @@
+# ==== ForgeGradle / Minecraft ====
+eclipse/
+run/
+build/
+.gradle/
+*.class
+# Eclipse
+.settings/
+.project
+.classpath
+# IntelliJ / IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# Gradle wrapper (保留 wrapper jar 让其他协作者直接跑)
+# gradle/wrapper/gradle-wrapper.jar
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+# Logs
+logs/
+*.log
+# Local config overrides
+local.properties
