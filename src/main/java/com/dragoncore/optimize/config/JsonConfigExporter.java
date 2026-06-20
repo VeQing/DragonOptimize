@@ -3,9 +3,6 @@ package com.dragoncore.optimize.config;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-/**
- * 将 DragonOptimize 的配置导出为 JSON，便于 Web UI 或脚本工具读取。
- */
 final class JsonConfigExporter {
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();

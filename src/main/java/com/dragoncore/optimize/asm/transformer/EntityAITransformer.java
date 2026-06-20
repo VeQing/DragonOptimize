@@ -1,38 +1,43 @@
 package com.dragoncore.optimize.asm.transformer;
 
+import com.dragoncore.optimize.asm.TransformUtils;
 import net.minecraft.launchwrapper.IClassTransformer;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.Opcodes;
+import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.tree.InsnList;
+import org.objectweb.asm.tree.MethodInsnNode;
+import org.objectweb.asm.tree.MethodNode;
 
-/**
- * EntityAI 相关方法的异步化改造。
- *
- * <p>目标是把 {@code EntityAITasks#onUpdateTasks} 等较重的重计算方法调度到
- * {@code AsyncAIScheduler} 线程池上执行。该 transformer 保留框架，实际替换需按具体混淆映射定制。</p>
- */
 public class EntityAITransformer implements IClassTransformer, Opcodes {
 
-    private static final String TARGET_CLASS_DEV = "net.minecraft.entity.ai.EntityAITasks";
-    private static final String TARGET_CLASS_OBF = "net.minecraft.entity.ai.EntityAITasks";
+    private static final String ASYNC_OWNER = "com/dragoncore/optimize/scheduler/AsyncAIScheduler";
 
     @Override
     public byte[] transform(String name, String transformedName, byte[] basicClass) {
-        if (basicClass == null) {
-            return null;
-        }
-        if (!TARGET_CLASS_DEV.equals(transformedName) && !TARGET_CLASS_OBF.equals(transformedName)) {
+        if (basicClass == null) return null;
+        if (!"net.minecraft.entity.ai.EntityAITasks".equals(transformedName)) {
             return basicClass;
         }
         try {
+            ClassNode cn = new ClassNode(ASM5);
+            new ClassReader(basicClass).accept(cn, 0);
+            boolean modified = false;
+            for (MethodNode mn : cn.methods) {
+                if (TransformUtils.looksLikeAITick(mn)) {
+                    InsnList inject = new InsnList();
+                    inject.add(new MethodInsnNode(Opcodes.INVOKESTATIC, ASYNC_OWNER, "onAIMethodEntered", "()V", false));
+                    mn.instructions.insertBefore(mn.instructions.getFirst(), inject);
+                    modified = true;
+                }
+            }
+            if (!modified) return basicClass;
             ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES | ClassWriter.COMPUTE_MAXS);
-            new ClassReader(basicClass).accept(new ClassVisitor(ASM5, cw) {
-                // 此处可在 visitMethod 中匹配 AI tick 逻辑并替换为异步提交。
-            }, 0);
+            cn.accept(cw);
             return cw.toByteArray();
         } catch (Throwable t) {
-            System.err.println("[DragonOptimize] EntityAITransformer 失败：" + t);
+            System.err.println("[DragonOptimize] EntityAITransformer failed: " + t);
             return basicClass;
         }
     }

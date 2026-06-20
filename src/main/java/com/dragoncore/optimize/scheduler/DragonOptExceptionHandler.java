@@ -5,9 +5,6 @@ import com.dragoncore.optimize.DragonOptimize;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * 统一的 tick 异常处理器。记录异常并做频率抑制，避免日志刷屏。
- */
 final class DragonOptExceptionHandler {
 
     private static final ConcurrentHashMap<String, AtomicInteger> COUNTERS = new ConcurrentHashMap<>();
@@ -17,9 +14,7 @@ final class DragonOptExceptionHandler {
     }
 
     static void onTickException(Object context, Throwable t) {
-        if (t == null) {
-            return;
-        }
+        if (t == null) return;
         String key = t.getClass().getName();
         if (t.getStackTrace().length > 0) {
             key += "@" + t.getStackTrace()[0].getClassName() + "#" + t.getStackTrace()[0].getMethodName();

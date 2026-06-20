@@ -2,15 +2,15 @@
     {
         "modid": "dragonoptimize",
         "name": "DragonOptimize",
-        "description": "面向 Minecraft 1.12.2 / Java 8 的客户端性能优化模组，专为龙核(DragonCore)服务器打造，支持性能/品质自主选择及多线程调度。",
+        "description": "面向 Minecraft 1.12.2 / Java 8 的客户端性能优化模组：并行 tick 调度、异步 AI、光照缓存、区块懒加载，专为龙核 (DragonCore) 服务器打造。",
         "version": "${version}",
         "mcversion": "${mcversion}",
-        "url": "https://dragoncore.example.com",
+        "url": "https://github.com/VeQing/DragonOptimize",
         "updateUrl": "",
         "authorList": ["DragonOptimize Team"],
-        "credits": "基于 VanillaFix / Phosphor / FoamFix 的思想重新实现。",
-        "logoFile": "assets/dragonoptimize/logo.png",
+        "credits": "基于 VanillaFix / Phosphor / FoamFix 思路重新实现。",
+        "logoFile": "",
         "screenshots": [],
-        "dependencies": "required-after:forge@[14.23.5.2847,);after:dragoncore@[1.0,)"
+        "dependencies": "required-after:forge@[14.23.5.2847,);after:dragoncore@[1.0,);*"
     }
 ]

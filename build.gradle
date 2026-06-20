@@ -40,27 +40,38 @@ minecraft {
 }
 
 dependencies {
-    // 此处可添加对龙核心 DragonCore 的编译时依赖
+    // 这里可以添加对龙核 DragonCore 的编译时依赖：
     // deobfProvided 'com.dragoncore:dragoncore:1.12.2-SNAPSHOT'
 }
 
 processResources {
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
+
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
         expand 'version': project.version, 'mcversion': project.minecraft.version
     }
+
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
+
+    // 把 META-INF/MANIFEST.MF 的 FMLCorePlugin 信息写入 jar，
+    // 这样 Forge 就会识别为 CoreMod。
+    rename 'MANIFEST.MF', 'META-INF/MANIFEST.MF'
 }
 
 jar {
     manifest {
-        attributes 'FMLCorePlugin': 'com.dragoncore.optimize.asm.DragonOptimizeLoadingPlugin',
-                   'FMLCorePluginContainsFMLMod': 'true',
-                   'FMLAT': 'dragonoptimize_at.cfg'
+        attributes(
+                'FMLCorePlugin': 'com.dragoncore.optimize.asm.DragonOptimizeLoadingPlugin',
+                'FMLCorePluginContainsFMLMod': 'true',
+                'FMLAT': 'dragonoptimize_at.cfg',
+                'Implementation-Title': 'DragonOptimize',
+                'Implementation-Version': project.version,
+                'Implementation-Vendor': 'DragonCore Optimize Team'
+        )
     }
 }
 

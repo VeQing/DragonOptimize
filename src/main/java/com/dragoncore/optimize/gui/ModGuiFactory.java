@@ -6,9 +6,6 @@ import net.minecraftforge.fml.client.IModGuiFactory;
 
 import java.util.Set;
 
-/**
- * Forge 的 Mod Gui Factory，使得在 Mod 列表中点击 "Config" 可直接打开 DragonOptimize 面板。
- */
 public class ModGuiFactory implements IModGuiFactory {
 
     @Override
