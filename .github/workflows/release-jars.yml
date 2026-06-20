@@ -35,7 +35,14 @@ jobs:
 
       - name: Apply version
         run: |
-          sed -i "s/version = \".*\"/version = \"${{ inputs.version }}\"/" build.gradle
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("build.gradle")
+          s = p.read_text()
+          s = s.replace('version = "1.0.1"', 'version = "${{ inputs.version }}"', 1)
+          s = s.replace('version = "1.0.0"', 'version = "${{ inputs.version }}"', 1)
+          p.write_text(s)
+          PY
           sed -i "s/public static final String VERSION = \".*\";/public static final String VERSION = \"${{ inputs.version }}\";/" src/main/java/com/dragoncore/optimize/DragonOptimize.java
           sed -i "s/mod_version=.*/mod_version=${{ inputs.version }}/" gradle.properties
 
