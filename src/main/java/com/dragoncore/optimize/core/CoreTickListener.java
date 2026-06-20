@@ -60,7 +60,7 @@ public class CoreTickListener {
             if (entities != null && !entities.isEmpty()) {
                 scheduler.runBatched(entities, e -> {
                     if (e == null) return;
-                    double dx = e.posX - world.provider.getDimension() == 0 ? 0 : 0;
+                    e.isEntityAlive();
                 });
             }
         }

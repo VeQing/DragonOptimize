@@ -1,10 +1,13 @@
 buildscript {
     repositories {
-        jcenter()
         maven {
             name = "forge"
-            url = "http://files.minecraftforge.net/maven"
+            url = "https://maven.minecraftforge.net"
         }
+        maven { url = "https://repo.spongepowered.org/maven" }
+        maven { url = "https://plugins.gradle.org/m2/" }
+        mavenCentral()
+        jcenter()
         maven {
             name = "sonatype"
             url = "https://oss.sonatype.org/content/repositories/snapshots/"
@@ -40,8 +43,6 @@ minecraft {
 }
 
 dependencies {
-    // 这里可以添加对龙核 DragonCore 的编译时依赖：
-    // deobfProvided 'com.dragoncore:dragoncore:1.12.2-SNAPSHOT'
 }
 
 processResources {
@@ -56,9 +57,6 @@ processResources {
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
-
-    // 把 META-INF/MANIFEST.MF 的 FMLCorePlugin 信息写入 jar，
-    // 这样 Forge 就会识别为 CoreMod。
     rename 'MANIFEST.MF', 'META-INF/MANIFEST.MF'
 }
 

@@ -3,6 +3,7 @@ package com.dragoncore.optimize;
 import com.dragoncore.optimize.config.DragonOptConfig;
 import com.dragoncore.optimize.core.DragonOptimizeCore;
 import com.dragoncore.optimize.dragoncore.DragonCoreCompat;
+import com.dragoncore.optimize.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
