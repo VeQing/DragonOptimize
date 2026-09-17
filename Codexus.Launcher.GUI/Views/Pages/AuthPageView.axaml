@@ -1,0 +1,150 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Codexus.Launcher.GUI.ViewModels.Pages"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="560"
+             x:Class="Codexus.Launcher.GUI.Views.Pages.AuthPageView"
+             x:DataType="vm:AuthPageViewModel">
+
+    <ScrollViewer Padding="32,24">
+        <StackPanel Spacing="14" MaxWidth="560">
+
+            <TextBlock Text="认证" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="选择渠道并登录。C4399 登录成功后会自动链式走 X19Resume 拿到完整凭证。"
+                       Opacity="0.6" TextWrapping="Wrap" />
+
+            <!-- 渠道 -->
+            <StackPanel Spacing="4">
+                <TextBlock Text="渠道" Opacity="0.7" FontSize="12" />
+                <ComboBox ItemsSource="{Binding ChannelOptions}"
+                           SelectedItem="{Binding Channel, Mode=TwoWay}"
+                           MinWidth="200" HorizontalAlignment="Stretch" />
+            </StackPanel>
+
+            <!-- 用户名 / 密码 -->
+            <StackPanel Spacing="4">
+                <TextBlock Text="用户名（4399 账号 / 邮箱 / 手机号 / 续登可任填）" Opacity="0.7" FontSize="12" />
+                <TextBox Text="{Binding Username, Mode=TwoWay}" Watermark="用户名" />
+            </StackPanel>
+
+            <StackPanel Spacing="4">
+                <TextBlock Text="密码（C4399 / X19Email 必填）" Opacity="0.7" FontSize="12" />
+                <TextBox Text="{Binding Password, Mode=TwoWay}"
+                         Watermark="密码" PasswordChar="*" />
+            </StackPanel>
+
+            <!-- 验证码（C4399 风控时使用） -->
+            <Expander Header="C4399 验证码（风控触发后填写）" Margin="0,4,0,0">
+                <Grid ColumnDefinitions="*, *" Margin="0,8,0,0">
+                    <StackPanel Spacing="4" Grid.Column="0">
+                        <TextBlock Text="Captcha" Opacity="0.7" FontSize="12" />
+                        <TextBox Text="{Binding Captcha, Mode=TwoWay}" Watermark="图形验证码" />
+                    </StackPanel>
+                    <StackPanel Spacing="4" Grid.Column="1" Margin="8,0,0,0">
+                        <TextBlock Text="CaptchaSessionId" Opacity="0.7" FontSize="12" />
+                        <TextBox Text="{Binding CaptchaSession, Mode=TwoWay}" Watermark="Session ID" />
+                    </StackPanel>
+                </Grid>
+            </Expander>
+
+            <!-- 短信（X19Sms 第二阶段） -->
+            <Expander Header="X19Sms 短信验证（第二阶段填写）" Margin="0,4,0,0">
+                <Grid ColumnDefinitions="*, *" Margin="0,8,0,0">
+                    <StackPanel Spacing="4" Grid.Column="0">
+                        <TextBlock Text="SmsCode" Opacity="0.7" FontSize="12" />
+                        <TextBox Text="{Binding SmsCode, Mode=TwoWay}" Watermark="短信验证码" />
+                    </StackPanel>
+                    <StackPanel Spacing="4" Grid.Column="1" Margin="8,0,0,0">
+                        <TextBlock Text="SmsTicket" Opacity="0.7" FontSize="12" />
+                        <TextBox Text="{Binding SmsTicket, Mode=TwoWay}" Watermark="Ticket" />
+                    </StackPanel>
+                </Grid>
+            </Expander>
+
+            <!-- SAuth Json（X19Resume） -->
+            <Expander Header="X19Resume: SAuth Json" Margin="0,4,0,0">
+                <StackPanel Spacing="4" Margin="0,8,0,0">
+                    <TextBox Text="{Binding SauthJson, Mode=TwoWay}"
+                             Watermark="粘贴 SAuth Json 字符串"
+                             AcceptsReturn="True" MinHeight="80" />
+                </StackPanel>
+            </Expander>
+
+            <!-- 服务器选择 + 启动连接 -->
+            <Border Background="{DynamicResource SystemControlBackgroundAltMediumBrush}"
+                    BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                    BorderThickness="1" CornerRadius="4" Padding="12"
+                    Margin="0,8,0,0">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="启动连接（选服务器 + 当前账号）" FontWeight="SemiBold" />
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="服务器" Opacity="0.7" FontSize="12" />
+                        <ComboBox ItemsSource="{Binding Servers}"
+                                   SelectedItem="{Binding SelectedServer, Mode=TwoWay}"
+                                   HorizontalAlignment="Stretch"
+                                   MinWidth="320">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" Spacing="8">
+                                        <TextBlock Text="{Binding Name}" />
+                                        <TextBlock Text=" - " Opacity="0.6" />
+                                        <TextBlock Text="{Binding Address}" Opacity="0.6" />
+                                        <TextBlock Text=":" Opacity="0.6" />
+                                        <TextBlock Text="{Binding Port}" Opacity="0.6" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <Button Content="启动连接"
+                                Command="{Binding StartConnectCommand}"
+                                MinWidth="160" />
+                        <TextBlock Text="登录成功后点这里发起 OpenTransport 连接"
+                                   Opacity="0.6" VerticalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- 按钮 -->
+            <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,8,0,0">
+                <Button Content="{Binding StatusText}"
+                        Command="{Binding LoginCommand}"
+                        IsEnabled="{Binding !IsBusy}"
+                        MinWidth="160" />
+                <Button Content="保存 SAuth"
+                        Command="{Binding SaveLastSAuthCommand}"
+                        IsEnabled="{Binding LastSAuthJson, Converter={x:Static StringConverters.IsNotNullOrEmpty}}"
+                        MinWidth="120" />
+            </StackPanel>
+
+            <!-- 错误 -->
+            <Border Background="{DynamicResource SystemControlBackgroundAltMediumBrush}"
+                   BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                   BorderThickness="1" CornerRadius="4" Padding="12"
+                   IsVisible="{Binding ErrorText, Converter={x:Static StringConverters.IsNotNullOrEmpty}}">
+                <TextBlock Text="{Binding ErrorText}" TextWrapping="Wrap" Foreground="OrangeRed" />
+            </Border>
+
+            <!-- 上次结果 -->
+            <Expander Header="上次认证结果" Margin="0,4,0,0" IsExpanded="True">
+                <StackPanel Spacing="4" Margin="0,8,0,0">
+                    <Grid ColumnDefinitions="120, *">
+                        <TextBlock Grid.Column="0" Text="EntityId:" Opacity="0.7" FontSize="12" />
+                        <TextBox Grid.Column="1" Text="{Binding LastEntityId}" IsReadOnly="True" />
+                    </Grid>
+                    <Grid ColumnDefinitions="120, *">
+                        <TextBlock Grid.Column="0" Text="Token:" Opacity="0.7" FontSize="12" />
+                        <TextBox Grid.Column="1" Text="{Binding LastToken}" IsReadOnly="True" />
+                    </Grid>
+                    <Grid ColumnDefinitions="120, *">
+                        <TextBlock Grid.Column="0" Text="SAuthJson:" Opacity="0.7" FontSize="12" />
+                        <TextBox Grid.Column="1" Text="{Binding LastSAuthJson}"
+                                AcceptsReturn="True" IsReadOnly="True" MinHeight="60" />
+                    </Grid>
+                </StackPanel>
+            </Expander>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

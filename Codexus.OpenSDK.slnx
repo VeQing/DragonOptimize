@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Codexus.ExampleConsole/Codexus.ExampleConsole.csproj" />
   <Project Path="Codexus.ExampleMod/Codexus.ExampleMod.csproj" />
+  <Project Path="Codexus.Launcher.GUI/Codexus.Launcher.GUI.csproj" />
   <Project Path="Codexus.ModHost/Codexus.ModHost.csproj" />
   <Project Path="Codexus.ModSDK/Codexus.ModSDK.csproj" />
   <Project Path="Codexus.OpenSDK/Codexus.OpenSDK.csproj" />

@@ -1,0 +1,54 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Codexus.Launcher.GUI.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="600"
+        x:Class="Codexus.Launcher.GUI.Views.MainWindow"
+        x:DataType="vm:MainViewModel"
+        Title="Codexus Launcher"
+        Width="900" Height="600"
+        WindowStartupLocation="CenterScreen">
+
+    <Design.DataContext>
+        <vm:MainViewModel />
+    </Design.DataContext>
+
+    <Grid ColumnDefinitions="200, *">
+        <!-- 左侧侧栏 -->
+        <Border Grid.Column="0" Background="{DynamicResource SystemControlBackgroundAltMediumBrush}"
+                BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}" BorderThickness="0,0,1,0">
+            <Grid RowDefinitions="Auto, *, Auto">
+                <!-- 顶部 logo / 标题 -->
+                <StackPanel Grid.Row="0" Margin="16,24,16,16">
+                    <TextBlock Text="CODEXUS" FontSize="18" FontWeight="Bold"
+                               HorizontalAlignment="Left" />
+                    <TextBlock Text="Launcher" FontSize="13"
+                               Opacity="0.6" HorizontalAlignment="Left" />
+                </StackPanel>
+
+                <!-- 导航按钮 -->
+                <ListBox Grid.Row="1" Background="Transparent" BorderThickness="0"
+                         ItemsSource="{Binding Pages}"
+                         SelectedItem="{Binding CurrentPage, Mode=TwoWay}"
+                         SelectionMode="Single">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Title}" Margin="8" FontSize="14" />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <!-- 底部状态 -->
+                <Border Grid.Row="2" Padding="16,10" BorderThickness="0,1,0,0"
+                        BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}">
+                    <TextBlock Text="多账号认证聚合 · OpenTransport"
+                               Opacity="0.5" FontSize="11" />
+                </Border>
+            </Grid>
+        </Border>
+
+        <!-- 右侧内容区：ViewLocator 根据 ViewModel 类型反射对应 View -->
+        <ContentControl Grid.Column="1" Content="{Binding CurrentView}" />
+    </Grid>
+</Window>

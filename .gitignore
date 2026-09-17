@@ -1,1 +1,9 @@
 .idea
+bin/
+obj/
+publish/
+*.user
+*.suo
+.vs/
+.idea/
+.DS_Store

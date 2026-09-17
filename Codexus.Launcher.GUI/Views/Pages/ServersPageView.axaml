@@ -1,0 +1,107 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Codexus.Launcher.GUI.ViewModels.Pages"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="560"
+             x:Class="Codexus.Launcher.GUI.Views.Pages.ServersPageView"
+             x:DataType="vm:ServersPageViewModel">
+
+    <Grid RowDefinitions="Auto, *, Auto" Margin="32,24">
+        <StackPanel Grid.Row="0" Spacing="4">
+            <TextBlock Text="服务器" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="保存到 launcher_state.json。修改后请点击「保存」生效。"
+                       Opacity="0.6" />
+        </StackPanel>
+
+        <!-- 列表 -->
+        <Border Grid.Row="1" BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                BorderThickness="1" CornerRadius="4" Margin="0,12">
+            <Grid ColumnDefinitions="*, Auto">
+                <!-- 详情 -->
+                <ScrollViewer Grid.Column="0" Padding="16">
+                    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto"
+                          Margin="0,0,16,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.Styles>
+                            <Style Selector="TextBlock">
+                                <Setter Property="VerticalAlignment" Value="Center" />
+                                <Setter Property="Opacity" Value="0.7" />
+                                <Setter Property="FontSize" Value="12" />
+                                <Setter Property="Margin" Value="0,8,8,8" />
+                            </Style>
+                            <Style Selector="TextBox">
+                                <Setter Property="Margin" Value="0,8,0,8" />
+                            </Style>
+                        </Grid.Styles>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Name" />
+                        <TextBox  Grid.Row="0" Grid.Column="1"
+                                  Text="{Binding Selected.Name, Mode=TwoWay}" />
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Address" />
+                        <TextBox  Grid.Row="1" Grid.Column="1"
+                                  Text="{Binding Selected.Address, Mode=TwoWay}" />
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Port" />
+                        <TextBox  Grid.Row="2" Grid.Column="1"
+                                  Text="{Binding Selected.Port, Mode=TwoWay}" />
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="RoleName" />
+                        <TextBox  Grid.Row="3" Grid.Column="1"
+                                  Text="{Binding Selected.RoleName, Mode=TwoWay}" />
+
+                        <TextBlock Grid.Row="4" Grid.Column="0" Text="GameId" />
+                        <TextBox  Grid.Row="4" Grid.Column="1"
+                                  Text="{Binding Selected.GameId, Mode=TwoWay}" />
+
+                        <TextBlock Grid.Row="5" Grid.Column="0" Text="GameVersion" />
+                        <TextBox  Grid.Row="5" Grid.Column="1"
+                                  Text="{Binding Selected.GameVersion, Mode=TwoWay}" />
+
+                        <TextBlock Grid.Row="6" Grid.Column="0" Text="BootstrapMd5" />
+                        <TextBox  Grid.Row="6" Grid.Column="1"
+                                  Text="{Binding Selected.BootstrapMd5, Mode=TwoWay}" />
+
+                        <TextBlock Grid.Row="7" Grid.Column="0" Text="DatMd5" />
+                        <TextBox  Grid.Row="7" Grid.Column="1"
+                                  Text="{Binding Selected.DatMd5, Mode=TwoWay}" />
+
+                        <TextBlock Grid.Row="8" Grid.Column="0" Text="CrcSalt" />
+                        <TextBox  Grid.Row="8" Grid.Column="1"
+                                  Text="{Binding Selected.CrcSalt, Mode=TwoWay}" />
+                    </Grid>
+                </ScrollViewer>
+
+                <!-- 列表 -->
+                <Border Grid.Column="1" BorderThickness="1,0,0,0"
+                        BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                        Width="200">
+                    <Grid RowDefinitions="*, Auto">
+                        <ListBox Grid.Row="0"
+                                 ItemsSource="{Binding Servers}"
+                                 SelectedItem="{Binding Selected, Mode=TwoWay}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Name}" Margin="4" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                        <StackPanel Grid.Row="1" Orientation="Horizontal"
+                                    HorizontalAlignment="Center" Spacing="4" Margin="0,8">
+                            <Button Content="+" Command="{Binding AddCommand}" />
+                            <Button Content="−" Command="{Binding RemoveCommand}" />
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
+            <Button Content="保存" Command="{Binding SaveCommand}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

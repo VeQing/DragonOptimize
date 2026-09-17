@@ -16,6 +16,29 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .CreateLogger();
 
+// 无参双击运行时，System.CommandLine 会因 --channel 必填校验直接返回非零退出码，
+// 窗口在用户看到任何输出前就关闭。这里加一层兜底：空 args 时打印帮助并等按键。
+if (args is { Length: 0 })
+{
+    Console.Title = "Codexus.OpenSDK Demo Console";
+    Console.WriteLine("=== Codexus.OpenSDK Demo Console ===");
+    Console.WriteLine();
+    Console.WriteLine("这是多账号认证聚合 + OpenTransport demo。直接双击不会自动登录，");
+    Console.WriteLine("需要在命令行带参数运行。下面是常用命令：");
+    Console.WriteLine();
+    Console.WriteLine("  Codexus.ExampleConsole -c c4399 -u <4399账号> -p <密码>");
+    Console.WriteLine("  Codexus.ExampleConsole -c x19-email -u <邮箱> -p <密码>");
+    Console.WriteLine("  Codexus.ExampleConsole -c x19-sms -u <手机号>");
+    Console.WriteLine("  Codexus.ExampleConsole -c x19-resume --sauth-json @saved_sauth.json");
+    Console.WriteLine("  Codexus.ExampleConsole -c c4399 -u <账号> -p <密码> --launch --server <ip> --port 25565 --role <名字>");
+    Console.WriteLine();
+    Console.WriteLine("完整参数说明请用: Codexus.ExampleConsole --help");
+    Console.WriteLine();
+    Console.WriteLine("按任意键退出...");
+    Console.ReadKey();
+    return 0;
+}
+
 var rootCmd = BuildRootCommand();
 return await rootCmd.InvokeAsync(args);
 
