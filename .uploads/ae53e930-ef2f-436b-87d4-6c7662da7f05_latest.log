@@ -1,0 +1,2395 @@
+[04:15:27] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:15:27] [main/INFO]: Using primary tweak name net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:15:27] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLTweaker@32811494
+[04:15:27] [main/INFO]: Jar location: file:/D:/Desktop/元素之诗v0.8beta/元素之诗v0.8.2beta/.minecraft/libraries/com/cleanroommc/cleanroom/0.7.11-alpha/cleanroom-0.7.11-alpha-universal.jar
+[04:15:28] [main/INFO]: Forge Mod Loader version 14.23.5.2864 for Minecraft 1.12.2 loading
+[04:15:28] [main/INFO]: Cleanroom version 0.7.11-alpha
+[04:15:28] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 25.0.1, running on Windows 10:amd64:10.0, installed at C:\Users\a3185\AppData\Roaming\.hmcl\java\windows-x86_64\mojang-java-runtime-epsilon
+[04:15:28] [main/INFO]: Initializing CleanMix...
+[04:15:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:/D:/Desktop/元素之诗v0.8beta/元素之诗v0.8.2beta/.minecraft/libraries/com/cleanroommc/cleanmix/0.7.4/cleanmix-0.7.4.jar!/org/spongepowered/asm/mixin/MixinEnvironment.class Service=CleanMix Env=CLIENT
+[04:15:28] [main/INFO]: Discovering mods
+[04:15:28] [main/INFO]: Searching D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\mods for mods
+[04:15:32] [main/INFO]: Finished discovering mods. Found 55 discovered mod ids in 3718 ms.
+[04:15:32] [main/INFO]: Initializing MixinExtras...
+[04:15:32] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032090172607@2@14.jar
+[04:15:32] [main/INFO]: Cascading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from 4690092032134710447@2@14.jar
+[04:15:32] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032144627436@2@14.jar
+[04:15:32] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032159022945@2@14.jar
+[04:15:32] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032168851780@2@14.jar
+[04:15:32] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032220354801@2@14.jar
+[04:15:32] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032251152283@2@14.jar
+[04:15:32] [main/INFO]: Cascading tweaker optifine.OptiFineForgeTweaker from 4690092032272129567@2@14.jar
+[04:15:32] [main/WARN]: Loading plugin net.shadowfacts.forgelin.preloader.ForgelinPlugin for mod 4690092032283850634@2@14.jar is in the forge_early.cfg blacklist and won't be loaded.
+[04:15:32] [main/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-ASM] 核心模组已加载，字节码转换器已登记
+[04:15:32] [main/INFO]: Cascading tweaker customskinloader.forge.ForgeTweaker from CustomSkinLoader_ForgeV1-14.27.jar
+[04:15:32] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from ElytraFix-1.12.2-1.0.0.jar
+[04:15:32] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from GPUTape-1.12.2-1.0.4.jar
+[04:15:32] [main/INFO]: Loading tweak name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[04:15:32] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:15:32] [main/INFO]: [eos.moe.dragoncore.tweaker.ForgePlugin:<init>:21]: [DragonCore] LoadingPlugin
+[04:15:32] [main/WARN]: 4690092032090172607@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and eos.moe.dragoncore.tweaker.ForgePlugin was loaded by Cleanroom.
+[04:15:32] [main/WARN]: Added 4690092032090172607@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:15:32] [main/WARN]: 4690092032144627436@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and com.minecolonies.lesslag.LesslagCorePlugin was loaded by Cleanroom.
+[04:15:32] [main/WARN]: Added 4690092032144627436@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:15:32] [main/WARN]: 4690092032168851780@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and bl4ckscor3.mod.particleculling.ParticleCullingLoadingPlugin was loaded by Cleanroom.
+[04:15:32] [main/WARN]: Added 4690092032168851780@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:15:32] [main/WARN]: 4690092032220354801@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and org.serverct.nanmui.element.bridge.ElementCorePlugin was loaded by Cleanroom.
+[04:15:32] [main/WARN]: Added 4690092032220354801@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:15:32] [main/INFO]: [eos.moe.armourers.tweaker.ForgePlugin:<init>:56]: [DragonArmourers] LoadingPlugin
+[04:15:32] [main/WARN]: 4690092032251152283@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and eos.moe.armourers.tweaker.ForgePlugin was loaded by Cleanroom.
+[04:15:32] [main/WARN]: Added 4690092032251152283@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:15:32] [main/INFO]: Loading early loader org.embeddedt.vintagefix.core.VintageFixCore for its mixins.
+[04:15:32] [main/INFO]: Adding [mixins.vintagefix.init.json] mixin configuration.
+[04:15:32] [main/INFO]: Adding [mixins.vintagefix.json] mixin configuration.
+[04:15:32] [main/INFO]: Loading tweak name org.spongepowered.asm.launch.MixinTweaker
+[04:15:32] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:15:32] [main/INFO]: Loading tweak name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[04:15:32] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:15:32] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:15:32] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:15:32] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:15:32] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:15:32] [main/INFO]: Loading tweak name optifine.OptiFineForgeTweaker
+[04:15:32] [main/INFO]: Loading tweak name customskinloader.forge.ForgeTweaker
+[04:15:32] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:15:32] [main/INFO]: Loading tweak name com.cleanroommc.fugue.common.LateBootstrapTweaker
+[04:15:32] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:15:32] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:15:32] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker@34a33be8
+[04:15:32] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker@34a33be8
+[04:15:32] [main/INFO]: Calling tweak optifine.OptiFineForgeTweaker@55523492
+[04:15:32] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[04:15:32] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[04:15:32] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[04:15:32] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\mods\4690092032272129567@2@14.jar
+[04:15:32] [main/INFO]: Calling tweak customskinloader.forge.ForgeTweaker@44a2b9db
+[04:15:32] [main/INFO]: Calling tweak org.spongepowered.asm.mixin.EnvironmentStateTweaker@16b02372
+[04:15:32] [main/INFO]: Calling tweak FMLCorePlugin
+[04:15:33] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[04:15:33] [main/INFO]: FML appears to be missing any signature data. This is expected, don't worry.
+[04:15:33] [main/INFO]: Calling tweak FMLForgePlugin
+[04:15:33] [main/INFO]: Calling tweak APCoreMod
+[04:15:33] [main/INFO]: Calling tweak ShoulderPlugin
+[04:15:33] [main/INFO]: Calling tweak DepartCore
+[04:15:33] [main/INFO]: Calling tweak MoreShowExtraCore
+[04:15:33] [main/INFO]: Calling tweak Fugue
+[04:15:33] [main/INFO]: Calling tweak VintageFix
+[04:15:33] [main/INFO]: Loading JarDiscovererCache
+[04:15:33] [main/INFO]: Calling tweak ForgePlugin
+[04:15:33] [main/INFO]: Calling tweak ParticleCullingLoadingPlugin
+[04:15:33] [main/INFO]: Calling tweak ElementCorePlugin
+[04:15:33] [main/INFO]: Calling tweak ForgePlugin
+[04:15:33] [main/INFO]: Calling tweak org.spongepowered.asm.launch.MixinTweaker@3f56a97e
+[04:15:33] [main/INFO]: Calling tweak ForgePlugin
+[04:15:33] [main/INFO]: Calling tweak com.cleanroommc.fugue.common.LateBootstrapTweaker@39a94146
+[04:15:33] [main/INFO]: Calling tweak McLib core mod
+[04:15:33] [main/INFO]: Calling tweak guichaguri.betterfps.tweaker.BetterFpsTweaker@27e54c4e
+[04:15:33] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLDeobfTweaker@1192f496
+[04:15:33] [main/WARN]: Reference map '' for mixins.vintagefix.init.json could not be read. If this is a development environment you can ignore this message
+[04:15:33] [main/INFO]: Calling tweak Inventory Tweaks Coremod
+[04:15:33] [main/INFO]: Calling tweak LoadingPlugin
+[04:15:33] [main/INFO]: Calling tweak LesslagCorePlugin
+[04:15:33] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[04:15:33] [main/WARN]: Reference map 'mixins.common.refmap.json' for mixins.lesslag.json could not be read. If this is a development environment you can ignore this message
+[04:15:33] [main/INFO]: Found 97 mixins
+[04:15:33] [main/INFO]: Successfully saved config file
+[04:15:33] [main/ERROR]: Classloader restrictions [PACKAGE_TRANSFORMER_EXCLUSION] encountered loading mixins.lesslag.json:TextureMapHook from mod lesslag, name: com.minecolonies.lesslag.core.hooks.TextureMapHook
+[04:15:34] [main/WARN]: Not applying mixin 'org.embeddedt.vintagefix.mixin.version_protest.MinecraftMixin' as 'mixin.version_protest' is disabled in config
+[04:15:34] [main/WARN]: Not applying mixin 'org.embeddedt.vintagefix.mixin.version_protest.FMLCommonHandlerMixin' as 'mixin.version_protest' is disabled in config
+[04:15:34] [main/INFO]: Launching wrapped minecraft net.minecraft.client.main.Main
+[04:15:34] [main/INFO]: Transforming method func_180510_a(Lnet/minecraft/client/renderer/texture/TextureManager;)V in class bib(net.minecraft.client.Minecraft)
+[04:15:34] [main/INFO]: Successfully transformed method func_180510_a(Lnet/minecraft/client/renderer/texture/TextureManager;)V in class bib(net.minecraft.client.Minecraft)
+[04:15:34] [main/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-ASM] Minecraft 里没找到可替换的 func_184117_aA / isPressed 调用点，快捷栏拦截未生效（游戏不受影响）
+[04:15:34] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[04:15:34] [main/INFO]: Transforming method func_180510_a(Lnet/minecraft/client/renderer/texture/TextureManager;)V in class bib(net.minecraft.client.Minecraft)
+[04:15:34] [main/INFO]: Successfully transformed method func_180510_a(Lnet/minecraft/client/renderer/texture/TextureManager;)V in class bib(net.minecraft.client.Minecraft)
+[04:15:34] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[04:15:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[04:15:34] [main/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:32]: APCoreMod: Transforming World class (amu)
+[04:15:34] [main/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:32]: APCoreMod: Transforming World class (amu)
+[04:15:35] [main/INFO]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[04:15:35] [main/INFO]: Attempting to transform class aed -> net.minecraft.entity.player.EntityPlayer
+[04:15:35] [main/INFO]: Attempting to transform method for class biq -> net.minecraft.client.gui.GuiIngame
+[04:15:35] [main/INFO]: GuiIngameRenderAttackIndicator: Found offset 9 for method renderAttackIndicator(FLnet/minecraft/client/gui/ScaledResolution;)V -> a(FLbit;)V
+[04:15:35] [main/INFO]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[04:15:35] [main/INFO]: Attempting to transform class aed -> net.minecraft.entity.player.EntityPlayer
+[04:15:37] [Client thread/INFO]: Setting user: VeQing
+[04:15:37] [Client thread/INFO]: Patching net.minecraft.block.Block... (aow)
+[04:15:37] [Client thread/INFO]: Patching net.minecraft.block.Block... (aow)
+[04:15:37] [Client thread/INFO]: Patching math utils with "RIVENS_HALF" algorithm
+[04:15:37] [Client thread/INFO]: Using Java 9+ class definer
+[04:15:38] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[04:15:38] [Client thread/INFO]: Patching net.minecraft.block.BlockHopper... (arl)
+[04:15:38] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[04:15:39] [BetterFps Update Checker/WARN]: Could not check for updates: widget.mcf.li
+[04:15:40] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[04:15:40] [Client thread/INFO]: Attempting to transform method for class buq -> net.minecraft.client.renderer.EntityRenderer
+[04:15:40] [Client thread/INFO]: EntityRendererGetMouseOver: Found offset 129 for method getMouseOver(F)V -> a(F)V
+[04:15:40] [Client thread/INFO]: Attempting to transform method for class buq -> net.minecraft.client.renderer.EntityRenderer
+[04:15:40] [Client thread/INFO]: EntityRendererGetMouseOver2: Found offset 200 for method getMouseOver(F)V -> a(F)V
+[04:15:40] [Client thread/INFO]: Attempting to transform method for class buq -> net.minecraft.client.renderer.EntityRenderer
+[04:15:40] [Client thread/INFO]: EntityRendererOrientCamera: Found offset 488 for method orientCamera(F)V -> f(F)V
+[04:15:40] [Client thread/INFO]: Attempting to transform method for class buq -> net.minecraft.client.renderer.EntityRenderer
+[04:15:40] [Client thread/INFO]: EntityRendererRayTrace: Found offset 411 for method orientCamera(F)V -> f(F)V
+[04:15:40] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:33]: McLib: patching EntityRenderer (buq)
+[04:15:40] [Client thread/INFO]: [mchorse.mclib.core.transformers.EntityRendererTransformer:processUpdateCameraAndRender:111]: McLib: successfully patched updateCameraAndRender!
+[04:15:40] [Client thread/INFO]: [mchorse.mclib.core.transformers.EntityRendererTransformer:processRenderWorldPass:51]: McLib: successfully patched renderWorldPass!
+[04:15:40] [Client thread/INFO]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[04:15:40] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 已注入 net.minecraft.client.renderer.entity.RenderManager：1 处轮廓钩子
+[04:15:40] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 已注入 net.minecraft.client.renderer.entity.Render：1 处轮廓钩子
+[04:15:40] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 已注入 net.minecraft.client.renderer.entity.RenderLivingBase：1 处轮廓钩子
+[04:15:40] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Dispatch] 已注入 net.minecraft.client.renderer.entity.RenderLivingBase：渲染推送通道已接上实体分发器
+[04:15:40] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[04:15:40] [Client thread/WARN]: @Final field field_73236_b:Lit/unimi/dsi/fastutil/longs/Long2ObjectMap; in mixins.vintagefix.json:chunk_access.ChunkProviderClientMixin from mod vintagefix should be final
+[04:15:40] [Client thread/WARN]: Skipping bad option: enableVsync:false
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.IllegalStateException: LWJGLY has no window bridge:the host must call LWJGLY.setWindowBridge(...) after creating its window and before any code touching org.lwjgl.opengl.Display, org.lwjgl.input.Keyboard or org.lwjgl.input.Mouse runs.
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at com.cleanroommc.lwjgly.LWJGLY.windowBridge(LWJGLY.java:21)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at org.lwjgl.opengl.Display.setVSyncEnabled(Display.java:211)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.updateVSync(GameSettings.java:3399)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1250)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:440)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(Main.java:110)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+[04:15:40] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:40] [Client thread/INFO]: LWJGL Version: 3.4.3-snapshot
+[04:15:40] [Client thread/INFO]: [OptiFine] 
+[04:15:40] [Client thread/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_G5
+[04:15:40] [Client thread/INFO]: [OptiFine] Build: 20210124-142939
+[04:15:40] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[04:15:40] [Client thread/INFO]: [OptiFine] Java: 25.0.1, Microsoft
+[04:15:40] [Client thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+[04:15:40] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[04:15:40] [Client thread/INFO]: [OptiFine] OpenGL: Intel(R) UHD Graphics, version 4.6.0 - Build 31.0.101.2140, Intel
+[04:15:40] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[04:15:41] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[04:15:41] [Client thread/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:38]: APCoreMod: Transforming GlStateManager class (bus)
+[04:15:41] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[04:15:41] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[04:15:41] [Client thread/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:44]: APCoreMod: Transforming Shaders class (net.optifine.shaders.Shaders)
+[04:15:41] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 - Build 31.0.101.2140
+[04:15:41] [Client thread/INFO]: [Shaders] Vendor:  Intel
+[04:15:41] [Client thread/INFO]: [Shaders] Renderer: Intel(R) UHD Graphics
+[04:15:41] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[04:15:41] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[04:15:41] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[04:15:41] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[04:15:41] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[04:15:41] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[04:15:41] [Client thread/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:50]: APCoreMod: Transforming ShaderPackParser class (net.optifine.shaders.config.ShaderPackParser)
+[04:15:41] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[04:15:41] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[04:15:41] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[04:15:41] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:21]: McLib: Transforming SimpleReloadableResourceManager class (cev)
+[04:15:41] [Client thread/INFO]: [mchorse.mclib.core.transformers.SimpleReloadableResourceManagerTransformer:processMethod:43]: McLib: successfully patched getResource!
+[04:15:41] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:21]: McLib: Transforming SimpleReloadableResourceManager class (cev)
+[04:15:41] [Client thread/INFO]: [mchorse.mclib.core.transformers.SimpleReloadableResourceManagerTransformer:processMethod:43]: McLib: successfully patched getResource!
+[04:15:41] [Client thread/INFO]: Starts constructing ImmediateClientServices.
+[04:15:41] [Client thread/INFO]: Loaded FreeType 2.14.3 Lib Pointer: 0x241a5a518b0
+[04:15:41] [Client thread/INFO]: 
+========== GL Device Info ==========
+Vendor   : Intel
+Renderer : Intel(R) UHD Graphics
+Version  : 4.6.0 - Build 31.0.101.2140 (4.6)
+
+-------- Texture --------
+Max Combined Texture Units : 192
+
+-------- UBO --------
+Max UBO Bindings           : 84
+UBO Offset Alignment       : 16
+
+-------- Image Load/Store --------
+Max Image Units            : 8
+Max Compute Image Uniforms : 8
+
+-------- SSBO --------
+Max SSBO Bindings          : 16
+Max Combined SSBO Blocks   : 80
+Max Compute SSBO Blocks    : 16
+SSBO Offset Alignment      : 4
+
+-------- Compute --------
+Max Workgroup Invocations  : 1024
+Max Workgroup Size         : 1024 x 1024 x 64
+Max Workgroup Count        : 65535 x 65535 x 65535
+
+=====================================
+
+[04:15:41] [VersionCheck/INFO]: [OptiFine] Version found: G5
+[04:15:43] [Client thread/INFO]: Finished constructing ImmediateClientServices.
+[04:15:43] [Client thread/INFO]: The first launch typically takes longer...
+[04:15:43] [Client thread/INFO]: Loaded Minecraft font from cache: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\cache\kirino\font\7ee69d46fad617a491a39850f479ba3aca220c89ac657b96db0cf4d94af5be52.bin
+[04:15:44] [Client thread/INFO]: Module "text" availability: TRUE
+[04:15:44] [Client thread/INFO]: Module "gui" availability: TRUE
+[04:15:44] [Client thread/INFO]: Module "dummyVao" availability: TRUE
+[04:15:44] [Client thread/INFO]: Module "textVanilla" availability: TRUE
+[04:15:44] [Client thread/INFO]: Finished initializing ICS. Time taken: 1373ms
+[04:15:44] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_G5, enabling compatibility features
+[04:15:44] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 25.0.1, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 17807992 bytes (16 MB) / 503316480 bytes (480 MB) up to 6308233216 bytes (6016 MB)
+	JVM Flags: 20 total; -Xmx6008m -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseG1GC -XX:G1MixedGCCountTarget=5 -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:TieredCompileTaskTimeout=10000 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NmethodSweepActivity=1 -XX:+UseCompactObjectHeaders -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Cleanroom Version: 0.7.11-alpha
+	Loaded coremods (and transformers): 
+ShoulderPlugin (4690092032298438117@2@14.jar)
+  com.teamderpy.shouldersurfing.asm.transformers.EntityPlayerRayTrace
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererGetMouseOver
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererGetMouseOver2
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererOrientCamera
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererRayTrace
+  com.teamderpy.shouldersurfing.asm.transformers.GuiIngameRenderAttackIndicator
+  com.teamderpy.shouldersurfing.asm.transformers.GuiCrosshairsBCRenderAttackIndicator
+MoreShowExtraCore ([更多显示附属]MoreShow_Extra-1.0.5FIX.jar)
+  moreshow.extra.asm.ScoreboardGuardTransformer
+  moreshow.extra.asm.HotbarSwitchTransformer
+  moreshow.extra.asm.VaultShieldTransformer
+  moreshow.extra.asm.EntityDispatchTransformer
+Inventory Tweaks Coremod ([R键整理] InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+ParticleCullingLoadingPlugin (4690092032168851780@2@14.jar)
+  
+LesslagCorePlugin (4690092032144627436@2@14.jar)
+  
+ElementCorePlugin (4690092032220354801@2@14.jar)
+  org.serverct.nanmui.element.bridge.ElementTransformer
+ForgePlugin (CustomSkinLoader_ForgeV1-14.27.jar)
+  customskinloader.forge.loader.LaunchWrapper
+ForgePlugin (4690092032251152283@2@14.jar)
+  
+DepartCore ([元素开卡].jar)
+  com.netease.mc.mod.departmod.coremod.DepartTransformer
+ForgePlugin (4690092032090172607@2@14.jar)
+  eos.moe.dragoncore.tweaker.TransformerManager
+APCoreMod (4690092032188884184@2@14.jar)
+  mchorse.aperture.core.APCoreClassTransformer
+Fugue (Fugue-0.25.5.jar)
+  
+VintageFix (VintageFix-0.7.2.jar)
+  org.embeddedt.vintagefix.transformer.ASMModParserTransformer
+McLib core mod (4690092032240817439@2@14.jar)
+  mchorse.mclib.core.McLibCMClassTransformer
+LoadingPlugin (ChunkAnimator-MC1.12-1.2.jar)
+  lumien.chunkanimator.asm.ClassTransformer
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 31.0.101.2140' Renderer: 'Intel(R) UHD Graphics'
+[04:15:44] [Client thread/INFO]: Cleanroom v0.7.11-alpha Initialized
+[04:15:44] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[04:15:44] [Thread-1/ERROR]: Exception creating cache
+java.nio.file.NoSuchFileException: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\resources
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:52)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:195)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1702)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1493)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:704)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:150)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:164)
+	at net.minecraft.client.resources.FileResourcePack.func_110599_c(FileResourcePack.java:30)
+	at net.minecraft.client.resources.FileResourcePack.genCache(FileResourcePack.java:545)
+	at net.minecraft.client.resources.FileResourcePack.handler$zen000$vintagefix$fastHasResource(FileResourcePack.java:578)
+	at net.minecraft.client.resources.FileResourcePack.func_110593_b(FileResourcePack.java)
+	at net.minecraft.client.resources.AbstractResourcePack.func_110589_b(AbstractResourcePack.java:50)
+	at net.minecraftforge.fml.client.SplashProgress.open(SplashProgress.java:1080)
+	at net.minecraftforge.fml.client.SplashProgress$Texture.<init>(SplashProgress.java:896)
+	at net.minecraftforge.fml.client.SplashProgress$Texture.<init>(SplashProgress.java:887)
+	at net.minecraftforge.fml.client.SplashProgress$2.run(SplashProgress.java:266)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[04:15:44] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[04:15:44] [Client thread/INFO]: Replaced 1227 ore ingredients
+[04:15:45] [Thread-1/ERROR]: Exception creating cache
+java.nio.file.NoSuchFileException: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\resources
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:52)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:195)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1702)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1493)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:704)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:150)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:164)
+	at net.minecraft.client.resources.FileResourcePack.func_110599_c(FileResourcePack.java:30)
+	at net.minecraft.client.resources.FileResourcePack.genCache(FileResourcePack.java:545)
+	at net.minecraft.client.resources.FileResourcePack.handler$zen000$vintagefix$fastHasResource(FileResourcePack.java:578)
+	at net.minecraft.client.resources.FileResourcePack.func_110593_b(FileResourcePack.java)
+	at net.minecraft.client.resources.AbstractResourcePack.func_110589_b(AbstractResourcePack.java:50)
+	at net.minecraftforge.fml.client.SplashProgress.open(SplashProgress.java:1080)
+	at net.minecraftforge.fml.client.SplashProgress$Texture.<init>(SplashProgress.java:896)
+	at net.minecraftforge.fml.client.SplashProgress$Texture.<init>(SplashProgress.java:887)
+	at net.minecraftforge.fml.client.SplashProgress$2.run(SplashProgress.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[04:15:45] [Client thread/INFO]: Mod mobends is missing the required element 'name'. Substituting mobends
+[04:15:45] [Client thread/WARN]: Mod mobends is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[04:15:45] [Client thread/INFO]: Mod dragonarmourers is missing the required element 'name'. Substituting dragonarmourers
+[04:15:45] [Client thread/WARN]: Mod dragonarmourers is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[04:15:45] [Client thread/WARN]: Mod dragongps is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2
+[04:15:45] [Client thread/WARN]: Mod fpsreducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.12.2-1.20
+[04:15:45] [Client thread/INFO]: Mod departmod is missing the required element 'name'. Substituting departmod
+[04:15:45] [Client thread/WARN]: Mod cleanview is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-v1c
+[04:15:45] [Client thread/INFO]: Mod eyltrafix is missing the required element 'name'. Substituting eyltrafix
+[04:15:45] [Client thread/WARN]: Mod eyltrafix is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[04:15:45] [Client thread/INFO]: Forge Mod Loader has identified 58 mods to load
+[04:15:45] [Client thread/WARN]: Mod aperture_core has been disabled through configuration
+[04:15:45] [Client thread/WARN]: Mod mclib_core has been disabled through configuration
+[04:15:45] [Client thread/INFO]: FML has found a non-mod file 4690092032144627436@2@14.jar in your mods directory. It will now be injected into your classpath.
+[04:15:45] [Client thread/INFO]: Loading late loader [com.cleanroommc.fugue.common.FugueLateMixinLoader] for its mixins.
+[04:15:45] [Client thread/INFO]: Loading late loader [org.embeddedt.vintagefix.core.LateMixins] for its mixins.
+[04:15:45] [Client thread/INFO]: Adding [mixins.vintagefix.late.json] mixin configuration.
+[04:15:45] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, cleanroom, cleanmix, mixinbooter, configanytime, FML, forge, departcoremod, lesslag, nbtedit, dynamiclights_dragoncore, dragoncore, dynamiclights_onglowname_dragoncore, aiimprovements, aireducer, particleculling, performant, aperture, autoattack, clearwater, elementserver, epicofelementmod, mclib, rfp2, mobends, dragonarmourers, armourers_workshops, dragongps, shouldersurfing, statusbar, virtualui, fpsreducer, inventorytweaks, elementdamagetest, departmod, moreshow, moreshow_extra, autoreconnect, betterpingdisplay, chatcopier, chunkanimator, cleanview, clearspam, customskinloader, ding, eyltrafix, fastfurnace, fastbench, fugue, gpu_tape, invmove, kalandassistant, mousetweaks, vintagefix, fake_netease] at CLIENT
+[04:15:45] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, cleanroom, cleanmix, mixinbooter, configanytime, FML, forge, departcoremod, lesslag, nbtedit, dynamiclights_dragoncore, dragoncore, dynamiclights_onglowname_dragoncore, aiimprovements, aireducer, particleculling, performant, aperture, autoattack, clearwater, elementserver, epicofelementmod, mclib, rfp2, mobends, dragonarmourers, armourers_workshops, dragongps, shouldersurfing, statusbar, virtualui, fpsreducer, inventorytweaks, elementdamagetest, departmod, moreshow, moreshow_extra, autoreconnect, betterpingdisplay, chatcopier, chunkanimator, cleanview, clearspam, customskinloader, ding, eyltrafix, fastfurnace, fastbench, fugue, gpu_tape, invmove, kalandassistant, mousetweaks, vintagefix, fake_netease] at SERVER
+[04:15:45] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:39]: McLib: Transforming PacketBuffer class (gy)
+[04:15:45] [Client thread/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched gy.f!
+[04:15:45] [Client thread/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched gy.a!
+[04:15:45] [Client thread/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched gy.l!
+[04:15:45] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 已注入 net.minecraft.client.renderer.RenderGlobal：2 处轮廓钩子
+[04:15:47] [Client thread/WARN]: Not applying mixin 'mixin.version_protest.F3Change' as 'mixin.version_protest' is disabled in config
+[04:15:47] [Client thread/FATAL]: OptiFine detected, there may be issues
+[04:15:47] [Client thread/WARN]: Not applying mixin 'mixin.version_protest.LoaderChange' as 'mixin.version_protest' is disabled in config
+[04:15:47] [Client thread/INFO]: Reloading ResourceManager: BetterFps, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:In-game NBTEdit, FMLFileResourcePack:Dynamic Lights DragonCore, FMLFileResourcePack:Dragon Core, FMLFileResourcePack:Dynamic Lights on glow name, FMLFileResourcePack:AI Improvements, FMLFileResourcePack:AI Reducer, FMLFileResourcePack:Particle Culling, FMLFileResourcePack:performant Mod, FMLFileResourcePack:Aperture, FMLFileResourcePack:Auto Attack, FMLFileResourcePack:Clear Water, FMLFileResourcePack:ElementServer, FMLFileResourcePack:EpicOfElementMod, FMLFileResourcePack:McLib, FMLFileResourcePack:Real First Person 2, FMLFileResourcePack:mobends, FMLFileResourcePack:dragonarmourers, FMLFileResourcePack:Armourer's Workshops, FMLFileResourcePack:龙之导航QQ448780139, FMLFileResourcePack:Shoulder Surfing, FMLFileResourcePack:StatusBar, FMLFileResourcePack:VirtualUI, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:元素之诗伤害统计可行性测试, FMLFileResourcePack:departmod, FMLFileResourcePack:元素之诗更多显示, FMLFileResourcePack:MoreShow-Extra, FMLFileResourcePack:Auto Reconnect, FMLFileResourcePack:Better Ping Display, FMLFileResourcePack:Chat Copier, FMLFileResourcePack:Chunk Animator, FMLFileResourcePack:CleanView, FMLFileResourcePack:ClearSpam, FMLFileResourcePack:CustomSkinLoader, FMLFileResourcePack:Ding, FMLFileResourcePack:eyltrafix, FMLFileResourcePack:FastFurnace, FMLFileResourcePack:FastWorkbench, FMLFileResourcePack:Fugue, FMLFileResourcePack:GPUTape, FMLFileResourcePack:InvMove, FMLFileResourcePack:卡兰德助手, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:VintageFix, FMLFileResourcePack:Fake Netease Lib, EpicOfElement.zip, Faithful 3D - 1.12 r2.zip, Faithful 32x - 1.12.2.zip, §9-视材质§e（亮度可调）§61.12 (2).zip
+[04:15:47] [Thread-1/INFO]: Using sync timing. 200 frames of Display.update took 117314600 nanos
+[04:15:47] [Client thread/INFO]: Processing ObjectHolder annotations
+[04:15:47] [Client thread/INFO]: Found 1168 ObjectHolder annotations
+[04:15:47] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[04:15:47] [Client thread/INFO]: Found 1 ItemStackHolder annotations
+[04:15:47] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[04:15:47] [Cleanroom Version Check/INFO]: [fugue] Starting version check at https://forge.curseupdate.com/1005815/fugue
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: java.io.FileNotFoundException: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\config\options_white.dat (系统找不到指定的文件。)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.io.FileInputStream.open0(Native Method)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at org.serverct.nanmui.element.player.FilterListHelper.readAndLoad(FilterListHelper.kt:18)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at org.serverct.nanmui.element.ElementServer.preInit(ElementServer.kt:88)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:654)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:132)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:584)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:272)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:465)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraft.client.main.Main.main(Main.java:110)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+[04:15:48] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:48] [Client thread/INFO]: white read size error !!!
+[04:15:48] [Client thread/INFO]: Started loading config. 
+[04:15:48] [Client thread/INFO]: Finished loading config. 
+[04:15:48] [Client thread/INFO]: Registering equipment cube - id:0 name:sf
+[04:15:48] [Client thread/INFO]: Registering equipment cube - id:1 name:zf
+[04:15:48] [Client thread/INFO]: Registering equipment cube - id:2 name:ze
+[04:15:48] [Client thread/INFO]: Registering equipment cube - id:3 name:ek
+[04:15:48] [Client thread/INFO]: field_75975_e:java.lang.String
+[04:15:48] [Client thread/INFO]: field_75978_a:net.minecraft.util.text.ITextComponent
+[04:15:48] [Client thread/INFO]: field_75972_f:boolean
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: java.lang.NoSuchFieldException: keyName
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2382)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer.Init(KeyNameTransfer.java:14)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.netease.mc.mod.departmod.DepartMod.preinit(DepartMod.java:36)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:654)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:132)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:584)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:272)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:465)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraft.client.main.Main.main(Main.java:110)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+[04:15:48] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:48] [Client thread/INFO]: Patching net.minecraft.client.gui.GuiOptions... (ble)
+[04:15:48] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[04:15:48] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[04:15:48] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `lit_furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[04:15:48] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[04:15:48] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[04:15:48] [Client thread/INFO]: Setting Object Holders with value...
+[04:15:48] [Client thread/INFO]: Object Holders set.
+[04:15:48] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[04:15:48] [Client thread/INFO]: Setting Object Holders with value...
+[04:15:48] [Client thread/INFO]: Object Holders set.
+[04:15:48] [Client thread/INFO]: Setting Object Holders with value...
+[04:15:48] [Client thread/INFO]: Object Holders set.
+[04:15:48] [Client thread/INFO]: Setting Object Holders with value...
+[04:15:48] [Client thread/INFO]: Object Holders set.
+[04:15:48] [Client thread/INFO]: Injecting itemstacks
+[04:15:48] [Client thread/INFO]: Itemstack injection complete
+[04:15:48] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[04:15:48] [Client thread/INFO]: [OptiFine] Resource packs: EpicOfElement.zip, Faithful 3D - 1.12 r2.zip, Faithful 32x - 1.12.2.zip, §9-视材质§e（亮度可调）§61.12 (2).zip
+[04:15:48] [Cleanroom Version Check/INFO]: [fugue] Found status: UP_TO_DATE Target: null
+[04:15:48] [Cleanroom Version Check/INFO]: [aperture] Starting version check at https://raw.githubusercontent.com/mchorse/aperture/1.12/version.json
+[04:15:48] [Cleanroom Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04:15:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[04:15:49] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack dragonarmourers (eos.moe.armourers.xk)
+[04:15:49] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack BetterFps (guichaguri.betterfps.gui.BetterFpsResourcePack)
+[04:15:49] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.yq)
+[04:15:49] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.dr)
+[04:15:49] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.ty)
+[04:15:49] [ForkJoinPool-1-worker-1/INFO]: Found 2729 sprites (some possibly duplicated among resource packs)
+[04:15:49] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[04:15:49] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:15:49] [Client thread/WARN]: Not applying mixin 'mixin.dynamic_resources.hide_model_exceptions.ModelErrorMixin' as 'mixin.dynamic_resources.hide_model_exceptions' is disabled in config
+[04:15:49] [Cleanroom Version Check/INFO]: [forge] Found status: BETA Target: null
+[04:15:49] [Cleanroom Version Check/INFO]: [cleanroom] Starting version check at https://download.cleanroommc.com/api/forge
+[04:15:49] [Client thread/WARN]: Cannot list resources from pack dragonarmourers (eos.moe.armourers.xk)
+[04:15:49] [Client thread/WARN]: Cannot list resources from pack BetterFps (guichaguri.betterfps.gui.BetterFpsResourcePack)
+[04:15:49] [Client thread/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.yq)
+[04:15:49] [Client thread/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.dr)
+[04:15:49] [Client thread/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.ty)
+[04:15:49] [Client thread/INFO]: Early loading 0 models
+[04:15:49] [Client thread/INFO]: Permanently loaded 0 models
+[04:15:50] [Cleanroom Version Check/INFO]: [cleanroom] Found status: BETA_OUTDATED Target: 0.7.12-alpha
+[04:15:50] [Cleanroom Version Check/INFO]: [mclib] Starting version check at https://raw.githubusercontent.com/mchorse/mclib/1.12/version.json
+[04:15:50] [Cleanroom Version Check/INFO]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[04:15:50] [Thread-4/INFO]: OpenAL initialized.
+[04:15:50] [Sound Library Loader/INFO]: Sound engine started
+[04:15:50] [ForkJoinPool-1-worker-1/INFO]: Texture search took 1.553 s, total of 3636 collected sprites
+[04:15:50] [Client thread/INFO]: [OptiFine] Multitexture: false
+[04:15:50] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/bookshelf/bookshelf.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/black_stained_glass/black_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/black_stained_glass/black_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/blue_stained_glass/blue_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/blue_stained_glass/blue_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/brown_stained_glass/brown_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/brown_stained_glass/brown_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/cyan_stained_glass/cyan_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/cyan_stained_glass/cyan_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/glass/glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/glass/glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/gray_stained_glass/gray_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/gray_stained_glass/gray_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/green_stained_glass/green_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/green_stained_glass/green_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/light_blue_stained_glass/light_blue_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/light_blue_stained_glass/light_blue_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/light_gray_stained_glass/light_gray_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/light_gray_stained_glass/light_gray_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/lime_stained_glass/lime_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/lime_stained_glass/lime_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/magenta_stained_glass/magenta_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/magenta_stained_glass/magenta_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/orange_stained_glass/orange_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/orange_stained_glass/orange_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/pink_stained_glass/pink_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/pink_stained_glass/pink_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/purple_stained_glass/purple_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/purple_stained_glass/purple_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/red_stained_glass/red_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/red_stained_glass/red_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/white_stained_glass/white_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/white_stained_glass/white_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/yellow_stained_glass/yellow_stained_glass.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/yellow_stained_glass/yellow_stained_glass_pane.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/red_sandstone/red_sandstone.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/sandstone/sandstone.properties
+[04:15:50] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:15:50] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:15:50] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:15:50] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:15:50] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[04:15:50] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/iron_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:50] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/iron_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/entity/chest/normal_double.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/items/zombie_head.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/entity/chest/christmas_double.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Using missing texture, unable to load gbook:textures/transparent.png, java.io.FileNotFoundException
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/leather_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/leather_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Using missing texture, unable to load gbook:textures/cover_gray.png, java.io.FileNotFoundException
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/diamond_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/diamond_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/chainmail_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/chainmail_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/gold_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/gold_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Using missing texture, unable to load mekanism:textures/entities/robit.png, java.io.FileNotFoundException
+[04:15:51] [Client thread/ERROR]: Using missing texture, unable to load gbook:textures/paper.png, java.io.FileNotFoundException
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/leather_layer_1_overlay.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/netherite_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/netherite_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/leather_layer_2_overlay.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Using missing texture, unable to load gbook:textures/cover.png, java.io.FileNotFoundException
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/entity/chest/trapped_double.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/turtle_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:51] [Client thread/INFO]: [OptiFine] Custom loader sprites: 3
+[04:15:51] [Client thread/INFO]: [OptiFine] Sprite dependencies: 5
+[04:15:51] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[04:15:51] [Client thread/INFO]: [OptiFine] Animated sprites: 29
+[04:15:51] [Cleanroom Version Check/INFO]: [mousetweaks] Found status: BETA Target: null
+[04:15:52] [VintageFix item baking thread/INFO]: Baking 613 models in background
+[04:15:52] [VintageFix item baking thread/ERROR]: Failed to load model minecraft:purpur_double_slab#inventory
+org.embeddedt.vintagefix.dynamicresources.model.DynamicModelProvider$DynamicModelLoadFailException: Variant minecraft:purpur_double_slab#inventory does not exist
+[04:15:52] [VintageFix item baking thread/ERROR]: Failed to load model minecraft:purpur_double_slab#inventory as item minecraft:purpur_double_slab
+org.embeddedt.vintagefix.dynamicresources.model.DynamicModelProvider$DynamicModelLoadFailException: Variant minecraft:purpur_double_slab#inventory does not exist
+[04:15:52] [VintageFix item baking thread/ERROR]: Error occured while loading model minecraft:purpur_double_slab#inventory
+[04:15:52] [VintageFix item baking thread/ERROR]: Failed to load model minecraft:old_wood_slab#inventory
+org.embeddedt.vintagefix.dynamicresources.model.DynamicModelProvider$DynamicModelLoadFailException: Variant minecraft:old_wood_slab#inventory does not exist
+[04:15:52] [VintageFix item baking thread/ERROR]: Failed to load model minecraft:old_wood_slab#inventory as item minecraft:old_wood_slab
+org.embeddedt.vintagefix.dynamicresources.model.DynamicModelProvider$DynamicModelLoadFailException: Variant minecraft:old_wood_slab#inventory does not exist
+[04:15:52] [VintageFix item baking thread/ERROR]: Error occured while loading model minecraft:old_wood_slab#inventory
+[04:15:52] [Client thread/INFO]: Setting Object Holders with value...
+[04:15:52] [Client thread/INFO]: Object Holders set.
+[04:15:53] [Client thread/INFO]: Mod initialized
+[04:15:53] [Client thread/INFO]: 元素之诗伤害统计测试 Mod 已加载，报告目录：D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\config\element-damage-test\reports
+[04:15:53] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Fia] fia.z 直读就绪：eos.moe.dragoncore.fia#z（当前 0 个变量，无条件主源）
+[04:15:53] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Crystal] 龙核动画状态直读就绪：eos.moe.dragoncore.ry#h
+[04:15:53] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 轮廓管线字段直写就绪（MethodHandle 预热完成）：王之宝库_盾 / 龙型机械_火_爆桶 透视高亮可用
+[04:15:53] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_冰=雷2（五行只能是风/水/火/光/雷）
+[04:15:53] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_土=风3（五行只能是风/水/火/光/雷）
+[04:15:53] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_火=水1（五行只能是风/水/火/光/雷）
+[04:15:53] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_风=火4（五行只能是风/水/火/光/雷）
+[04:15:53] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Rune] 已载入 BOSS 弱点表 10 个副本组 / 32 条: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\config\moreshowextra\boss-elements.json
+[04:15:53] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] A call to initialize, entry point: FORGE.
+[04:15:53] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Reflecting GuiContainer...
+[04:15:53] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Detected obfuscation: FORGE.
+[04:15:53] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Success.
+[04:15:53] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Minecraft Forge is installed.
+[04:15:53] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] LiteLoader is not installed.
+[04:15:53] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Using Forge for the mod operation.
+[04:15:53] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Mouse Tweaks has been initialized.
+[04:15:53] [Client thread/INFO]: Injecting itemstacks
+[04:15:53] [Client thread/INFO]: Itemstack injection complete
+[04:15:53] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.monster.EntitySkeleton
+[04:15:53] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.monster.EntityPigZombie
+[04:15:53] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.monster.EntityZombie
+[04:15:53] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.monster.EntityWitherSkeleton
+[04:15:53] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.item.EntityArmorStand
+[04:15:53] [Client thread/INFO]: Loading error model.
+[04:15:53] [Client thread/INFO]: Registering render ping handler
+[04:15:53] [Client thread/ERROR]: Config option 'pingTextColor' is invalid - it must be a hex color code
+[04:15:53] [Client thread/ERROR]: Config option 'textFormatString' is invalid - it needs to contain %d
+[04:15:53] [VintageFix item baking thread/INFO]: Item baking finished in 1.721 s
+[04:15:54] [Client thread/INFO]: [org.bytedeco.javacpp.tools.Logger:warn:62]: Warning: Version of org.bytedeco:ffmpeg could not be found.
+[04:15:55] [Client thread/WARN]: Could not find particle class org.orecruncher.dsurround.client.fx.particle.mote.ParticleCollection. If the mod is not installed, this can be ignored.
+[04:15:55] [Client thread/WARN]: Could not find particle class com.TominoCZ.FBP.particle.FBPParticleBlock. If the mod is not installed, this can be ignored.
+[04:15:55] [Client thread/WARN]: Could not find particle class xzeroair.trinkets.client.particles.ParticleGreed. If the mod is not installed, this can be ignored.
+[04:15:55] [Client thread/WARN]: Could not find particle class thaumcraft.client.fx.beams.FXBolt. If the mod is not installed, this can be ignored.
+[04:15:55] [Client thread/INFO]: Forge Mod Loader has successfully loaded 58 mods
+[04:15:55] [Client thread/INFO]: Starts refreshing McTTF font.
+[04:15:55] [Client thread/INFO]: Loaded Minecraft font from cache: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\cache\kirino\font\317ca50298361fee58214a67bdfee3f5c08599c53a979f9ca7fe41dd207a13d1.bin
+[04:15:56] [Client thread/INFO]: Refreshed McTTF font. Time taken: 1322ms
+[04:15:57] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[04:15:57] [Client thread/INFO]: Game launch took 30.674 seconds
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: Index -65 out of bounds for length 4
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:124)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at eos.moe.armourers.jm.a(h:8)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at eos.moe.armourers.jm.a(h:172)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:79)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:197)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onPostClientTick(FMLCommonHandler.java:360)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1667)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1005)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:411)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at net.minecraft.client.main.Main.main(Main.java:110)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+[04:15:57] [Client thread/INFO]: [eos.moe.armourers.jm:a:167]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: Caused by: java.lang.ArrayIndexOutOfBoundsException: Index -65 out of bounds for length 4
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at eos.moe.armourers.ii.a(pk:151)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at eos.moe.armourers.rh.a(h:180)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at eos.moe.armourers.rh.call(h:86)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+[04:15:57] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[04:15:57] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[04:15:57] [Client thread/WARN]: [OptiFine] (Reflector) More than one method found: net.minecraftforge.common.ForgeHooks.onLivingSetAttackTarget
+[04:15:57] [Client thread/WARN]: [OptiFine] (Reflector)  - public static void net.minecraftforge.common.ForgeHooks.onLivingSetAttackTarget(net.minecraft.entity.EntityLivingBase,net.minecraft.entity.EntityLivingBase)
+[04:15:57] [Client thread/WARN]: [OptiFine] (Reflector)  - public static net.minecraft.entity.EntityLivingBase net.minecraftforge.common.ForgeHooks.onLivingSetAttackTarget(net.minecraft.entity.EntityLiving,net.minecraft.entity.EntityLivingBase,net.minecraft.entity.EntityLivingBase)
+[04:15:57] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-ASM] Scoreboard 里没找到 func_96512_b 的预期签名，未做改动（游戏不受影响）
+[04:15:57] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[04:15:57] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world-1.png
+[04:15:57] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[04:15:57] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[04:16:14] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:16:14] [Server Connector #1/ERROR]: Couldn't connect to server
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:25565
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:686)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:427)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at net.minecraft.network.NetworkManager.func_181124_a(NetworkManager.java:307)
+		at net.minecraft.client.multiplayer.GuiConnecting$1.run(GuiConnecting.java:61)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:639)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1046)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432)
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[04:17:58] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:17:58] [Server Connector #2/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:27]: McLib: Transforming CPacketCustomPayloadTransformer class (lh)
+[04:17:58] [Server Connector #2/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched lh.<init>!
+[04:17:58] [Server Connector #2/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched lh.a!
+[04:17:58] [Server Connector #2/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:27]: McLib: Transforming CPacketCustomPayloadTransformer class (lh)
+[04:17:58] [Server Connector #2/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched lh.<init>!
+[04:17:58] [Server Connector #2/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched lh.a!
+[04:17:59] [Netty Client IO #12/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:21:16] [Client thread/INFO]: InvTweaks: successfully transformed setFocused/func_146195_b
+[04:24:57] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:24:59] [Netty Client IO #13/INFO]: Aborting client handshake "VANILLA"
+[04:24:59] [Netty Client IO #13/INFO]: [Netty Client IO #13] Client side vanilla connection established
+[04:24:59] [Netty Client IO #13/INFO]: [eos.moe.armourers.oh:a:162]: 兼容模型时装
+[04:24:59] [Netty Client IO #13/INFO]: [org.serverct.nanmui.element.bridge.ElementTransformer:transform:132]: Patched DragonArmourers costume path: 1 animation hook(s), 1 render-partial hook(s).
+[04:24:59] [Netty Client IO #13/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Zeal] 发现自定义通道: MC|Brand
+[04:24:59] [Client thread/INFO]: [CHAT] Auto Reconnect enabled. IP/Port: 127.0.0.1:25565
+[04:25:01] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiDownloadTerrain
+[04:25:01] [Netty Client IO #13/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Zeal] 发现自定义通道: systemhall
+[04:25:01] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Sigil] 受击监测基线: 生命 20.0/20.0 吸收 0.0
+[04:25:01] [Client thread/INFO]: [CHAT] 温阳融冬 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] oursonne joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 小小袅 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 巳月 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 世界肝1 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] bjloub__ joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 魅e_ joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 鲜衣怒马机智鲨 left the game
+[04:25:02] [Client thread/INFO]: [CHAT] Fischl left the game
+[04:25:02] [Client thread/INFO]: [CHAT] LemonT joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 东于大帅比 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 木易077 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 月月lyy joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 万泽 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 牢大爱肘季巴 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 流B的人类 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 丶陌黎丶 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] YYNYYN joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 果果咩 left the game
+[04:25:02] [Client thread/INFO]: [CHAT] pasha123 left the game
+[04:25:02] [Client thread/INFO]: [CHAT] Sarmoe_ joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 千夏回忆 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] Lonmado left the game
+[04:25:02] [Client thread/INFO]: [CHAT] Zafkiel left the game
+[04:25:02] [Client thread/INFO]: [CHAT] 嘻嘻怪 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] hhr15 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 月影饮琉璃因被过度挤压而死
+[04:25:02] [Client thread/INFO]: [CHAT] bjloub___ left the game
+[04:25:02] [Client thread/INFO]: [CHAT] 圣骑且大王 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 亿紫君 left the game
+[04:25:02] [Client thread/INFO]: [CHAT] 姜昵因被过度挤压而死
+[04:25:02] [Client thread/INFO]: [CHAT] 嘻嘻怪 left the game
+[04:25:02] [Client thread/INFO]: [CHAT] NaHZn left the game
+[04:25:02] [Client thread/INFO]: [CHAT] 世人皆萌唯我独帅 left the game
+[04:25:02] [Client thread/INFO]: [CHAT] [ClearLag] Warning Ground items will be removed in 60 seconds!
+[04:25:02] [Client thread/INFO]: [CHAT] 私募用力1因被过度挤压而死
+[04:25:02] [Client thread/INFO]: [org.serverct.nanmui.element.bridge.ElementTransformer:transform:135]: Patched AnimationHelper authoritative pose path: 1 hook(s).
+[04:25:02] [Client thread/INFO]: [CHAT] 林深处 joined the game
+[04:25:02] [Client thread/INFO]: [CHAT] 爱芮_Aria因被过度挤压而死
+[04:25:02] [Client thread/INFO]: [CHAT] Fu尧因被过度挤压而死
+[04:25:02] [Client thread/INFO]: [CHAT] 丶柚子真的皮 left the game
+[04:25:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...
+[04:25:03] [Client thread/INFO]: [CHAT] 牢大爱肘季巴 left the game
+[04:25:03] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Rune] 进服自动同步云端 BOSS 列表
+[04:25:03] [MSE-Announce/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Announce] 播报「进入」公告（本次连接仅此一次）
+[04:25:03] [Client thread/INFO]: [CHAT] §a[MoreShow-Extra] §f当前版本为1.0.5FIX，最新版版本为1.0.7\nEpic脱盒免费使用 QQ群：1128955376\n新增 新团本 的符文切换 以及完善切换系统\n新增虚妄显示\n部分入无法使用远程更新BOSS列表请使用证书修复工具\n下载地址：https://elementsystem.xyz/downloads/MoreShow_Extra-1.0.7.jar
+[04:25:03] [Client thread/INFO]: [com.example.moreshow.feature.b.a:a:-1]: DIRECT_JOIN_TARGET_ZONE=41
+[04:25:03] [Client thread/INFO]: [com.example.moreshow.feature.b.a:a:-1]: DIRECT_JOIN_TARGET_PAYLOAD=4000000005053431e58cba00000000
+[04:25:03] [Client thread/INFO]: [com.example.moreshow.feature.b.a:a:-1]: DIRECT_JOIN_SEND_OK
+[04:25:03] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_冰=雷2（五行只能是风/水/火/光/雷）
+[04:25:03] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_土=风3（五行只能是风/水/火/光/雷）
+[04:25:03] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_火=水1（五行只能是风/水/火/光/雷）
+[04:25:03] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_风=火4（五行只能是风/水/火/光/雷）
+[04:25:03] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Rune] 已载入 BOSS 弱点表 10 个副本组 / 33 条: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\config\moreshowextra\boss-elements.json
+[04:25:03] [Client thread/INFO]: [CHAT] §8[§6BOSS列表§8]§r §a云端 BOSS 列表已合并§r §7弱点表 §e+1
+[04:25:04] [Client thread/INFO]: [CHAT] hhr15 left the game
+[04:25:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c2§6]
+[04:25:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c3§6]
+[04:25:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c4§6]
+[04:25:05] [Client thread/INFO]: [CHAT] 锈徽丶 joined the game
+[04:25:05] [Client thread/INFO]: [CHAT] 白精灵 joined the game
+[04:25:05] [Client thread/INFO]: [CHAT] 沁0酒 left the game
+[04:25:05] [Client thread/INFO]: [CHAT] 正义兰斯 joined the game
+[04:25:06] [Client thread/INFO]: [CHAT] cyclops left the game
+[04:25:06] [Client thread/INFO]: [CHAT] 林一一 joined the game
+[04:25:06] [Client thread/INFO]: [CHAT] 东山小红 left the game
+[04:25:06] [Client thread/INFO]: [CHAT] Fu尧 left the game
+[04:25:06] [Client thread/INFO]: [CHAT] Sarmoe_ left the game
+[04:25:06] [Client thread/INFO]: [CHAT] LemonT left the game
+[04:25:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c5§6]
+[04:25:06] [Client thread/INFO]: [CHAT] _Briter left the game
+[04:25:06] [Client thread/INFO]: [CHAT] 墨染花 left the game
+[04:25:06] [Client thread/INFO]: [CHAT] 流B的人类 left the game
+[04:25:06] [Client thread/INFO]: [CHAT] 势魏延丶 joined the game
+[04:25:06] [Client thread/INFO]: [CHAT] 月月lyy因被过度挤压而死
+[04:25:07] [Client thread/INFO]: [CHAT] 媚瞳 left the game
+[04:25:07] [Client thread/INFO]: [CHAT] 淮染 joined the game
+[04:25:07] [Client thread/INFO]: [CHAT] i阿尔加利亚 joined the game
+[04:25:07] [Client thread/INFO]: [CHAT] 圣骑且大王2 joined the game
+[04:25:07] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c6§6]
+[04:25:08] [Client thread/INFO]: [CHAT] 缓缓而行 left the game
+[04:25:08] [Client thread/INFO]: [CHAT] 早川秋裤 joined the game
+[04:25:08] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c7§6]
+[04:25:08] [Client thread/INFO]: [CHAT] qeq1231 left the game
+[04:25:08] [Client thread/INFO]: [CHAT] DI6 left the game
+[04:25:09] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c8§6]
+[04:25:09] [Client thread/INFO]: [CHAT] 余火 left the game
+[04:25:09] [Client thread/INFO]: [CHAT] musthanku joined the game
+[04:25:09] [Client thread/INFO]: [CHAT] 牧沐木幕暮 left the game
+[04:25:09] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c9§6]
+[04:25:09] [Client thread/INFO]: [CHAT] 锈徽丶 left the game
+[04:25:09] [Client thread/INFO]: [CHAT] 神秘吟游诗人摆烂 joined the game
+[04:25:09] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c10§6]
+[04:25:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c11§6]
+[04:25:10] [Client thread/INFO]: [CHAT] 1930628674 left the game
+[04:25:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c12§6]
+[04:25:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c13§6]
+[04:25:10] [Client thread/INFO]: [CHAT] Latvia left the game
+[04:25:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c14§6]
+[04:25:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c15§6]
+[04:25:10] [Client thread/INFO]: [CHAT] Eune joined the game
+[04:25:10] [Client thread/INFO]: [CHAT] 夺你5刀 joined the game
+[04:25:10] [Client thread/INFO]: [CHAT] 花海的圣骑士 joined the game
+[04:25:11] [Client thread/INFO]: [CHAT] 帅的要命 left the game
+[04:25:11] [Client thread/INFO]: [CHAT] 因为怕痛就全点血 left the game
+[04:25:11] [Client thread/INFO]: [CHAT] 小x歪 joined the game
+[04:25:11] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c16§6]
+[04:25:11] [Client thread/INFO]: [CHAT] 圣骑士NO9 left the game
+[04:25:11] [Client thread/INFO]: [CHAT] 月月lyy left the game
+[04:25:11] [Client thread/INFO]: [CHAT] 圣骑且大王2 left the game
+[04:25:11] [Client thread/INFO]: [CHAT] Pearl joined the game
+[04:25:11] [Client thread/INFO]: [CHAT] 圣骑且大王因被过度挤压而死
+[04:25:11] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c17§6]
+[04:25:11] [Client thread/INFO]: [CHAT] 添材 left the game
+[04:25:11] [Client thread/INFO]: [CHAT] 月尊 joined the game
+[04:25:12] [Client thread/INFO]: [CHAT] HRXY left the game
+[04:25:12] [Client thread/INFO]: [CHAT] 林深处 left the game
+[04:25:12] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c18§6]
+[04:25:12] [Client thread/INFO]: [CHAT] 创说中的少年 left the game
+[04:25:12] [Client thread/INFO]: [CHAT] bili_YZK left the game
+[04:25:12] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c19§6]
+[04:25:12] [Client thread/INFO]: [CHAT] 华宇枫城 joined the game
+[04:25:12] [Client thread/INFO]: [CHAT] 林一一因被过度挤压而死
+[04:25:12] [Client thread/INFO]: [CHAT] 小呦 joined the game
+[04:25:12] [Client thread/INFO]: [CHAT] 木易077 left the game
+[04:25:12] [Client thread/INFO]: [CHAT] 纳妾i joined the game
+[04:25:13] [Client thread/INFO]: [CHAT] bzg_ joined the game
+[04:25:13] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c20§6]
+[04:25:13] [Client thread/INFO]: [CHAT] 两杯蔓越莓甩甩 joined the game
+[04:25:13] [Client thread/INFO]: [CHAT] anww joined the game
+[04:25:13] [Client thread/INFO]: [CHAT] 千枣allin joined the game
+[04:25:13] [Client thread/INFO]: [CHAT] Li_angle joined the game
+[04:25:13] [Client thread/INFO]: [CHAT] 竹摇风过窗棂 joined the game
+[04:25:13] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c21§6]
+[04:25:13] [Client thread/INFO]: [CHAT] 正义兰斯因被过度挤压而死
+[04:25:14] [Client thread/INFO]: [CHAT] Derwick joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] 僵尸sh joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] 丶陌黎丶因被过度挤压而死
+[04:25:14] [Client thread/INFO]: [CHAT] 纯洁的轮舞曲 joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c22§6]
+[04:25:14] [Client thread/INFO]: [CHAT] 两杯蔓越莓甩甩 left the game
+[04:25:14] [Client thread/INFO]: [CHAT] 我喜欢拉金库 joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] dayhouys joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] 蹲个好心人 joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] 月亮失约了 joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] 弥猫 joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c23§6]
+[04:25:14] [Client thread/INFO]: [CHAT] ye湘伦 left the game
+[04:25:14] [Client thread/INFO]: [CHAT] Michael_hua joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] oursonne left the game
+[04:25:14] [Client thread/INFO]: [CHAT] 先天抽象圣体 joined the game
+[04:25:14] [Client thread/INFO]: [CHAT] 古城1 joined the game
+[04:25:15] [Client thread/INFO]: [CHAT] 奇幻的魔术之书 joined the game
+[04:25:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c24§6]
+[04:25:15] [Client thread/INFO]: [CHAT] 白秀秀 left the game
+[04:25:15] [Client thread/INFO]: [CHAT] 莱恩len joined the game
+[04:25:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c25§6]
+[04:25:15] [Client thread/INFO]: [CHAT] 淮染因被过度挤压而死
+[04:25:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c26§6]
+[04:25:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c27§6]
+[04:25:15] [Client thread/INFO]: [CHAT] i阿尔加利亚因被过度挤压而死
+[04:25:15] [Client thread/INFO]: [CHAT] 千夏回忆因被过度挤压而死
+[04:25:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c28§6]
+[04:25:15] [Client thread/INFO]: [CHAT] 白精灵因被过度挤压而死
+[04:25:16] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c29§6]
+[04:25:16] [Client thread/INFO]: [CHAT] 巳月因被过度挤压而死
+[04:25:16] [Client thread/ERROR]: 无法加载的鼠标图片:Mouse.png
+org.embeddedt.vintagefix.util.FastFileNotFoundException: dragoncore:mouse.png
+[04:25:16] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiIngameMenu
+[04:25:16] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c30§6]
+[04:25:17] [Client thread/INFO]: [CHAT] 夺你5刀因被过度挤压而死
+[04:25:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c31§6]
+[04:25:18] [Client thread/INFO]: [CHAT] Pearl因被过度挤压而死
+[04:25:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c32§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c33§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c34§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c35§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c36§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c37§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c38§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c39§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 姜昵 left the game
+[04:25:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c40§6]
+[04:25:19] [Client thread/INFO]: [CHAT] 月尊 left the game
+[04:25:20] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c41§6]
+[04:25:20] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c42§6]
+[04:25:20] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c43§6]
+[04:25:20] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c44§6]
+[04:25:20] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c45§6]
+[04:25:20] [Client thread/INFO]: [CHAT] 迷人的小奶 left the game
+[04:25:20] [Client thread/INFO]: [CHAT] 旅祸vs巨茹白虎 left the game
+[04:25:21] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c46§6]
+[04:25:21] [Client thread/INFO]: [CHAT] 莫语冰 left the game
+[04:25:21] [Client thread/INFO]: [CHAT] 天有不测风云 left the game
+[04:25:21] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c47§6]
+[04:25:22] [Client thread/INFO]: [CHAT] 爱将散于人海111 left the game
+[04:25:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c48§6]
+[04:25:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c49§6]
+[04:25:22] [Client thread/INFO]: [CHAT] 尬笑的嬉笑村民 left the game
+[04:25:22] [Client thread/INFO]: [CHAT] 薇欧拉 left the game
+[04:25:22] [Client thread/INFO]: [CHAT] Earrive left the game
+[04:25:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c50§6]
+[04:25:23] [Client thread/INFO]: [CHAT] 素筏淡殇 joined the game
+[04:25:23] [Client thread/INFO]: [CHAT] 冻雨之扉 joined the game
+[04:25:23] [Client thread/INFO]: [CHAT] 哔哩哔哩丶咬咬 left the game
+[04:25:23] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c51§6]
+[04:25:23] [Client thread/INFO]: [CHAT] 月揽梓星 left the game
+[04:25:23] [Client thread/INFO]: [CHAT] 漠南 joined the game
+[04:25:23] [Client thread/INFO]: [CHAT] 爱芮_Aria left the game
+[04:25:23] [Client thread/INFO]: [CHAT] 欺花 joined the game
+[04:25:23] [Client thread/INFO]: [CHAT] bjloub__ left the game
+[04:25:23] [Client thread/INFO]: [CHAT] Felix_ joined the game
+[04:25:23] [Client thread/INFO]: [CHAT] 小x歪 left the game
+[04:25:23] [Client thread/INFO]: [CHAT] 港城海 joined the game
+[04:25:23] [Client thread/INFO]: [CHAT] 扁鹊bq joined the game
+[04:25:23] [Client thread/INFO]: [CHAT] 吟龙当归海 joined the game
+[04:25:24] [Client thread/INFO]: [CHAT] mei_gui joined the game
+[04:25:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c52§6]
+[04:25:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c53§6]
+[04:25:24] [Client thread/INFO]: [CHAT] Felix_ left the game
+[04:25:24] [Client thread/INFO]: [CHAT] 凑阿库娅 joined the game
+[04:25:24] [Client thread/INFO]: [CHAT] 铭铭就 joined the game
+[04:25:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c54§6]
+[04:25:24] [Client thread/INFO]: [CHAT] AsiT嘻 left the game
+[04:25:24] [Client thread/INFO]: [CHAT] Baka_duang left the game
+[04:25:24] [Client thread/INFO]: [CHAT] 生生不息矣 left the game
+[04:25:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c55§6]
+[04:25:25] [Client thread/INFO]: [CHAT] 薛之谦 left the game
+[04:25:25] [Client thread/INFO]: [CHAT] TAN糖tan joined the game
+[04:25:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c56§6]
+[04:25:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c57§6]
+[04:25:25] [Client thread/INFO]: [CHAT] 东于大帅比 left the game
+[04:25:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c58§6]
+[04:25:25] [Client thread/INFO]: [CHAT] 水愁 joined the game
+[04:25:25] [Client thread/INFO]: [CHAT] 千夏回忆 left the game
+[04:25:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c59§6]
+[04:25:25] [Client thread/INFO]: [CHAT] 凑阿库娅 left the game
+[04:25:25] [Client thread/INFO]: [CHAT] Besko joined the game
+[04:25:25] [Client thread/INFO]: [CHAT] 重装3号 joined the game
+[04:25:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c60§6]
+[04:25:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c61§6]
+[04:25:26] [Client thread/INFO]: [CHAT] Eons joined the game
+[04:25:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c62§6]
+[04:25:26] [Client thread/INFO]: [CHAT] 猫猫头不想破产 left the game
+[04:25:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c63§6]
+[04:25:26] [Client thread/INFO]: [CHAT] 淮染 left the game
+[04:25:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c64§6]
+[04:25:26] [Client thread/INFO]: [CHAT] 先天抽象圣体 left the game
+[04:25:26] [Client thread/INFO]: [CHAT] 港城海 left the game
+[04:25:26] [Client thread/INFO]: [CHAT] 兰秋七念 joined the game
+[04:25:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c65§6]
+[04:25:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c66§6]
+[04:25:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c67§6]
+[04:25:27] [Client thread/INFO]: [CHAT] RichDYY joined the game
+[04:25:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c68§6]
+[04:25:27] [Client thread/INFO]: [CHAT] 将杰龟的石头 joined the game
+[04:25:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c69§6]
+[04:25:27] [Client thread/INFO]: [CHAT] 弥猫因被过度挤压而死
+[04:25:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c70§6]
+[04:25:27] [Client thread/INFO]: [CHAT] 处暑 joined the game
+[04:25:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c71§6]
+[04:25:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c72§6]
+[04:25:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c73§6]
+[04:25:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c74§6]
+[04:25:28] [Client thread/INFO]: [CHAT] 末末末 joined the game
+[04:25:28] [Client thread/INFO]: [CHAT] 阿尔托莉雅_ joined the game
+[04:25:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c75§6]
+[04:25:28] [Client thread/INFO]: [CHAT] Michael_hua left the game
+[04:25:28] [Client thread/INFO]: [CHAT] 万泽 left the game
+[04:25:28] [Client thread/INFO]: [CHAT] 兰秋七念 left the game
+[04:25:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c76§6]
+[04:25:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c77§6]
+[04:25:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c78§6]
+[04:25:29] [Client thread/INFO]: [CHAT] 洛神oY joined the game
+[04:25:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c79§6]
+[04:25:29] [Client thread/INFO]: [CHAT] 我愧对这个元素 joined the game
+[04:25:29] [Client thread/INFO]: [CHAT] 猫耄耄耄 joined the game
+[04:25:30] [Client thread/INFO]: [CHAT] 扁鹊bq left the game
+[04:25:30] [Client thread/INFO]: [CHAT] cfz_2号 joined the game
+[04:25:30] [Client thread/INFO]: [CHAT] 今夜恨年愁 left the game
+[04:25:30] [Client thread/INFO]: [CHAT] 猫耄耄耄 left the game
+[04:25:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c80§6]
+[04:25:30] [Client thread/INFO]: [CHAT] 忆梦残梦ym joined the game
+[04:25:30] [Client thread/INFO]: [CHAT] 艾拉酱 joined the game
+[04:25:31] [Client thread/INFO]: [CHAT] cfz_2号 left the game
+[04:25:31] [Client thread/INFO]: [CHAT] 小小袅 left the game
+[04:25:31] [Client thread/INFO]: [CHAT] 千帆过尽 left the game
+[04:25:31] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c81§6]
+[04:25:32] [Client thread/INFO]: [CHAT] 竹摇风过窗棂 left the game
+[04:25:32] [Client thread/INFO]: [CHAT] 忆梦残梦ym left the game
+[04:25:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c82§6]
+[04:25:32] [Client thread/INFO]: [CHAT] 4211 joined the game
+[04:25:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c83§6]
+[04:25:32] [Client thread/INFO]: [CHAT] dayhouys left the game
+[04:25:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c84§6]
+[04:25:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c85§6]
+[04:25:33] [Client thread/INFO]: [CHAT] 正义兰斯 left the game
+[04:25:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c86§6]
+[04:25:33] [Client thread/INFO]: [CHAT] 冻雨之扉 left the game
+[04:25:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c87§6]
+[04:25:33] [Client thread/INFO]: [CHAT] i阿尔加利亚 left the game
+[04:25:33] [Client thread/INFO]: [CHAT] 神秘吟游诗人摆烂 left the game
+[04:25:33] [Client thread/INFO]: [CHAT] 才不会为你取名呐 left the game
+[04:25:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c88§6]
+[04:25:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c89§6]
+[04:25:34] [Client thread/INFO]: [CHAT] goodandstar joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 鷹眼 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 烛枫 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 圣骑且大王 left the game
+[04:25:35] [Client thread/INFO]: [CHAT] 大黑佛姥 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] Huannnn joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 不会叠火的吟游 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] Haniyah joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] ye湘伦 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 就睡o joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 暗夜_英雄 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 慕秋七念 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 霂绎_com joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] Bloved joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] lianyuy joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c90§6]
+[04:25:35] [Client thread/INFO]: [CHAT] 喵喵盾 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 绝响丶 joined the game
+[04:25:35] [Client thread/INFO]: [CHAT] 将杰龟的石头因被过度挤压而死
+[04:25:36] [Client thread/INFO]: [CHAT] 弥猫 left the game
+[04:25:36] [Client thread/INFO]: [CHAT] 剑KIN joined the game
+[04:25:36] [Client thread/INFO]: [CHAT] Eons因被过度挤压而死
+[04:25:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c91§6]
+[04:25:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c92§6]
+[04:25:37] [Client thread/INFO]: [CHAT] 洛神oY因被过度挤压而死
+[04:25:37] [Client thread/INFO]: [CHAT] 纳妾i left the game
+[04:25:37] [Client thread/INFO]: [CHAT] xiao_suaaa joined the game
+[04:25:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c93§6]
+[04:25:38] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c94§6]
+[04:25:38] [Client thread/INFO]: [CHAT] 世界肝1 left the game
+[04:25:38] [Client thread/INFO]: [CHAT] 丶陌黎丶 left the game
+[04:25:38] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c95§6]
+[04:25:38] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c96§6]
+[04:25:38] [Client thread/INFO]: [CHAT] 霂绎_com left the game
+[04:25:39] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c97§6]
+[04:25:39] [Client thread/INFO]: [CHAT] Eune left the game
+[04:25:39] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c98§6]
+[04:25:39] [Client thread/INFO]: [CHAT] 我喜欢拉金库 left the game
+[04:25:39] [Client thread/INFO]: [CHAT] YYNYYN left the game
+[04:25:39] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c99§6]
+[04:25:39] [Client thread/INFO]: [CHAT] 剑KIN left the game
+[04:25:39] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c100§6]
+[04:25:39] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c101§6]
+[04:25:39] [Client thread/INFO]: [CHAT] 月亮失约了 left the game
+[04:25:39] [Client thread/INFO]: [CHAT] Haniyah left the game
+[04:25:39] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c102§6]
+[04:25:39] [Client thread/INFO]: [CHAT] 古城1 left the game
+[04:25:40] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c103§6]
+[04:25:40] [Client thread/INFO]: [CHAT] No_Way joined the game
+[04:25:40] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c104§6]
+[04:25:40] [Client thread/INFO]: [CHAT] 奇幻的魔术之书 left the game
+[04:25:40] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c105§6]
+[04:25:40] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c106§6]
+[04:25:40] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c107§6]
+[04:25:40] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c108§6]
+[04:25:40] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c109§6]
+[04:25:41] [Client thread/INFO]: [CHAT] 重装3号因被过度挤压而死
+[04:25:41] [Client thread/INFO]: [CHAT] 重生之我要玩鹦鹉 joined the game
+[04:25:41] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c110§6]
+[04:25:41] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c111§6]
+[04:25:41] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c112§6]
+[04:25:41] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c113§6]
+[04:25:41] [Client thread/INFO]: [CHAT] Li_angle left the game
+[04:25:41] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c114§6]
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c115§6]
+[04:25:42] [Client thread/INFO]: [CHAT] 铭铭就 left the game
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c116§6]
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c117§6]
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c118§6]
+[04:25:42] [Client thread/INFO]: [CHAT] [ClearLag] Warning Ground items will be removed in 20 seconds!
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c119§6]
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c120§6]
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c121§6]
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c122§6]
+[04:25:42] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c123§6]
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c124§6]
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c125§6]
+[04:25:43] [Client thread/INFO]: [CHAT] 树无秋 joined the game
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c126§6]
+[04:25:43] [Client thread/INFO]: [CHAT] 星野苍岚 joined the game
+[04:25:43] [Client thread/INFO]: [CHAT] 魅e_ left the game
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c127§6]
+[04:25:43] [Client thread/INFO]: [CHAT] 势魏延丶 left the game
+[04:25:43] [Client thread/INFO]: [CHAT] musthanku left the game
+[04:25:43] [Client thread/INFO]: [CHAT] 娜贝 joined the game
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c128§6]
+[04:25:43] [Client thread/INFO]: [CHAT] bzg_ left the game
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c129§6]
+[04:25:43] [Client thread/INFO]: [CHAT] 僵尸sh left the game
+[04:25:43] [Client thread/INFO]: [CHAT] 纯洁的轮舞曲 left the game
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c130§6]
+[04:25:43] [Client thread/INFO]: [CHAT] TAN糖tan left the game
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c131§6]
+[04:25:43] [Client thread/INFO]: [CHAT] 素影 joined the game
+[04:25:43] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c132§6]
+[04:25:43] [Client thread/INFO]: [CHAT] anww left the game
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c133§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 阿尔托莉雅_ left the game
+[04:25:44] [Client thread/INFO]: [CHAT] 白贾御 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] ttt111 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c134§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 黑巧蜂蜜岛 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] 朱雀琳宝 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] 元素Master北斗 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c135§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 92虚先生 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] SkyFish joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] 末末末 left the game
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c136§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 忆梦残梦ym joined the game§6 [§7x§c2§6]
+[04:25:44] [Client thread/INFO]: [CHAT] T流羽 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c137§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c138§6]
+[04:25:44] [Client thread/INFO]: [CHAT] Besko left the game
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c139§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 素筏淡殇 left the game
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c140§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 刺骨寒风 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] 梅西爆炒科比 joined the game
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c141§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c142§6]
+[04:25:44] [Client thread/INFO]: [CHAT] 我愧对这个元素因被过度挤压而死
+[04:25:44] [Client thread/INFO]: [CHAT] xia_xin joined the game
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c143§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c144§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c145§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 朱雀琳宝 left the game
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c146§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 花海的圣骑士 left the game
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c147§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 夺你5刀 left the game
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c148§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 忆梦残梦ym left the game§6 [§7x§c2§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c149§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 白贾御 left the game
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c150§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 不会叠火的吟游因被过度挤压而死
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c151§6]
+[04:25:45] [Client thread/INFO]: [CHAT] 梅西爆炒科比 left the game
+[04:25:45] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c152§6]
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c153§6]
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c154§6]
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c155§6]
+[04:25:46] [Client thread/INFO]: [CHAT] xiao_suaaa因被过度挤压而死
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c156§6]
+[04:25:46] [Client thread/INFO]: [CHAT] 糕手霧島ava joined the game
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c157§6]
+[04:25:46] [Client thread/INFO]: [CHAT] QU区qu joined the game
+[04:25:46] [Client thread/INFO]: [CHAT] HAO豪hao joined the game
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c158§6]
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c159§6]
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c160§6]
+[04:25:46] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c161§6]
+[04:25:47] [Client thread/INFO]: [CHAT] Pearl left the game
+[04:25:47] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c162§6]
+[04:25:47] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c163§6]
+[04:25:47] [Client thread/INFO]: [CHAT] 暗夜_英雄因被过度挤压而死
+[04:25:47] [Client thread/INFO]: [CHAT] 暗夜_英雄 left the game
+[04:25:47] [Client thread/INFO]: [CHAT] 春江听雨舟 joined the game
+[04:25:47] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c164§6]
+[04:25:47] [Client thread/INFO]: [CHAT] Derwick left the game
+[04:25:47] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c165§6]
+[04:25:47] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c166§6]
+[04:25:47] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c167§6]
+[04:25:47] [Client thread/INFO]: [CHAT] Bloved因被过度挤压而死
+[04:25:47] [Client thread/INFO]: [CHAT] 不如跳舞 joined the game
+[04:25:47] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c168§6]
+[04:25:47] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c169§6]
+[04:25:47] [Client thread/INFO]: [CHAT] 黑巧蜂蜜岛 left the game
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c170§6]
+[04:25:48] [Client thread/INFO]: [CHAT] 吟龙当归海 left the game
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c171§6]
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c172§6]
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c173§6]
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c174§6]
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c175§6]
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c176§6]
+[04:25:48] [Client thread/INFO]: [CHAT] 92虚先生因被过度挤压而死
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c177§6]
+[04:25:48] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c178§6]
+[04:25:49] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c179§6]
+[04:25:49] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c180§6]
+[04:25:49] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c181§6]
+[04:25:49] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c182§6]
+[04:25:49] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c183§6]
+[04:25:49] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c184§6]
+[04:25:49] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c185§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c186§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c187§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 绝响丶因被过度挤压而死
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c188§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c189§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c190§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 华宇枫城 left the game
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c191§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 洛神oY left the game
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c192§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 巳月 left the game
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c193§6]
+[04:25:50] [Client thread/INFO]: [CHAT] 小呦 left the game
+[04:25:50] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c194§6]
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c195§6]
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c196§6]
+[04:25:51] [Client thread/INFO]: [CHAT] 蹲个好心人 left the game
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c197§6]
+[04:25:51] [Client thread/INFO]: [CHAT] 林一一 left the game
+[04:25:51] [Client thread/INFO]: [CHAT] 鷹眼 left the game
+[04:25:51] [Client thread/INFO]: [CHAT] 漠南 left the game
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c198§6]
+[04:25:51] [Client thread/INFO]: [CHAT] 大黑佛姥 left the game
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c199§6]
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c200§6]
+[04:25:51] [Client thread/INFO]: [CHAT] sweet殁殇 joined the game
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c201§6]
+[04:25:51] [Client thread/INFO]: [CHAT] 千枣allin left the game
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c202§6]
+[04:25:51] [Client thread/INFO]: [CHAT] 刺骨寒风 left the game
+[04:25:51] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c203§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c204§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c205§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c206§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 莱恩len left the game
+[04:25:52] [Client thread/INFO]: [CHAT] 缘来如此 joined the game
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c207§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c208§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c209§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c210§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c211§6]
+[04:25:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c212§6]
+[04:25:52] [Client thread/INFO]: [CHAT] goodandstar left the game
+[04:25:53] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c213§6]
+[04:25:53] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c214§6]
+[04:25:53] [Client thread/INFO]: [CHAT] 汐沐语丶 joined the game
+[04:25:53] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c215§6]
+[04:25:53] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c216§6]
+[04:25:53] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c217§6]
+[04:25:53] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c218§6]
+[04:25:53] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c219§6]
+[04:25:53] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c220§6]
+[04:25:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c221§6]
+[04:25:54] [Client thread/INFO]: [CHAT] 绝响丶 left the game
+[04:25:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c222§6]
+[04:25:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c223§6]
+[04:25:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c224§6]
+[04:25:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c225§6]
+[04:25:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c226§6]
+[04:25:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c227§6]
+[04:25:54] [Client thread/INFO]: [CHAT] mei_gui left the game
+[04:25:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c228§6]
+[04:25:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c229§6]
+[04:25:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c230§6]
+[04:25:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c231§6]
+[04:25:55] [Client thread/INFO]: [CHAT] Eons left the game
+[04:25:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c232§6]
+[04:25:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c233§6]
+[04:25:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c234§6]
+[04:25:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c235§6]
+[04:25:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c236§6]
+[04:25:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c237§6]
+[04:25:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c238§6]
+[04:25:56] [Client thread/INFO]: [CHAT] 春江听雨舟 left the game
+[04:25:56] [Client thread/INFO]: [CHAT] 烛枫 left the game
+[04:25:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c239§6]
+[04:25:56] [Client thread/INFO]: [CHAT] 元素Master北斗 left the game
+[04:25:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c240§6]
+[04:25:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c241§6]
+[04:25:57] [Client thread/INFO]: [CHAT] T流羽 left the game
+[04:25:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c242§6]
+[04:25:57] [Client thread/INFO]: [CHAT] raphus joined the game
+[04:25:57] [Client thread/INFO]: [CHAT] 遇见佳音oo1 joined the game
+[04:25:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c243§6]
+[04:25:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c244§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c245§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c246§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c247§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c248§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c249§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 薄雪 joined the game
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c250§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c251§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c252§6]
+[04:25:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c253§6]
+[04:25:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c254§6]
+[04:25:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c255§6]
+[04:25:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c256§6]
+[04:25:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c257§6]
+[04:25:59] [Client thread/INFO]: [CHAT] Cywoop joined the game
+[04:25:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c258§6]
+[04:25:59] [Client thread/INFO]: [CHAT] 蝎子赖赖 joined the game
+[04:25:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c259§6]
+[04:25:59] [Client thread/INFO]: [CHAT] 橙眼兔兔 joined the game
+[04:25:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c260§6]
+[04:25:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c261§6]
+[04:25:59] [Client thread/INFO]: [CHAT] 娜贝 left the game
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c262§6]
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c263§6]
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c264§6]
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c265§6]
+[04:26:00] [Client thread/INFO]: [CHAT] Huannnn left the game
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c266§6]
+[04:26:00] [Client thread/INFO]: [CHAT] Cywoop left the game
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c267§6]
+[04:26:00] [Client thread/INFO]: [CHAT] 橙眼兔兔 left the game
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c268§6]
+[04:26:00] [Client thread/INFO]: [CHAT] 希希意乱 joined the game
+[04:26:00] [Client thread/INFO]: [CHAT] Adwuyuan joined the game
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c269§6]
+[04:26:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c270§6]
+[04:26:00] [Client thread/INFO]: [CHAT] 素影 left the game
+[04:26:01] [Client thread/INFO]: [CHAT] 欺花 left the game
+[04:26:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c271§6]
+[04:26:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c272§6]
+[04:26:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c273§6]
+[04:26:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c274§6]
+[04:26:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c275§6]
+[04:26:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c276§6]
+[04:26:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c277§6]
+[04:26:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c278§6]
+[04:26:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c279§6]
+[04:26:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c280§6]
+[04:26:02] [Client thread/INFO]: [CHAT] [ClearLag] Removed 0 Entities!
+[04:26:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c281§6]
+[04:26:02] [Client thread/INFO]: [CHAT] 风帆的你 joined the game
+[04:26:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c282§6]
+[04:26:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c283§6]
+[04:26:02] [Client thread/INFO]: [CHAT] 处暑 left the game
+[04:26:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c284§6]
+[04:26:02] [Client thread/INFO]: [CHAT] 4211 left the game
+[04:26:02] [Client thread/INFO]: [CHAT] RichDYY left the game
+[04:26:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c285§6]
+[04:26:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c286§6]
+[04:26:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c287§6]
+[04:26:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c288§6]
+[04:26:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c289§6]
+[04:26:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c290§6]
+[04:26:03] [Client thread/INFO]: [CHAT] yizezzzz joined the game
+[04:26:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c291§6]
+[04:26:03] [Client thread/INFO]: [CHAT] 恋妃 joined the game
+[04:26:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c292§6]
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c293§6]
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c294§6]
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c295§6]
+[04:26:04] [Client thread/INFO]: [CHAT] 艾拉酱 left the game
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c296§6]
+[04:26:04] [Client thread/INFO]: [CHAT] Molly joined the game
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c297§6]
+[04:26:04] [Client thread/INFO]: [CHAT] 不会叠火的吟游 left the game
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c298§6]
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c299§6]
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c300§6]
+[04:26:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c301§6]
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c302§6]
+[04:26:05] [Client thread/INFO]: [CHAT] YQ颜柒 joined the game
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c303§6]
+[04:26:05] [Client thread/INFO]: [CHAT] 恋妃 left the game
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c304§6]
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c305§6]
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c306§6]
+[04:26:05] [Client thread/INFO]: [CHAT] 将杰龟的石头 left the game
+[04:26:05] [Client thread/INFO]: [CHAT] 我愧对这个元素 left the game
+[04:26:05] [Client thread/INFO]: [CHAT] twolox joined the game
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c307§6]
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c308§6]
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c309§6]
+[04:26:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c310§6]
+[04:26:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c311§6]
+[04:26:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c312§6]
+[04:26:06] [Client thread/INFO]: [CHAT] 星野苍岚 left the game
+[04:26:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c313§6]
+[04:26:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c314§6]
+[04:26:06] [Client thread/INFO]: [CHAT] lianyuy left the game
+[04:26:06] [Client thread/INFO]: [CHAT] 战部度 joined the game
+[04:26:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c315§6]
+[04:26:06] [Client thread/INFO]: [CHAT] ye湘伦 left the game
+[04:26:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c316§6]
+[04:26:06] [Client thread/INFO]: [CHAT] qiubaibai joined the game
+[04:26:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c317§6]
+[04:26:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c318§6]
+[04:26:07] [Client thread/INFO]: [CHAT] Refra1N joined the game
+[04:26:07] [Client thread/INFO]: [CHAT] 重生之我要玩鹦鹉 left the game
+[04:26:07] [Client thread/INFO]: [CHAT] Adwuyuan left the game
+[04:26:07] [Client thread/INFO]: [CHAT] 醉里挑灯看剑 joined the game
+[04:26:07] [Client thread/INFO]: [CHAT] 圣骑士NO5 joined the game
+[04:26:07] [Client thread/INFO]: [CHAT] EmiAresgl joined the game
+[04:26:07] [Client thread/INFO]: [CHAT] 第一轮烈阳 joined the game
+[04:26:07] [Client thread/INFO]: [CHAT] 遇见佳音oo1 left the game
+[04:26:08] [Client thread/INFO]: [CHAT] xia_xin left the game
+[04:26:08] [Client thread/INFO]: [CHAT] Bloved left the game
+[04:26:08] [Client thread/INFO]: [CHAT] 水愁 left the game
+[04:26:08] [Client thread/INFO]: [CHAT] 天天 joined the game
+[04:26:08] [Client thread/INFO]: [CHAT] 鱼法头 joined the game
+[04:26:08] [Client thread/INFO]: [CHAT] 蝎子赖赖 left the game
+[04:26:09] [Client thread/INFO]: [CHAT] 慕秋七念 left the game
+[04:26:09] [Client thread/INFO]: [CHAT] ttt111 left the game
+[04:26:09] [Client thread/INFO]: [CHAT] xiao_suaaa left the game
+[04:26:09] [Client thread/INFO]: [CHAT] 92虚先生 left the game
+[04:26:10] [Client thread/INFO]: [CHAT] 就睡o left the game
+[04:26:10] [Client thread/INFO]: [CHAT] 重装3号 left the game
+[04:26:11] [Client thread/INFO]: [CHAT] haommoe joined the game
+[04:26:12] [Client thread/INFO]: [CHAT] 战部度 left the game
+[04:26:12] [Client thread/INFO]: [CHAT] _雪樱糖衣花 joined the game
+[04:26:12] [Client thread/INFO]: [CHAT] 老年金猫喝稀饭 joined the game
+[04:26:12] [Client thread/INFO]: [CHAT] 北落野 joined the game
+[04:26:12] [Client thread/INFO]: [CHAT] 麻雀吹喇叭 joined the game
+[04:26:12] [Client thread/INFO]: [CHAT] haommoe left the game
+[04:26:13] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c319§6]
+[04:26:13] [Client thread/INFO]: [CHAT] 注定羊肉干 joined the game
+[04:26:13] [Client thread/INFO]: [CHAT] 无疆之休 joined the game
+[04:26:13] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c320§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c321§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 梦懿 joined the game
+[04:26:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c322§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c323§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c324§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 震震殿下 joined the game
+[04:26:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c325§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c326§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c327§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c328§6]
+[04:26:14] [Client thread/INFO]: [CHAT] 何谓生何谓死 joined the game
+[04:26:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c329§6]
+[04:26:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c330§6]
+[04:26:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c331§6]
+[04:26:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c332§6]
+[04:26:15] [Client thread/INFO]: [CHAT] 蓝若冰 joined the game
+[04:26:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c333§6]
+[04:26:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c334§6]
+[04:26:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c335§6]
+[04:26:15] [Client thread/INFO]: [CHAT] 糖無 joined the game
+[04:26:16] [Client thread/INFO]: [CHAT] 健美巨兽 joined the game
+[04:26:16] [Client thread/INFO]: [CHAT] 忆丶 joined the game
+[04:26:16] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c336§6]
+[04:26:16] [Client thread/INFO]: [CHAT] YTing_ joined the game
+[04:26:16] [Client thread/INFO]: [CHAT] 喵喵盾 left the game
+[04:26:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c337§6]
+[04:26:17] [Client thread/INFO]: [CHAT] 忆丶 left the game
+[04:26:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c338§6]
+[04:26:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c339§6]
+[04:26:17] [Client thread/INFO]: [CHAT] 汐沐语丶 left the game
+[04:26:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c340§6]
+[04:26:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c341§6]
+[04:26:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c342§6]
+[04:26:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c343§6]
+[04:26:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c344§6]
+[04:26:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c345§6]
+[04:26:18] [Client thread/INFO]: [CHAT] 好想喝椰奶 joined the game
+[04:26:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c346§6]
+[04:26:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c347§6]
+[04:26:18] [Client thread/INFO]: [CHAT] 墨峰云都 joined the game
+[04:26:18] [Client thread/INFO]: [CHAT] 伪恋yyds joined the game
+[04:26:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c348§6]
+[04:26:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c349§6]
+[04:26:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c350§6]
+[04:26:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c351§6]
+[04:26:19] [Client thread/INFO]: [CHAT] 铸币又巴巴 joined the game
+[04:26:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c352§6]
+[04:26:19] [Client thread/INFO]: [CHAT] 健美巨兽 left the game
+[04:26:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c353§6]
+[04:26:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c354§6]
+[04:26:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c355§6]
+[04:26:19] [Client thread/INFO]: [CHAT] 树无秋 left the game
+[04:26:19] [Client thread/INFO]: [CHAT] BBDN01 joined the game
+[04:26:19] [Client thread/INFO]: [CHAT] 朝与思 joined the game
+[04:26:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c356§6]
+[04:26:20] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c357§6]
+[04:26:20] [Client thread/INFO]: [CHAT] Molly left the game
+[04:26:20] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c358§6]
+[04:26:20] [Client thread/INFO]: [CHAT] 风帆的你 left the game
+[04:26:21] [Client thread/INFO]: [CHAT] yizezzzz left the game
+[04:26:21] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c359§6]
+[04:26:21] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c360§6]
+[04:26:22] [Client thread/INFO]: [CHAT] 缘来如此 left the game
+[04:26:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c361§6]
+[04:26:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c362§6]
+[04:26:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c363§6]
+[04:26:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c364§6]
+[04:26:22] [Client thread/INFO]: [CHAT] 私募用力1 left the game
+[04:26:22] [Client thread/INFO]: [CHAT] 月影饮琉璃 left the game
+[04:26:22] [Client thread/INFO]: Setting Object Holders with value...
+[04:26:22] [Client thread/INFO]: Object Holders set.
+[04:26:27] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:28] [Netty Client IO #14/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:34] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:34] [Netty Client IO #15/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:39] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:40] [Netty Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:43] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:43] [Netty Client IO #1/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:44] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:45] [Netty Client IO #3/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:46] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:47] [Netty Client IO #2/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:47] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:49] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:49] [Netty Client IO #5/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:50] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:51] [Netty Client IO #7/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:54] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:54] [Netty Client IO #6/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:55] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:56] [Netty Client IO #8/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:57] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:26:58] [Netty Client IO #9/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:26:59] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:27:00] [Netty Client IO #10/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:27:00] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:27:04] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:27:04] [Netty Client IO #12/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[04:27:05] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:27:06] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:27:07] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[04:27:08] [Netty Client IO #15/INFO]: Aborting client handshake "VANILLA"
+[04:27:08] [Netty Client IO #15/INFO]: [Netty Client IO #15] Client side vanilla connection established
+[04:27:08] [Netty Client IO #15/INFO]: [eos.moe.armourers.oh:a:162]: 兼容模型时装
+[04:27:08] [Client thread/INFO]: [CHAT] Auto Reconnect enabled. IP/Port: 127.0.0.1:25565
+[04:27:09] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiDownloadTerrain
+[04:27:09] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Sigil] 受击监测基线: 生命 20.0/20.0 吸收 0.0
+[04:27:09] [Client thread/INFO]: [CHAT] 温阳融冬 joined the game
+[04:27:09] [Client thread/INFO]: [CHAT] 圣骑士NO1 left the game
+[04:27:09] [Client thread/INFO]: [CHAT] 空山有雪_ joined the game
+[04:27:09] [Client thread/INFO]: [CHAT] 私募用力1 joined the game
+[04:27:09] [Client thread/INFO]: [CHAT] 幻海因被过度挤压而死
+[04:27:09] [Client thread/INFO]: [CHAT] 傲娇少女 left the game
+[04:27:10] [Client thread/INFO]: [CHAT] DouJiang left the game
+[04:27:10] [Client thread/INFO]: [CHAT] 前年昂日 joined the game
+[04:27:10] [Client thread/INFO]: [CHAT] SAIKAI left the game
+[04:27:10] [Client thread/INFO]: [CHAT] 小乖怡 joined the game
+[04:27:10] [Client thread/INFO]: [CHAT] 一猫 left the game
+[04:27:10] [Client thread/INFO]: [CHAT] 幻海 left the game
+[04:27:10] [Client thread/INFO]: [CHAT] 南阳 left the game
+[04:27:10] [Client thread/INFO]: [com.example.moreshow.feature.b.a:a:-1]: DIRECT_JOIN_TARGET_ZONE=41
+[04:27:10] [Client thread/INFO]: [com.example.moreshow.feature.b.a:a:-1]: DIRECT_JOIN_TARGET_PAYLOAD=4000000005053431e58cba00000000
+[04:27:10] [Client thread/INFO]: [com.example.moreshow.feature.b.a:a:-1]: DIRECT_JOIN_SEND_OK
+[04:27:11] [Client thread/INFO]: [CHAT] 冻糯糯 joined the game
+[04:27:11] [Client thread/INFO]: [CHAT] 果子 joined the game
+[04:27:11] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Rune] 进服自动同步云端 BOSS 列表
+[04:27:11] [Client thread/INFO]: [CHAT] 农fgsg joined the game
+[04:27:11] [MSE-Announce/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Announce] 播报「进入」公告（本次连接仅此一次）
+[04:27:11] [Client thread/INFO]: [CHAT] §a[MoreShow-Extra] §f当前版本为1.0.5FIX，最新版版本为1.0.7\nEpic脱盒免费使用 QQ群：1128955376\n新增 新团本 的符文切换 以及完善切换系统\n新增虚妄显示\n部分入无法使用远程更新BOSS列表请使用证书修复工具\n下载地址：https://elementsystem.xyz/downloads/MoreShow_Extra-1.0.7.jar
+[04:27:11] [Client thread/INFO]: [CHAT] 正在加载账号列表...
+[04:27:11] [Client thread/ERROR]: 无法加载的鼠标图片:Mouse.png
+org.embeddedt.vintagefix.util.FastFileNotFoundException: dragoncore:mouse.png
+[04:27:11] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiGameOver
+[04:27:11] [Client thread/INFO]: [CHAT] 温阳融冬因被过度挤压而死
+[04:27:11] [Client thread/INFO]: [CHAT] 张雪峰跑男因被过度挤压而死
+[04:27:11] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiGameOver
+[04:27:12] [Client thread/INFO]: [CHAT] 果子 left the game
+[04:27:12] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiGameOver
+[04:27:13] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiDownloadTerrain
+[04:27:13] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiDownloadTerrain
+[04:27:13] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Sigil] 受击监测基线: 生命 20.0/20.0 吸收 0.0
+[04:27:14] [Client thread/INFO]: [CHAT] lijiuyuan joined the game
+[04:27:14] [Client thread/INFO]: [CHAT] 失屿0 left the game
+[04:27:14] [Client thread/INFO]: [CHAT] 毕业生艾尼 left the game
+[04:27:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c2§6]
+[04:27:14] [Client thread/INFO]: [CHAT] 空山有雪_ left the game
+[04:27:14] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c3§6]
+[04:27:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c4§6]
+[04:27:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c5§6]
+[04:27:15] [Client thread/INFO]: [CHAT] Br0ke left the game
+[04:27:15] [Client thread/INFO]: [CHAT] 南梁斩尽 left the game
+[04:27:15] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c6§6]
+[04:27:15] [Client thread/INFO]: [CHAT] lijiuyuan left the game
+[04:27:16] [Client thread/INFO]: [CHAT] 贝拉kira因被过度挤压而死
+[04:27:16] [Client thread/INFO]: [CHAT] dabaozi2333 left the game
+[04:27:16] [Client thread/INFO]: [CHAT] 胡桃我的宝錒 left the game
+[04:27:16] [Client thread/INFO]: [CHAT] Godzilla_FS因被过度挤压而死
+[04:27:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c7§6]
+[04:27:17] [Client thread/INFO]: [CHAT] czgxlpcfz left the game
+[04:27:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c8§6]
+[04:27:17] [Client thread/INFO]: [CHAT] fxdppn joined the game
+[04:27:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c9§6]
+[04:27:17] [Client thread/INFO]: [CHAT] 五月 joined the game
+[04:27:17] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c10§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c11§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c12§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 巳月 joined the game
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c13§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 追番的吟游 joined the game
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c14§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 罗密欧 left the game
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c15§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 前年昂日 left the game
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c16§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 萨克斯 joined the game
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c17§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 默写温柔丶 left the game
+[04:27:18] [Client thread/INFO]: [CHAT] 旺仔小馒头 left the game
+[04:27:18] [Client thread/INFO]: [CHAT] 狂笑的蛇将写小说 joined the game
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c18§6]
+[04:27:18] [Client thread/INFO]: [CHAT] 踩板凳就膏了 left the game
+[04:27:18] [Client thread/INFO]: [CHAT] 無殇 joined the game
+[04:27:18] [Client thread/INFO]: [CHAT] 嗜血石像 joined the game
+[04:27:18] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c19§6]
+[04:27:19] [Client thread/INFO]: [CHAT] wzhqaq joined the game
+[04:27:19] [Client thread/INFO]: [CHAT] 苏西c joined the game
+[04:27:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c20§6]
+[04:27:19] [Client thread/INFO]: [CHAT] 海心落 joined the game
+[04:27:19] [Client thread/INFO]: [CHAT] fxdppn left the game
+[04:27:19] [Client thread/INFO]: [CHAT] Eric_Victor joined the game
+[04:27:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c21§6]
+[04:27:19] [Client thread/INFO]: [CHAT] 连城雪 joined the game
+[04:27:19] [Client thread/INFO]: [CHAT] 肉蛋冲1 joined the game
+[04:27:19] [Client thread/INFO]: [CHAT] 小鸟游十花 joined the game
+[04:27:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c22§6]
+[04:27:19] [Client thread/INFO]: [CHAT] xgny left the game
+[04:27:19] [Client thread/INFO]: [CHAT] 星空下的本 joined the game
+[04:27:19] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c23§6]
+[04:27:19] [Client thread/INFO]: [CHAT] 狂笑的蛇将写小说 left the game
+[04:27:19] [Client thread/INFO]: [CHAT] 屯屯鼠冲压 joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] 若我化作回忆 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 嗜血石像 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 言合枫 joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] jiurijiuci12 joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] 海心落 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 往往往往天 joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c24§6]
+[04:27:20] [Client thread/INFO]: [CHAT] 远距离 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 尬笑的嬉笑村民 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 空城i left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 小小贱豪一枚 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 请主上惩罚天 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 酷档里有擎天柱 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 希腊奶 left the game
+[04:27:20] [Client thread/INFO]: [CHAT] 秦时怡 joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] xzcklhaiuk joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] 小苏ovo joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] 有趣qwq joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] 懒三清拧瓶盖 joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] 火花不凋零 joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] Rain_Prime joined the game
+[04:27:20] [Client thread/INFO]: [CHAT] 恋与纪因被过度挤压而死
+[04:27:21] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c25§6]
+[04:27:21] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c26§6]
+[04:27:21] [Client thread/INFO]: [CHAT] Ririmu left the game
+[04:27:21] [Client thread/INFO]: [CHAT] 摇摇乐 joined the game
+[04:27:21] [Client thread/INFO]: [CHAT] sunboss left the game
+[04:27:21] [Client thread/INFO]: [CHAT] 可碧骑士 joined the game
+[04:27:21] [Client thread/INFO]: [CHAT] R_plume left the game
+[04:27:21] [Client thread/INFO]: [CHAT] 喵喵老实猫 joined the game
+[04:27:21] [Client thread/INFO]: [CHAT] 五月 left the game
+[04:27:21] [Client thread/INFO]: [CHAT] S_A_N joined the game
+[04:27:21] [Client thread/INFO]: [CHAT] 火花不凋零 left the game
+[04:27:21] [Client thread/INFO]: [CHAT] 清柚 joined the game
+[04:27:21] [Client thread/INFO]: [CHAT] Rain_Prime left the game
+[04:27:21] [Client thread/INFO]: [CHAT] 神域丶小鱼er joined the game
+[04:27:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c27§6]
+[04:27:22] [Client thread/INFO]: [CHAT] TheCunYu left the game
+[04:27:22] [Client thread/INFO]: [CHAT] ATM110 joined the game
+[04:27:22] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c28§6]
+[04:27:23] [Client thread/INFO]: [CHAT] 小萌新xyzs left the game
+[04:27:23] [Client thread/INFO]: [CHAT] 重生之我是豪爷 joined the game
+[04:27:23] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c29§6]
+[04:27:23] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c30§6]
+[04:27:23] [Client thread/INFO]: [CHAT] Rym520 left the game
+[04:27:24] [Client thread/INFO]: [CHAT] 重生之我是豪爷 left the game
+[04:27:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c31§6]
+[04:27:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c32§6]
+[04:27:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c33§6]
+[04:27:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c34§6]
+[04:27:24] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c35§6]
+[04:27:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c36§6]
+[04:27:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c37§6]
+[04:27:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c38§6]
+[04:27:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c39§6]
+[04:27:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c40§6]
+[04:27:25] [Client thread/INFO]: [CHAT] 巳月 left the game
+[04:27:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c41§6]
+[04:27:25] [Client thread/INFO]: [CHAT] 花落烟飘 left the game
+[04:27:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c42§6]
+[04:27:25] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c43§6]
+[04:27:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c44§6]
+[04:27:26] [Client thread/INFO]: [CHAT] 山中有小鱼 left the game
+[04:27:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c45§6]
+[04:27:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c46§6]
+[04:27:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c47§6]
+[04:27:26] [Client thread/INFO]: [CHAT] 贝拉kira left the game
+[04:27:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c48§6]
+[04:27:26] [Client thread/INFO]: [CHAT] 清柚 left the game
+[04:27:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c49§6]
+[04:27:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c50§6]
+[04:27:26] [Client thread/INFO]: [CHAT] 蔷薇开花圆巨强 joined the game
+[04:27:26] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c51§6]
+[04:27:27] [Client thread/INFO]: [CHAT] _xiaokai joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] 枕星而眠 joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c52§6]
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c53§6]
+[04:27:27] [Client thread/INFO]: [CHAT] 连城雪 left the game
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c54§6]
+[04:27:27] [Client thread/INFO]: [CHAT] Phagocyte left the game
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c55§6]
+[04:27:27] [Client thread/INFO]: [CHAT] 星净因被过度挤压而死
+[04:27:27] [Client thread/INFO]: [CHAT] 墨_梦牧 left the game
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c56§6]
+[04:27:27] [Client thread/INFO]: [CHAT] 晴天下的彩虹 left the game
+[04:27:27] [Client thread/INFO]: [CHAT] 戒烟不回头 joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c57§6]
+[04:27:27] [Client thread/INFO]: [CHAT] SNOWO left the game
+[04:27:27] [Client thread/INFO]: [CHAT] 156420684 joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] unique飒冷 joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c58§6]
+[04:27:27] [Client thread/INFO]: [CHAT] SDFCS joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c59§6]
+[04:27:27] [Client thread/INFO]: [CHAT] 愿雪 joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c60§6]
+[04:27:27] [Client thread/INFO]: [CHAT] 神了_ joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] 春嵐 joined the game
+[04:27:27] [Client thread/INFO]: [CHAT] Rain_Prime joined the game§6 [§7x§c2§6]
+[04:27:27] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c61§6]
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c62§6]
+[04:27:28] [Client thread/INFO]: [CHAT] 沁亚 joined the game
+[04:27:28] [Client thread/INFO]: [CHAT] 恋与纪 left the game
+[04:27:28] [Client thread/INFO]: [CHAT] Ikuyo joined the game
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c63§6]
+[04:27:28] [Client thread/INFO]: [CHAT] xzcklhaiuk left the game
+[04:27:28] [Client thread/INFO]: [CHAT] owcca joined the game
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c64§6]
+[04:27:28] [Client thread/INFO]: [CHAT] 小坑 joined the game
+[04:27:28] [Client thread/INFO]: [CHAT] LunaTide left the game
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c65§6]
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c66§6]
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c67§6]
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c68§6]
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c69§6]
+[04:27:28] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c70§6]
+[04:27:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c71§6]
+[04:27:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c72§6]
+[04:27:29] [Client thread/INFO]: [CHAT] owcca left the game
+[04:27:29] [Client thread/INFO]: [CHAT] 低米 joined the game
+[04:27:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c73§6]
+[04:27:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c74§6]
+[04:27:29] [Client thread/INFO]: [CHAT] Eric_Victor因被过度挤压而死
+[04:27:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c75§6]
+[04:27:29] [Client thread/INFO]: [CHAT] Cywoop left the game
+[04:27:29] [Client thread/INFO]: [CHAT] 聋哑阿吧人 joined the game
+[04:27:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c76§6]
+[04:27:29] [Client thread/INFO]: [CHAT] 小乖怡因被过度挤压而死
+[04:27:29] [Client thread/INFO]: [CHAT] ATM110因被过度挤压而死
+[04:27:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c77§6]
+[04:27:29] [Client thread/INFO]: [CHAT] 雲祈 left the game
+[04:27:29] [Client thread/INFO]: [CHAT] 小小楠QAQ joined the game
+[04:27:29] [Client thread/INFO]: [CHAT] 影入她心化为隐 left the game
+[04:27:29] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c78§6]
+[04:27:29] [Client thread/INFO]: [CHAT] 司屹 joined the game
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c79§6]
+[04:27:30] [Client thread/INFO]: [CHAT] BaiLuuOvO left the game
+[04:27:30] [Client thread/INFO]: [CHAT] 渔纨 joined the game
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c80§6]
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c81§6]
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c82§6]
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c83§6]
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c84§6]
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c85§6]
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c86§6]
+[04:27:30] [Client thread/INFO]: [CHAT] 司屹 left the game
+[04:27:30] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c87§6]
+[04:27:30] [Client thread/INFO]: [CHAT] 妹是天 joined the game
+[04:27:31] [Client thread/INFO]: [CHAT] S_A_N因被过度挤压而死
+[04:27:31] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c88§6]
+[04:27:31] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c89§6]
+[04:27:31] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c90§6]
+[04:27:31] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c91§6]
+[04:27:31] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c92§6]
+[04:27:31] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c93§6]
+[04:27:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c94§6]
+[04:27:32] [Client thread/INFO]: [CHAT] 小鸟游十花 left the game
+[04:27:32] [Client thread/INFO]: [CHAT] 亚洲貘 joined the game
+[04:27:32] [Client thread/INFO]: [CHAT] wzhqaq因被过度挤压而死
+[04:27:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c95§6]
+[04:27:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c96§6]
+[04:27:32] [Client thread/INFO]: [CHAT] 戒烟不回头因被过度挤压而死
+[04:27:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c97§6]
+[04:27:32] [Client thread/INFO]: [CHAT] 156420684因被过度挤压而死
+[04:27:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c98§6]
+[04:27:32] [Client thread/INFO]: [CHAT] 喵喵老实猫 left the game
+[04:27:32] [Client thread/INFO]: [CHAT] 蔷薇开花圆巨强因被过度挤压而死
+[04:27:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c99§6]
+[04:27:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c100§6]
+[04:27:32] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c101§6]
+[04:27:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c102§6]
+[04:27:33] [Client thread/INFO]: [CHAT] 伤仲永 left the game
+[04:27:33] [Client thread/INFO]: [CHAT] wzhqaq left the game
+[04:27:33] [Client thread/INFO]: [CHAT] 秦时怡 left the game
+[04:27:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c103§6]
+[04:27:33] [Client thread/INFO]: [CHAT] 低米 left the game
+[04:27:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c104§6]
+[04:27:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c105§6]
+[04:27:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c106§6]
+[04:27:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c107§6]
+[04:27:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c108§6]
+[04:27:33] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c109§6]
+[04:27:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c110§6]
+[04:27:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c111§6]
+[04:27:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c112§6]
+[04:27:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c113§6]
+[04:27:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c114§6]
+[04:27:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c115§6]
+[04:27:34] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c116§6]
+[04:27:35] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c117§6]
+[04:27:35] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c118§6]
+[04:27:35] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c119§6]
+[04:27:35] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c120§6]
+[04:27:35] [Client thread/INFO]: [CHAT] 神域丶小鱼er因被过度挤压而死
+[04:27:35] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c121§6]
+[04:27:35] [Client thread/INFO]: [CHAT] 晏清 left the game
+[04:27:35] [Client thread/INFO]: [CHAT] 小坑 left the game
+[04:27:35] [Client thread/INFO]: [CHAT] 渔纨 left the game
+[04:27:35] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c122§6]
+[04:27:35] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c123§6]
+[04:27:35] [Client thread/INFO]: [CHAT] 张雪峰跑男 left the game
+[04:27:35] [Client thread/INFO]: [CHAT] ATM110 left the game
+[04:27:35] [Client thread/INFO]: [CHAT] 终出萧雪久是霜 joined the game
+[04:27:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c124§6]
+[04:27:36] [Client thread/INFO]: [CHAT] 蔷薇开花圆巨强 left the game
+[04:27:36] [Client thread/INFO]: [CHAT] 迪克炒鸡大大大 left the game
+[04:27:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c125§6]
+[04:27:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c126§6]
+[04:27:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c127§6]
+[04:27:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c128§6]
+[04:27:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c129§6]
+[04:27:36] [Client thread/INFO]: [CHAT] 离人赋 joined the game
+[04:27:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c130§6]
+[04:27:36] [Client thread/INFO]: [CHAT] MZ_XiaoLiu joined the game
+[04:27:36] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c131§6]
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c132§6]
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c133§6]
+[04:27:37] [Client thread/INFO]: [CHAT] 疾风 joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c134§6]
+[04:27:37] [Client thread/INFO]: [CHAT] 想赚钱 joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] yzcwc joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 浮笙路人假 joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c135§6]
+[04:27:37] [Client thread/INFO]: [CHAT] Atoxus joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c136§6]
+[04:27:37] [Client thread/INFO]: [CHAT] 朱鹭咲澪 joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] FakeEmperor5 joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 起风_wind joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c137§6]
+[04:27:37] [Client thread/INFO]: [CHAT] 夜月打林风声忆 joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 星净 left the game
+[04:27:37] [Client thread/INFO]: [CHAT] 苍山恋雪 joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c138§6]
+[04:27:37] [Client thread/INFO]: [CHAT] 苏西c left the game
+[04:27:37] [Client thread/INFO]: [CHAT] homo事Krx joined the game
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c139§6]
+[04:27:37] [Client thread/INFO]: [CHAT] 春嵐因被过度挤压而死
+[04:27:37] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c140§6]
+[04:27:37] [Client thread/INFO]: [CHAT] S_A_N left the game
+[04:27:37] [Client thread/INFO]: [CHAT] Rain_Prime因被过度挤压而死
+[04:27:38] [Client thread/INFO]: [CHAT] 芜湖桃 joined the game
+[04:27:38] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c141§6]
+[04:27:38] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c142§6]
+[04:27:38] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiGameOver
+[04:27:38] [Client thread/INFO]: [CHAT] 温阳融冬因被过度挤压而死§6 [§7x§c2§6]
+[04:27:38] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiGameOver
+[04:27:38] [Client thread/INFO]: [CHAT] unique飒冷 left the game
+[04:27:38] [Client thread/INFO]: [CHAT] 酷档里有擎天柱 joined the game
+[04:27:38] [Client thread/INFO]: [CHAT] 空城i joined the game
+[04:27:38] [Client thread/INFO]: [CHAT] 离人赋 left the game
+[04:27:39] [Client thread/INFO]: [CHAT] 言合枫因被过度挤压而死
+[04:27:39] [Client thread/INFO]: [CHAT] 聋哑阿吧人 left the game
+[04:27:39] [Client thread/INFO]: [CHAT] 赤赤随意 joined the game
+[04:27:40] [Client thread/INFO]: [CHAT] 無殇 left the game
+[04:27:40] [Client thread/INFO]: [CHAT] 肉肉雷姆 joined the game
+[04:27:40] [Client thread/INFO]: [CHAT] 冻糯糯 left the game
+[04:27:40] [Client thread/INFO]: [CHAT] yinyoushiren joined the game
+[04:27:40] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiGameOver
+[04:27:40] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiDownloadTerrain
+[04:27:41] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiDownloadTerrain
+[04:27:41] [Client thread/INFO]: [CHAT] 亚洲貘因被过度挤压而死
+[04:27:41] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Sigil] 受击监测基线: 生命 20.0/20.0 吸收 0.0
+[04:27:41] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c143§6]
+[04:27:41] [Client thread/INFO]: [CHAT] 古月方源_ left the game
+[04:27:41] [Client thread/INFO]: [CHAT] Running_Ji joined the game
+[04:27:42] [Client thread/INFO]: [CHAT] 可碧骑士因被过度挤压而死
+[04:27:42] [Client thread/INFO]: [CHAT] 愿雪因被过度挤压而死
+[04:27:42] [Client thread/INFO]: [CHAT] 想赚钱 left the game
+[04:27:42] [Client thread/INFO]: [CHAT] MZ_XiaoLiu left the game
+[04:27:42] [Client thread/INFO]: [CHAT] 肉蛋冲1 left the game
+[04:27:43] [Client thread/INFO]: [CHAT] Pollux_波吕X left the game
+[04:27:44] [Client thread/INFO]: [CHAT] 247 left the game
+[04:27:45] [Client thread/INFO]: [CHAT] 摇摇乐 left the game
+[04:27:46] [Client thread/INFO]: [CHAT] jiurijiuci12 left the game
+[04:27:46] [Client thread/INFO]: [CHAT] 屯屯鼠冲压 left the game
+[04:27:46] [Client thread/INFO]: [CHAT] 神了_ left the game
+[04:27:47] [Client thread/INFO]: [CHAT] 悲鸣屿 left the game
+[04:27:48] [Client thread/INFO]: [CHAT] 海心落 joined the game§6 [§7x§c2§6]
+[04:27:48] [Client thread/INFO]: [CHAT] 妹是天 left the game
+[04:27:48] [Client thread/INFO]: [CHAT] 皮皇酱 joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 朱鹭咲澪 left the game
+[04:27:48] [Client thread/INFO]: [CHAT] Gailgun joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 原神魔怔臂 joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 墨灵慕白_变数 joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 兰枫v若梦 joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 剑浩空 left the game
+[04:27:48] [Client thread/INFO]: [CHAT] 金库御用大T joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 不贪不会玩 joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 秃顶OwO joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 封呼 joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 玛修_基列莱特 joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 明不在 joined the game
+[04:27:48] [Client thread/INFO]: [CHAT] 火花不凋零 joined the game§6 [§7x§c2§6]
+[04:27:49] [Client thread/INFO]: [CHAT] 农fgsg left the game
+[04:27:49] [Client thread/INFO]: [CHAT] 猫耄耄耄 joined the game
+[04:27:49] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c144§6]
+[04:27:49] [Client thread/INFO]: [CHAT] homo事Krx因被过度挤压而死
+[04:27:49] [Client thread/INFO]: [CHAT] 火花不凋零 left the game§6 [§7x§c2§6]
+[04:27:49] [Client thread/INFO]: [CHAT] 农fgsfs joined the game
+[04:27:50] [Client thread/INFO]: [CHAT] 赤赤随意因被过度挤压而死
+[04:27:50] [Client thread/INFO]: [CHAT] 猫耄耄耄 left the game
+[04:27:50] [Client thread/INFO]: [CHAT] 旧世纪的遗物 joined the game
+[04:27:50] [Client thread/INFO]: [CHAT] 戒烟不回头 left the game
+[04:27:50] [Client thread/INFO]: [CHAT] 蕾米埃尔乄 joined the game
+[04:27:50] [Client thread/INFO]: [CHAT] homo事Krx left the game
+[04:27:50] [Client thread/INFO]: [CHAT] 替换三 joined the game
+[04:27:51] [Client thread/INFO]: [CHAT] 浮笙路人假 left the game
+[04:27:51] [Client thread/INFO]: [CHAT] 雨札儿 joined the game
+[04:27:51] [Client thread/INFO]: [CHAT] 神域丶小鱼er left the game
+[04:27:51] [Client thread/INFO]: [CHAT] 爱打篮球的鸡哥儿 joined the game
+[04:27:51] [Client thread/INFO]: [CHAT] 言合枫 left the game
+[04:27:51] [Client thread/INFO]: [CHAT] StarWatcher joined the game
+[04:27:52] [Client thread/INFO]: [CHAT] 兰枫v若梦 left the game
+[04:27:52] [Client thread/INFO]: [CHAT] 霸道的力量 joined the game
+[04:27:52] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c145§6]
+[04:27:52] [Client thread/INFO]: [CHAT] 有趣qwq left the game
+[04:27:52] [Client thread/INFO]: [CHAT] a丶枫叶 joined the game
+[04:27:52] [Client thread/INFO]: [CHAT] 追番的吟游 left the game
+[04:27:52] [Client thread/INFO]: [CHAT] 河流之主蒋浙命 joined the game
+[04:27:53] [Client thread/INFO]: [CHAT] 旧世纪的遗物 left the game
+[04:27:53] [Client thread/INFO]: [CHAT] 一二二 left the game
+[04:27:53] [Client thread/INFO]: [CHAT] yzcwc left the game
+[04:27:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c146§6]
+[04:27:54] [Client thread/INFO]: [CHAT] 离人赋 joined the game§6 [§7x§c2§6]
+[04:27:54] [Client thread/INFO]: [CHAT] 懒三清拧瓶盖 left the game
+[04:27:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c147§6]
+[04:27:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c148§6]
+[04:27:54] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c149§6]
+[04:27:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c150§6]
+[04:27:55] [Client thread/INFO]: [CHAT] 小乖怡 left the game
+[04:27:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c151§6]
+[04:27:55] [Client thread/INFO]: [CHAT] 小小楠QAQ left the game
+[04:27:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c152§6]
+[04:27:55] [Client thread/INFO]: [CHAT] StarWatcher left the game
+[04:27:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c153§6]
+[04:27:55] [Client thread/INFO]: [CHAT] 疾风 left the game
+[04:27:55] [Client thread/INFO]: [CHAT] 春嵐 left the game
+[04:27:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c154§6]
+[04:27:55] [Client thread/INFO]: [CHAT] 替换三 left the game
+[04:27:55] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c155§6]
+[04:27:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c156§6]
+[04:27:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c157§6]
+[04:27:56] [Client thread/INFO]: [CHAT] 小苏ovo left the game
+[04:27:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c158§6]
+[04:27:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c159§6]
+[04:27:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c160§6]
+[04:27:56] [Client thread/INFO]: [CHAT] 小坛坛坛 joined the game
+[04:27:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c161§6]
+[04:27:56] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c162§6]
+[04:27:57] [Client thread/INFO]: [CHAT] 踩板凳就高了 joined the game
+[04:27:57] [Client thread/INFO]: [CHAT] latiaolover joined the game
+[04:27:57] [Client thread/INFO]: [CHAT] 无痕_wuhen joined the game
+[04:27:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c163§6]
+[04:27:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c164§6]
+[04:27:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c165§6]
+[04:27:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c166§6]
+[04:27:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c167§6]
+[04:27:57] [Client thread/INFO]: [CHAT] 离人赋 left the game§6 [§7x§c2§6]
+[04:27:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c168§6]
+[04:27:57] [Client thread/INFO]: [CHAT] 小坛坛坛 left the game
+[04:27:57] [Client thread/INFO]: [CHAT] 门槛N王朝 joined the game
+[04:27:57] [Client thread/INFO]: [CHAT] 丁某q joined the game
+[04:27:57] [Client thread/INFO]: [CHAT] 雨时樱丶瓦尔基里 joined the game
+[04:27:57] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c169§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 暴龙战士666 joined the game
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c170§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c171§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 石头人保护中心 joined the game
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c172§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 欣染 joined the game
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c173§6]
+[04:27:58] [Client thread/INFO]: [CHAT] Astond joined the game
+[04:27:58] [Client thread/INFO]: [CHAT] 火花不凋零 joined the game§6 [§7x§c3§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c174§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 无痕_wuhen left the game
+[04:27:58] [Client thread/INFO]: [CHAT] 批发门槛t2 joined the game
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c175§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c176§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c177§6]
+[04:27:58] [Client thread/INFO]: [CHAT] 萨克斯 left the game
+[04:27:58] [Client thread/INFO]: [CHAT] 落九尘 joined the game
+[04:27:58] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c178§6]
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c179§6]
+[04:27:59] [Client thread/INFO]: [CHAT] YYke joined the game
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c180§6]
+[04:27:59] [Client thread/INFO]: [CHAT] 夜月打林风声忆 left the game
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c181§6]
+[04:27:59] [Client thread/INFO]: [CHAT] Ikuyo left the game
+[04:27:59] [Client thread/INFO]: [CHAT] 林中自有芳香在 joined the game
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c182§6]
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c183§6]
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c184§6]
+[04:27:59] [Client thread/INFO]: [CHAT] Gailgun left the game
+[04:27:59] [Client thread/INFO]: [CHAT] ovo季伯常ovo joined the game
+[04:27:59] [Client thread/INFO]: [CHAT] 火花不凋零 left the game§6 [§7x§c3§6]
+[04:27:59] [Client thread/INFO]: [CHAT] 欢闹浮沉 joined the game
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c185§6]
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c186§6]
+[04:27:59] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c187§6]
+[04:27:59] [Client thread/INFO]: [CHAT] _xiaokai left the game
+[04:27:59] [Client thread/INFO]: [CHAT] 批发门槛t2 left the game
+[04:27:59] [Client thread/INFO]: [CHAT] 8989we joined the game
+[04:28:00] [Client thread/INFO]: [CHAT] 糖坦 joined the game
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c188§6]
+[04:28:00] [Client thread/INFO]: [CHAT] 156420684 left the game
+[04:28:00] [Client thread/INFO]: [CHAT] Yankies_ joined the game
+[04:28:00] [Client thread/INFO]: [CHAT] 苍山恋雪 left the game
+[04:28:00] [Client thread/INFO]: [CHAT] 泡芙芙 joined the game
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c189§6]
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c190§6]
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c191§6]
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c192§6]
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c193§6]
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c194§6]
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c195§6]
+[04:28:00] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c196§6]
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c197§6]
+[04:28:01] [Client thread/INFO]: [CHAT] 糖坦 left the game
+[04:28:01] [Client thread/INFO]: [CHAT] 薄雪 joined the game
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c198§6]
+[04:28:01] [Client thread/INFO]: [CHAT] 海心落 left the game
+[04:28:01] [Client thread/INFO]: [CHAT] 墨染希 joined the game
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c199§6]
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c200§6]
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c201§6]
+[04:28:01] [Client thread/INFO]: [CHAT] 愿雪 left the game
+[04:28:01] [Client thread/INFO]: [CHAT] 芜湖桃 left the game
+[04:28:01] [Client thread/INFO]: [CHAT] 躬身之祁六三滑翔 joined the game
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c202§6]
+[04:28:01] [Client thread/INFO]: [CHAT] 门槛N王朝 left the game
+[04:28:01] [Client thread/INFO]: [CHAT] Rain_Prime left the game
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c203§6]
+[04:28:01] [Client thread/INFO]: [CHAT] SDFCS left the game
+[04:28:01] [Client thread/INFO]: [CHAT] 柚柚awa joined the game
+[04:28:01] [Client thread/INFO]: [CHAT] 古月子 joined the game
+[04:28:01] [Client thread/INFO]: [CHAT] 金库御用大T left the game
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c204§6]
+[04:28:01] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c205§6]
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c206§6]
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c207§6]
+[04:28:02] [Client thread/INFO]: [CHAT] 尬笑的嬉笑村民 joined the game
+[04:28:02] [Client thread/INFO]: [CHAT] 夏目丶 joined the game
+[04:28:02] [Client thread/INFO]: [CHAT] L_MEI_GUI joined the game
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c208§6]
+[04:28:02] [Client thread/INFO]: [CHAT] 星空下的本 left the game
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c209§6]
+[04:28:02] [Client thread/INFO]: [CHAT] YYke left the game
+[04:28:02] [Client thread/INFO]: [CHAT] Yq_ joined the game
+[04:28:02] [Client thread/INFO]: [CHAT] 枕星而眠 left the game
+[04:28:02] [Client thread/INFO]: [CHAT] 肉饼爱好者 joined the game
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c210§6]
+[04:28:02] [Client thread/INFO]: [CHAT] 谏盗 joined the game
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c211§6]
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c212§6]
+[04:28:02] [Client thread/INFO]: [CHAT] 墨灵慕白_变数 left the game
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c213§6]
+[04:28:02] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c214§6]
+[04:28:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c215§6]
+[04:28:03] [Client thread/INFO]: [CHAT] 暴龙战士666 left the game
+[04:28:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c216§6]
+[04:28:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c217§6]
+[04:28:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c218§6]
+[04:28:03] [Client thread/INFO]: [CHAT] 肉饼爱好者 left the game
+[04:28:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c219§6]
+[04:28:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c220§6]
+[04:28:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c221§6]
+[04:28:03] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c222§6]
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c223§6]
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c224§6]
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c225§6]
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c226§6]
+[04:28:04] [Client thread/INFO]: [CHAT] Yankies_ left the game
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c227§6]
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c228§6]
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c229§6]
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c230§6]
+[04:28:04] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c231§6]
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c232§6]
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c233§6]
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c234§6]
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c235§6]
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c236§6]
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c237§6]
+[04:28:05] [Client thread/INFO]: [CHAT] FakeEmperor5 left the game
+[04:28:05] [Client thread/INFO]: [CHAT] 不贪不会玩 left the game
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c238§6]
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c239§6]
+[04:28:05] [Client thread/INFO]: [CHAT] 封呼 left the game
+[04:28:05] [Client thread/INFO]: [CHAT] 亚洲貘 left the game
+[04:28:05] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c240§6]
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c241§6]
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c242§6]
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c243§6]
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c244§6]
+[04:28:06] [Client thread/INFO]: [CHAT] 肉肉雷姆 left the game
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c245§6]
+[04:28:06] [Client thread/INFO]: [CHAT] 赤赤随意 left the game
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c246§6]
+[04:28:06] [Client thread/INFO]: [CHAT] 碎旧时 joined the game
+[04:28:06] [Client thread/INFO]: [CHAT] 石头人保护中心 left the game
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c247§6]
+[04:28:06] [Client thread/INFO]: [CHAT] 霓虹还阴 joined the game
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c248§6]
+[04:28:06] [Client thread/INFO]: [CHAT] DscentGod joined the game
+[04:28:06] [Client thread/INFO]: [CHAT] 终出萧雪久是霜 left the game
+[04:28:06] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c249§6]
+[04:28:06] [Client thread/INFO]: [CHAT] Lemonly joined the game
+[04:28:07] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c250§6]
+[04:28:07] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c251§6]
+[04:28:07] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c252§6]
+[04:28:07] [Client thread/INFO]: [CHAT] yinyoushiren left the game
+[04:28:07] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c253§6]
+[04:28:07] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c254§6]
+[04:28:07] [Client thread/INFO]: [CHAT] 樱桃软糖 joined the game
+[04:28:07] [Client thread/INFO]: [CHAT] 我要玩奶冯 joined the game
+[04:28:07] [Client thread/INFO]: [CHAT] 渣渣棕 joined the game
+[04:28:07] [Client thread/INFO]: [CHAT] 续冬 joined the game
+[04:28:07] [Client thread/INFO]: [CHAT] bobo225 joined the game
+[04:28:07] [Client thread/INFO]: [CHAT] 媚瞳酱 joined the game
+[04:28:07] [Client thread/INFO]: [CHAT] 弥猫 joined the game
+[04:28:07] [Client thread/INFO]: [CHAT] 杯子漏电命悬一线 joined the game
+[04:28:08] [Client thread/INFO]: [CHAT] 正午的太阳 joined the game
+[04:28:08] [Client thread/INFO]: [CHAT] 起风_wind left the game
+[04:28:08] [Client thread/INFO]: [CHAT] 雨札儿 left the game
+[04:28:08] [Client thread/INFO]: [CHAT] 初一二班小磊 joined the game
+[04:28:08] [Client thread/INFO]: [CHAT] _大哈鱼_ joined the game
+[04:28:08] [Client thread/INFO]: [CHAT] 落九尘 left the game
+[04:28:08] [Client thread/INFO]: [CHAT] 楠暮柚 joined the game
+[04:28:08] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiIngameMenu
+[04:28:08] [Client thread/INFO]: [CHAT] 古月子 left the game
+[04:28:08] [Client thread/INFO]: [CHAT] 衔泉_n joined the game
+[04:28:09] [Client thread/INFO]: [CHAT] Eric_Victor left the game
+[04:28:09] [Client thread/INFO]: [CHAT] 想念难以抗拒 joined the game
+[04:28:09] [Client thread/INFO]: [CHAT] 原神魔怔臂 left the game
+[04:28:09] [Client thread/INFO]: [CHAT] MY123 joined the game
+[04:28:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c255§6]
+[04:28:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c256§6]
+[04:28:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c257§6]
+[04:28:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c258§6]
+[04:28:10] [Client thread/INFO]: [CHAT] 正在加载账号列表...§6 [§7x§c259§6]
+[04:28:10] [Client thread/INFO]: [CHAT] Running_Ji left the game
+[04:28:10] [Client thread/INFO]: [CHAT] 古特 joined the game
+[04:28:10] [Client thread/INFO]: [CHAT] 欣染 left the game
+[04:28:10] [Client thread/INFO]: [CHAT] 踩板凳就高了 left the game
+[04:28:10] [Client thread/INFO]: [CHAT] 霸道的力量 left the game
+[04:28:10] [Client thread/INFO]: [CHAT] 西耶尔 joined the game
+[04:28:10] [Client thread/INFO]: [CHAT] 虾仁如麻薯 joined the game
+[04:28:10] [Client thread/INFO]: [CHAT] DouJiang joined the game
+[04:28:11] [Client thread/INFO]: [eos.moe.dragoncore.yd:ALLATORIxDEMO:307]: DragonCore GuiOpen->GuiIngameMenu
+[04:28:11] [Client thread/INFO]: [CHAT] 西耶尔 left the game
+[04:28:12] [Client thread/INFO]: [CHAT] 我要玩奶冯 left the game
+[04:28:13] [Client thread/INFO]: [CHAT] 明不在 left the game
+[04:28:13] [Client thread/INFO]: [CHAT] 渣渣棕 left the game
+[04:28:13] [Client thread/INFO]: [CHAT] DouJiang left the game
+[04:28:13] [Client thread/INFO]: [CHAT] 河流之主蒋浙命 left the game
+[04:28:13] [Client thread/INFO]: Stopping!
+[04:28:13] [Client thread/INFO]: SoundSystem shutting down...
+[04:28:13] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[04:28:13] [Client thread/INFO]: Started running main shutdown hooks.
+[04:28:13] [Client thread/INFO]: Destroyed FreeType Lib 0x241a5a518b0.
+[04:28:13] [Client thread/INFO]: Finished running main shutdown hooks.
+[04:28:13] [DragonCore-MoLangUI-0/INFO]: [eos.moe.dragoncore.ro:ALLATORIxDEMO:141]: 方法执行出现错误: [异步执行方法, Function_Async_Execute]
+[04:28:13] [DragonCore-MoLangUI-0/INFO]: [eos.moe.dragoncore.ro:ALLATORIxDEMO:142]: java.lang.reflect.InvocationTargetException
+[04:28:13] [DragonCore-MoLangUI-0/INFO]: [eos.moe.dragoncore.ro:ALLATORIxDEMO:142]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+[04:28:13] [DragonCore-MoLangUI-0/INFO]: [eos.moe.dragoncore.ro:ALLATORIxDEMO:142]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:28:13] [DragonCore-MoLangUI-0/INFO]: [eos.moe.dragoncore.ro:ALLATORIxDEMO:142]: 	at eos.moe.dragoncore.ro.ALLATORIxDEMO(Query.java:109)
+[04:28:13] [DragonCore-MoLangUI-0/INFO]: [eos.moe.dragoncore.ro:ALLATORIxDEMO:142]: 	at eos.moe.dragoncore.ro.apply(Query.java:39)
+[04:28:13] [DragonCore-MoLangUI-0/INFO]: [eos.moe.dragoncore.ro:ALLATORIxDEMO:142]: 	at eos.moe.dragoncore.ht.ALLATORIxDEMO(QueryStruct.java:29)
+[04:28:13] [DragonCore-MoLangUI-0/INFO]: [eos.moe.dragoncore.ro:ALLATORIxDEMO:142]: 	at eos.moe.dragoncore.ij.ALLATORIxDEMO(MoLangEnvironment.java:75)
