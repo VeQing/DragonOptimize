@@ -1,0 +1,1171 @@
+[04:00:31] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:00:31] [main/INFO]: Using primary tweak name net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:00:31] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLTweaker@74a6a609
+[04:00:31] [main/INFO]: Jar location: file:/D:/Desktop/元素之诗v0.8beta/元素之诗v0.8.2beta/.minecraft/libraries/com/cleanroommc/cleanroom/0.7.11-alpha/cleanroom-0.7.11-alpha-universal.jar
+[04:00:31] [main/INFO]: Forge Mod Loader version 14.23.5.2864 for Minecraft 1.12.2 loading
+[04:00:31] [main/INFO]: Cleanroom version 0.7.11-alpha
+[04:00:31] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 25.0.1, running on Windows 10:amd64:10.0, installed at C:\Users\a3185\AppData\Roaming\.hmcl\java\windows-x86_64\mojang-java-runtime-epsilon
+[04:00:31] [main/INFO]: Initializing CleanMix...
+[04:00:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:/D:/Desktop/元素之诗v0.8beta/元素之诗v0.8.2beta/.minecraft/libraries/com/cleanroommc/cleanmix/0.7.4/cleanmix-0.7.4.jar!/org/spongepowered/asm/mixin/MixinEnvironment.class Service=CleanMix Env=CLIENT
+[04:00:31] [main/INFO]: Discovering mods
+[04:00:31] [main/INFO]: Searching D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\mods for mods
+[04:00:35] [main/INFO]: Finished discovering mods. Found 55 discovered mod ids in 3635 ms.
+[04:00:35] [main/INFO]: Initializing MixinExtras...
+[04:00:35] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032090172607@2@14.jar
+[04:00:35] [main/INFO]: Cascading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from 4690092032134710447@2@14.jar
+[04:00:35] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032144627436@2@14.jar
+[04:00:35] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032159022945@2@14.jar
+[04:00:35] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032168851780@2@14.jar
+[04:00:35] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032220354801@2@14.jar
+[04:00:35] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032251152283@2@14.jar
+[04:00:35] [main/INFO]: Cascading tweaker optifine.OptiFineForgeTweaker from 4690092032272129567@2@14.jar
+[04:00:35] [main/WARN]: Loading plugin net.shadowfacts.forgelin.preloader.ForgelinPlugin for mod 4690092032283850634@2@14.jar is in the forge_early.cfg blacklist and won't be loaded.
+[04:00:35] [main/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-ASM] 核心模组已加载，字节码转换器已登记
+[04:00:35] [main/INFO]: Cascading tweaker customskinloader.forge.ForgeTweaker from CustomSkinLoader_ForgeV1-14.27.jar
+[04:00:35] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from ElytraFix-1.12.2-1.0.0.jar
+[04:00:35] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from GPUTape-1.12.2-1.0.4.jar
+[04:00:35] [main/INFO]: Loading tweak name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[04:00:35] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:00:35] [main/INFO]: [eos.moe.dragoncore.tweaker.ForgePlugin:<init>:21]: [DragonCore] LoadingPlugin
+[04:00:35] [main/WARN]: 4690092032090172607@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and eos.moe.dragoncore.tweaker.ForgePlugin was loaded by Cleanroom.
+[04:00:35] [main/WARN]: Added 4690092032090172607@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:00:35] [main/WARN]: 4690092032144627436@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and com.minecolonies.lesslag.LesslagCorePlugin was loaded by Cleanroom.
+[04:00:35] [main/WARN]: Added 4690092032144627436@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:00:35] [main/WARN]: 4690092032168851780@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and bl4ckscor3.mod.particleculling.ParticleCullingLoadingPlugin was loaded by Cleanroom.
+[04:00:35] [main/WARN]: Added 4690092032168851780@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:00:35] [main/WARN]: 4690092032220354801@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and org.serverct.nanmui.element.bridge.ElementCorePlugin was loaded by Cleanroom.
+[04:00:35] [main/WARN]: Added 4690092032220354801@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:00:35] [main/INFO]: [eos.moe.armourers.tweaker.ForgePlugin:<init>:56]: [DragonArmourers] LoadingPlugin
+[04:00:35] [main/WARN]: 4690092032251152283@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and eos.moe.armourers.tweaker.ForgePlugin was loaded by Cleanroom.
+[04:00:35] [main/WARN]: Added 4690092032251152283@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[04:00:35] [main/INFO]: Loading early loader org.embeddedt.vintagefix.core.VintageFixCore for its mixins.
+[04:00:35] [main/INFO]: Adding [mixins.vintagefix.init.json] mixin configuration.
+[04:00:35] [main/INFO]: Adding [mixins.vintagefix.json] mixin configuration.
+[04:00:35] [main/INFO]: Loading tweak name org.spongepowered.asm.launch.MixinTweaker
+[04:00:35] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:00:35] [main/INFO]: Loading tweak name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[04:00:35] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:00:35] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:00:35] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:00:35] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:00:35] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:00:35] [main/INFO]: Loading tweak name optifine.OptiFineForgeTweaker
+[04:00:35] [main/INFO]: Loading tweak name customskinloader.forge.ForgeTweaker
+[04:00:35] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:00:35] [main/INFO]: Loading tweak name com.cleanroommc.fugue.common.LateBootstrapTweaker
+[04:00:35] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[04:00:35] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:00:35] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker@42abe228
+[04:00:35] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker@42abe228
+[04:00:35] [main/INFO]: Calling tweak optifine.OptiFineForgeTweaker@1da0c9d3
+[04:00:35] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[04:00:35] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[04:00:35] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[04:00:35] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\mods\4690092032272129567@2@14.jar
+[04:00:35] [main/INFO]: Calling tweak customskinloader.forge.ForgeTweaker@566a052e
+[04:00:35] [main/INFO]: Calling tweak org.spongepowered.asm.mixin.EnvironmentStateTweaker@6b9f0aea
+[04:00:35] [main/INFO]: Calling tweak FMLCorePlugin
+[04:00:36] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[04:00:36] [main/INFO]: FML appears to be missing any signature data. This is expected, don't worry.
+[04:00:36] [main/INFO]: Calling tweak FMLForgePlugin
+[04:00:36] [main/INFO]: Calling tweak APCoreMod
+[04:00:36] [main/INFO]: Calling tweak ShoulderPlugin
+[04:00:36] [main/INFO]: Calling tweak DepartCore
+[04:00:36] [main/INFO]: Calling tweak MoreShowExtraCore
+[04:00:36] [main/INFO]: Calling tweak Fugue
+[04:00:36] [main/INFO]: Calling tweak VintageFix
+[04:00:36] [main/INFO]: Loading JarDiscovererCache
+[04:00:37] [main/INFO]: Calling tweak ForgePlugin
+[04:00:37] [main/INFO]: Calling tweak ParticleCullingLoadingPlugin
+[04:00:37] [main/INFO]: Calling tweak ElementCorePlugin
+[04:00:37] [main/INFO]: Calling tweak ForgePlugin
+[04:00:37] [main/INFO]: Calling tweak org.spongepowered.asm.launch.MixinTweaker@4c1d315e
+[04:00:37] [main/INFO]: Calling tweak ForgePlugin
+[04:00:37] [main/INFO]: Calling tweak com.cleanroommc.fugue.common.LateBootstrapTweaker@206ef3f4
+[04:00:37] [main/INFO]: Calling tweak McLib core mod
+[04:00:37] [main/INFO]: Calling tweak guichaguri.betterfps.tweaker.BetterFpsTweaker@57ae4ade
+[04:00:37] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLDeobfTweaker@6ae0ae4c
+[04:00:37] [main/WARN]: Reference map '' for mixins.vintagefix.init.json could not be read. If this is a development environment you can ignore this message
+[04:00:37] [main/INFO]: Calling tweak Inventory Tweaks Coremod
+[04:00:37] [main/INFO]: Calling tweak LoadingPlugin
+[04:00:37] [main/INFO]: Calling tweak LesslagCorePlugin
+[04:00:37] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[04:00:37] [main/WARN]: Reference map 'mixins.common.refmap.json' for mixins.lesslag.json could not be read. If this is a development environment you can ignore this message
+[04:00:37] [main/INFO]: Found 97 mixins
+[04:00:37] [main/INFO]: Successfully saved config file
+[04:00:37] [main/ERROR]: Classloader restrictions [PACKAGE_TRANSFORMER_EXCLUSION] encountered loading mixins.lesslag.json:TextureMapHook from mod lesslag, name: com.minecolonies.lesslag.core.hooks.TextureMapHook
+[04:00:37] [main/WARN]: Not applying mixin 'org.embeddedt.vintagefix.mixin.version_protest.MinecraftMixin' as 'mixin.version_protest' is disabled in config
+[04:00:37] [main/WARN]: Not applying mixin 'org.embeddedt.vintagefix.mixin.version_protest.FMLCommonHandlerMixin' as 'mixin.version_protest' is disabled in config
+[04:00:37] [main/INFO]: Launching wrapped minecraft net.minecraft.client.main.Main
+[04:00:37] [main/INFO]: Transforming method func_180510_a(Lnet/minecraft/client/renderer/texture/TextureManager;)V in class bib(net.minecraft.client.Minecraft)
+[04:00:37] [main/INFO]: Successfully transformed method func_180510_a(Lnet/minecraft/client/renderer/texture/TextureManager;)V in class bib(net.minecraft.client.Minecraft)
+[04:00:37] [main/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-ASM] Minecraft 里没找到可替换的 func_184117_aA / isPressed 调用点，快捷栏拦截未生效（游戏不受影响）
+[04:00:37] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[04:00:38] [main/INFO]: Transforming method func_180510_a(Lnet/minecraft/client/renderer/texture/TextureManager;)V in class bib(net.minecraft.client.Minecraft)
+[04:00:38] [main/INFO]: Successfully transformed method func_180510_a(Lnet/minecraft/client/renderer/texture/TextureManager;)V in class bib(net.minecraft.client.Minecraft)
+[04:00:38] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[04:00:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[04:00:38] [main/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:32]: APCoreMod: Transforming World class (amu)
+[04:00:38] [main/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:32]: APCoreMod: Transforming World class (amu)
+[04:00:38] [main/INFO]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[04:00:38] [main/INFO]: Attempting to transform class aed -> net.minecraft.entity.player.EntityPlayer
+[04:00:38] [main/INFO]: Attempting to transform method for class biq -> net.minecraft.client.gui.GuiIngame
+[04:00:38] [main/INFO]: GuiIngameRenderAttackIndicator: Found offset 9 for method renderAttackIndicator(FLnet/minecraft/client/gui/ScaledResolution;)V -> a(FLbit;)V
+[04:00:38] [main/INFO]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[04:00:38] [main/INFO]: Attempting to transform class aed -> net.minecraft.entity.player.EntityPlayer
+[04:00:40] [Client thread/INFO]: Setting user: VeQing
+[04:00:40] [Client thread/INFO]: Patching net.minecraft.block.Block... (aow)
+[04:00:40] [Client thread/INFO]: Patching net.minecraft.block.Block... (aow)
+[04:00:40] [Client thread/INFO]: Patching math utils with "RIVENS_HALF" algorithm
+[04:00:41] [Client thread/INFO]: Using Java 9+ class definer
+[04:00:41] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[04:00:41] [Client thread/INFO]: Patching net.minecraft.block.BlockHopper... (arl)
+[04:00:41] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[04:00:42] [BetterFps Update Checker/WARN]: Could not check for updates: widget.mcf.li
+[04:00:43] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[04:00:43] [Client thread/INFO]: Attempting to transform method for class buq -> net.minecraft.client.renderer.EntityRenderer
+[04:00:43] [Client thread/INFO]: EntityRendererGetMouseOver: Found offset 129 for method getMouseOver(F)V -> a(F)V
+[04:00:43] [Client thread/INFO]: Attempting to transform method for class buq -> net.minecraft.client.renderer.EntityRenderer
+[04:00:43] [Client thread/INFO]: EntityRendererGetMouseOver2: Found offset 200 for method getMouseOver(F)V -> a(F)V
+[04:00:43] [Client thread/INFO]: Attempting to transform method for class buq -> net.minecraft.client.renderer.EntityRenderer
+[04:00:43] [Client thread/INFO]: EntityRendererOrientCamera: Found offset 488 for method orientCamera(F)V -> f(F)V
+[04:00:43] [Client thread/INFO]: Attempting to transform method for class buq -> net.minecraft.client.renderer.EntityRenderer
+[04:00:43] [Client thread/INFO]: EntityRendererRayTrace: Found offset 411 for method orientCamera(F)V -> f(F)V
+[04:00:43] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:33]: McLib: patching EntityRenderer (buq)
+[04:00:43] [Client thread/INFO]: [mchorse.mclib.core.transformers.EntityRendererTransformer:processUpdateCameraAndRender:111]: McLib: successfully patched updateCameraAndRender!
+[04:00:43] [Client thread/INFO]: [mchorse.mclib.core.transformers.EntityRendererTransformer:processRenderWorldPass:51]: McLib: successfully patched renderWorldPass!
+[04:00:43] [Client thread/INFO]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[04:00:43] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 已注入 net.minecraft.client.renderer.entity.RenderManager：1 处轮廓钩子
+[04:00:43] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 已注入 net.minecraft.client.renderer.entity.Render：1 处轮廓钩子
+[04:00:43] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 已注入 net.minecraft.client.renderer.entity.RenderLivingBase：1 处轮廓钩子
+[04:00:43] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Dispatch] 已注入 net.minecraft.client.renderer.entity.RenderLivingBase：渲染推送通道已接上实体分发器
+[04:00:43] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[04:00:43] [Client thread/WARN]: @Final field field_73236_b:Lit/unimi/dsi/fastutil/longs/Long2ObjectMap; in mixins.vintagefix.json:chunk_access.ChunkProviderClientMixin from mod vintagefix should be final
+[04:00:43] [Client thread/WARN]: Skipping bad option: enableVsync:false
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.IllegalStateException: LWJGLY has no window bridge:the host must call LWJGLY.setWindowBridge(...) after creating its window and before any code touching org.lwjgl.opengl.Display, org.lwjgl.input.Keyboard or org.lwjgl.input.Mouse runs.
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at com.cleanroommc.lwjgly.LWJGLY.windowBridge(LWJGLY.java:21)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at org.lwjgl.opengl.Display.setVSyncEnabled(Display.java:211)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.updateVSync(GameSettings.java:3399)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1250)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:440)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(Main.java:110)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+[04:00:43] [Client thread/INFO]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:44] [Client thread/INFO]: LWJGL Version: 3.4.3-snapshot
+[04:00:44] [Client thread/INFO]: [OptiFine] 
+[04:00:44] [Client thread/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_G5
+[04:00:44] [Client thread/INFO]: [OptiFine] Build: 20210124-142939
+[04:00:44] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[04:00:44] [Client thread/INFO]: [OptiFine] Java: 25.0.1, Microsoft
+[04:00:44] [Client thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+[04:00:44] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[04:00:44] [Client thread/INFO]: [OptiFine] OpenGL: Intel(R) UHD Graphics, version 4.6.0 - Build 31.0.101.2140, Intel
+[04:00:44] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[04:00:44] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[04:00:44] [Client thread/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:38]: APCoreMod: Transforming GlStateManager class (bus)
+[04:00:44] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[04:00:44] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[04:00:44] [Client thread/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:44]: APCoreMod: Transforming Shaders class (net.optifine.shaders.Shaders)
+[04:00:44] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 - Build 31.0.101.2140
+[04:00:44] [Client thread/INFO]: [Shaders] Vendor:  Intel
+[04:00:44] [Client thread/INFO]: [Shaders] Renderer: Intel(R) UHD Graphics
+[04:00:44] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[04:00:44] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[04:00:44] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[04:00:44] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[04:00:44] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[04:00:44] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[04:00:44] [Client thread/INFO]: [mchorse.aperture.core.APCoreClassTransformer:transform:50]: APCoreMod: Transforming ShaderPackParser class (net.optifine.shaders.config.ShaderPackParser)
+[04:00:44] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[04:00:44] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[04:00:44] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[04:00:44] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:21]: McLib: Transforming SimpleReloadableResourceManager class (cev)
+[04:00:44] [Client thread/INFO]: [mchorse.mclib.core.transformers.SimpleReloadableResourceManagerTransformer:processMethod:43]: McLib: successfully patched getResource!
+[04:00:44] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:21]: McLib: Transforming SimpleReloadableResourceManager class (cev)
+[04:00:44] [Client thread/INFO]: [mchorse.mclib.core.transformers.SimpleReloadableResourceManagerTransformer:processMethod:43]: McLib: successfully patched getResource!
+[04:00:44] [Client thread/INFO]: Starts constructing ImmediateClientServices.
+[04:00:44] [Client thread/INFO]: Loaded FreeType 2.14.3 Lib Pointer: 0x1d0303559c0
+[04:00:44] [Client thread/INFO]: 
+========== GL Device Info ==========
+Vendor   : Intel
+Renderer : Intel(R) UHD Graphics
+Version  : 4.6.0 - Build 31.0.101.2140 (4.6)
+
+-------- Texture --------
+Max Combined Texture Units : 192
+
+-------- UBO --------
+Max UBO Bindings           : 84
+UBO Offset Alignment       : 16
+
+-------- Image Load/Store --------
+Max Image Units            : 8
+Max Compute Image Uniforms : 8
+
+-------- SSBO --------
+Max SSBO Bindings          : 16
+Max Combined SSBO Blocks   : 80
+Max Compute SSBO Blocks    : 16
+SSBO Offset Alignment      : 4
+
+-------- Compute --------
+Max Workgroup Invocations  : 1024
+Max Workgroup Size         : 1024 x 1024 x 64
+Max Workgroup Count        : 65535 x 65535 x 65535
+
+=====================================
+
+[04:00:44] [VersionCheck/INFO]: [OptiFine] Version found: G5
+[04:00:46] [Client thread/INFO]: Finished constructing ImmediateClientServices.
+[04:00:46] [Client thread/INFO]: The first launch typically takes longer...
+[04:00:51] [Client thread/INFO]: Cached generated Minecraft font: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\cache\kirino\font\7ee69d46fad617a491a39850f479ba3aca220c89ac657b96db0cf4d94af5be52.bin
+[04:00:52] [Client thread/INFO]: Module "text" availability: TRUE
+[04:00:52] [Client thread/INFO]: Module "gui" availability: TRUE
+[04:00:52] [Client thread/INFO]: Module "dummyVao" availability: TRUE
+[04:00:52] [Client thread/INFO]: Module "textVanilla" availability: TRUE
+[04:00:52] [Client thread/INFO]: Finished initializing ICS. Time taken: 5504ms
+[04:00:52] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_G5, enabling compatibility features
+[04:00:52] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 25.0.1, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 440261696 bytes (419 MB) / 1073741824 bytes (1024 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 20 total; -Xmx4096m -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseG1GC -XX:G1MixedGCCountTarget=5 -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:TieredCompileTaskTimeout=10000 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NmethodSweepActivity=1 -XX:+UseCompactObjectHeaders -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Cleanroom Version: 0.7.11-alpha
+	Loaded coremods (and transformers): 
+ShoulderPlugin (4690092032298438117@2@14.jar)
+  com.teamderpy.shouldersurfing.asm.transformers.EntityPlayerRayTrace
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererGetMouseOver
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererGetMouseOver2
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererOrientCamera
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererRayTrace
+  com.teamderpy.shouldersurfing.asm.transformers.GuiIngameRenderAttackIndicator
+  com.teamderpy.shouldersurfing.asm.transformers.GuiCrosshairsBCRenderAttackIndicator
+MoreShowExtraCore ([更多显示附属]MoreShow_Extra-1.0.5FIX.jar)
+  moreshow.extra.asm.ScoreboardGuardTransformer
+  moreshow.extra.asm.HotbarSwitchTransformer
+  moreshow.extra.asm.VaultShieldTransformer
+  moreshow.extra.asm.EntityDispatchTransformer
+Inventory Tweaks Coremod ([R键整理] InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+ParticleCullingLoadingPlugin (4690092032168851780@2@14.jar)
+  
+LesslagCorePlugin (4690092032144627436@2@14.jar)
+  
+ElementCorePlugin (4690092032220354801@2@14.jar)
+  org.serverct.nanmui.element.bridge.ElementTransformer
+ForgePlugin (CustomSkinLoader_ForgeV1-14.27.jar)
+  customskinloader.forge.loader.LaunchWrapper
+ForgePlugin (4690092032251152283@2@14.jar)
+  
+DepartCore ([元素开卡].jar)
+  com.netease.mc.mod.departmod.coremod.DepartTransformer
+ForgePlugin (4690092032090172607@2@14.jar)
+  eos.moe.dragoncore.tweaker.TransformerManager
+APCoreMod (4690092032188884184@2@14.jar)
+  mchorse.aperture.core.APCoreClassTransformer
+Fugue (Fugue-0.25.5.jar)
+  
+VintageFix (VintageFix-0.7.2.jar)
+  org.embeddedt.vintagefix.transformer.ASMModParserTransformer
+McLib core mod (4690092032240817439@2@14.jar)
+  mchorse.mclib.core.McLibCMClassTransformer
+LoadingPlugin (ChunkAnimator-MC1.12-1.2.jar)
+  lumien.chunkanimator.asm.ClassTransformer
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 31.0.101.2140' Renderer: 'Intel(R) UHD Graphics'
+[04:00:52] [Client thread/INFO]: Cleanroom v0.7.11-alpha Initialized
+[04:00:52] [Thread-1/ERROR]: Exception creating cache
+java.nio.file.NoSuchFileException: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\resources
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:52)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:195)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1702)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1493)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:704)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:150)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:164)
+	at net.minecraft.client.resources.FileResourcePack.func_110599_c(FileResourcePack.java:30)
+	at net.minecraft.client.resources.FileResourcePack.genCache(FileResourcePack.java:545)
+	at net.minecraft.client.resources.FileResourcePack.handler$zen000$vintagefix$fastHasResource(FileResourcePack.java:578)
+	at net.minecraft.client.resources.FileResourcePack.func_110593_b(FileResourcePack.java)
+	at net.minecraft.client.resources.AbstractResourcePack.func_110589_b(AbstractResourcePack.java:50)
+	at net.minecraftforge.fml.client.SplashProgress.open(SplashProgress.java:1080)
+	at net.minecraftforge.fml.client.SplashProgress$Texture.<init>(SplashProgress.java:896)
+	at net.minecraftforge.fml.client.SplashProgress$Texture.<init>(SplashProgress.java:887)
+	at net.minecraftforge.fml.client.SplashProgress$2.run(SplashProgress.java:266)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[04:00:52] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[04:00:52] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[04:00:52] [Thread-1/ERROR]: Exception creating cache
+java.nio.file.NoSuchFileException: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\resources
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:52)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:195)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1702)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1493)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:704)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:150)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:164)
+	at net.minecraft.client.resources.FileResourcePack.func_110599_c(FileResourcePack.java:30)
+	at net.minecraft.client.resources.FileResourcePack.genCache(FileResourcePack.java:545)
+	at net.minecraft.client.resources.FileResourcePack.handler$zen000$vintagefix$fastHasResource(FileResourcePack.java:578)
+	at net.minecraft.client.resources.FileResourcePack.func_110593_b(FileResourcePack.java)
+	at net.minecraft.client.resources.AbstractResourcePack.func_110589_b(AbstractResourcePack.java:50)
+	at net.minecraftforge.fml.client.SplashProgress.open(SplashProgress.java:1080)
+	at net.minecraftforge.fml.client.SplashProgress$Texture.<init>(SplashProgress.java:896)
+	at net.minecraftforge.fml.client.SplashProgress$Texture.<init>(SplashProgress.java:887)
+	at net.minecraftforge.fml.client.SplashProgress$2.run(SplashProgress.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[04:00:52] [Client thread/INFO]: Replaced 1227 ore ingredients
+[04:00:53] [Client thread/INFO]: Mod mobends is missing the required element 'name'. Substituting mobends
+[04:00:53] [Client thread/WARN]: Mod mobends is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[04:00:53] [Client thread/INFO]: Mod dragonarmourers is missing the required element 'name'. Substituting dragonarmourers
+[04:00:53] [Client thread/WARN]: Mod dragonarmourers is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[04:00:53] [Client thread/WARN]: Mod dragongps is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2
+[04:00:53] [Client thread/WARN]: Mod fpsreducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.12.2-1.20
+[04:00:53] [Client thread/INFO]: Mod departmod is missing the required element 'name'. Substituting departmod
+[04:00:53] [Client thread/WARN]: Mod cleanview is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-v1c
+[04:00:53] [Client thread/INFO]: Mod eyltrafix is missing the required element 'name'. Substituting eyltrafix
+[04:00:53] [Client thread/WARN]: Mod eyltrafix is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[04:00:53] [Client thread/INFO]: Forge Mod Loader has identified 58 mods to load
+[04:00:53] [Client thread/WARN]: Mod aperture_core has been disabled through configuration
+[04:00:53] [Client thread/WARN]: Mod mclib_core has been disabled through configuration
+[04:00:53] [Client thread/INFO]: FML has found a non-mod file 4690092032144627436@2@14.jar in your mods directory. It will now be injected into your classpath.
+[04:00:53] [Client thread/INFO]: Loading late loader [org.embeddedt.vintagefix.core.LateMixins] for its mixins.
+[04:00:53] [Client thread/INFO]: Loading late loader [com.cleanroommc.fugue.common.FugueLateMixinLoader] for its mixins.
+[04:00:53] [Client thread/INFO]: Adding [mixins.vintagefix.late.json] mixin configuration.
+[04:00:53] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, cleanroom, cleanmix, mixinbooter, configanytime, FML, forge, departcoremod, lesslag, nbtedit, dynamiclights_dragoncore, dragoncore, dynamiclights_onglowname_dragoncore, aiimprovements, aireducer, particleculling, performant, aperture, autoattack, clearwater, elementserver, epicofelementmod, mclib, rfp2, mobends, dragonarmourers, armourers_workshops, dragongps, shouldersurfing, statusbar, virtualui, fpsreducer, inventorytweaks, elementdamagetest, departmod, moreshow, moreshow_extra, autoreconnect, betterpingdisplay, chatcopier, chunkanimator, cleanview, clearspam, customskinloader, ding, eyltrafix, fastfurnace, fastbench, fugue, gpu_tape, invmove, kalandassistant, mousetweaks, vintagefix, fake_netease] at CLIENT
+[04:00:53] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, cleanroom, cleanmix, mixinbooter, configanytime, FML, forge, departcoremod, lesslag, nbtedit, dynamiclights_dragoncore, dragoncore, dynamiclights_onglowname_dragoncore, aiimprovements, aireducer, particleculling, performant, aperture, autoattack, clearwater, elementserver, epicofelementmod, mclib, rfp2, mobends, dragonarmourers, armourers_workshops, dragongps, shouldersurfing, statusbar, virtualui, fpsreducer, inventorytweaks, elementdamagetest, departmod, moreshow, moreshow_extra, autoreconnect, betterpingdisplay, chatcopier, chunkanimator, cleanview, clearspam, customskinloader, ding, eyltrafix, fastfurnace, fastbench, fugue, gpu_tape, invmove, kalandassistant, mousetweaks, vintagefix, fake_netease] at SERVER
+[04:00:53] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:39]: McLib: Transforming PacketBuffer class (gy)
+[04:00:53] [Client thread/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched gy.f!
+[04:00:53] [Client thread/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched gy.a!
+[04:00:53] [Client thread/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched gy.l!
+[04:00:53] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 已注入 net.minecraft.client.renderer.RenderGlobal：2 处轮廓钩子
+[04:00:54] [Client thread/WARN]: Not applying mixin 'mixin.version_protest.F3Change' as 'mixin.version_protest' is disabled in config
+[04:00:54] [Client thread/FATAL]: OptiFine detected, there may be issues
+[04:00:54] [Client thread/WARN]: Not applying mixin 'mixin.version_protest.LoaderChange' as 'mixin.version_protest' is disabled in config
+[04:00:54] [Client thread/INFO]: Reloading ResourceManager: BetterFps, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:In-game NBTEdit, FMLFileResourcePack:Dynamic Lights DragonCore, FMLFileResourcePack:Dragon Core, FMLFileResourcePack:Dynamic Lights on glow name, FMLFileResourcePack:AI Improvements, FMLFileResourcePack:AI Reducer, FMLFileResourcePack:Particle Culling, FMLFileResourcePack:performant Mod, FMLFileResourcePack:Aperture, FMLFileResourcePack:Auto Attack, FMLFileResourcePack:Clear Water, FMLFileResourcePack:ElementServer, FMLFileResourcePack:EpicOfElementMod, FMLFileResourcePack:McLib, FMLFileResourcePack:Real First Person 2, FMLFileResourcePack:mobends, FMLFileResourcePack:dragonarmourers, FMLFileResourcePack:Armourer's Workshops, FMLFileResourcePack:龙之导航QQ448780139, FMLFileResourcePack:Shoulder Surfing, FMLFileResourcePack:StatusBar, FMLFileResourcePack:VirtualUI, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:元素之诗伤害统计可行性测试, FMLFileResourcePack:departmod, FMLFileResourcePack:元素之诗更多显示, FMLFileResourcePack:MoreShow-Extra, FMLFileResourcePack:Auto Reconnect, FMLFileResourcePack:Better Ping Display, FMLFileResourcePack:Chat Copier, FMLFileResourcePack:Chunk Animator, FMLFileResourcePack:CleanView, FMLFileResourcePack:ClearSpam, FMLFileResourcePack:CustomSkinLoader, FMLFileResourcePack:Ding, FMLFileResourcePack:eyltrafix, FMLFileResourcePack:FastFurnace, FMLFileResourcePack:FastWorkbench, FMLFileResourcePack:Fugue, FMLFileResourcePack:GPUTape, FMLFileResourcePack:InvMove, FMLFileResourcePack:卡兰德助手, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:VintageFix, FMLFileResourcePack:Fake Netease Lib, EpicOfElement.zip, Faithful 3D - 1.12 r2.zip, Faithful 32x - 1.12.2.zip, §9-视材质§e（亮度可调）§61.12 (2).zip
+[04:00:54] [Thread-1/INFO]: Using sync timing. 200 frames of Display.update took 80547600 nanos
+[04:00:54] [Client thread/INFO]: Processing ObjectHolder annotations
+[04:00:54] [Client thread/INFO]: Found 1168 ObjectHolder annotations
+[04:00:54] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[04:00:54] [Client thread/INFO]: Found 1 ItemStackHolder annotations
+[04:00:55] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[04:00:55] [Cleanroom Version Check/INFO]: [fugue] Starting version check at https://forge.curseupdate.com/1005815/fugue
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: org.yaml.snakeyamla.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'string', line 8, column 3:
+      榄旀妧涔嬬煶鎶�鑳� '35'
+      ^
+could not find expected ':'
+ in 'string', line 9, column 3:
+      鐗规畩鎶�鑳� '49'
+      ^
+
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at org.yaml.snakeyamla.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:71)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at org.yaml.snakeyamla.configuration.file.FileConfiguration.load(FileConfiguration.java:216)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at org.yaml.snakeyamla.configuration.file.FileConfiguration.load(FileConfiguration.java:159)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at org.yaml.snakeyamla.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:216)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at eos.moe.dragoncore.va.ALLATORIxDEMO(DragonCore.java:101)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:654)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:132)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:584)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:272)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:465)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at net.minecraft.client.main.Main.main(Main.java:110)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+[04:00:55] [Client thread/INFO]: [org.yaml.snakeyamla.configuration.file.YamlConfiguration:log:289]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: Caused by: while scanning a simple key
+ in 'string', line 8, column 3:
+      榄旀妧涔嬬煶鎶�鑳� '35'
+      ^
+could not find expected ':'
+ in 'string', line 9, column 3:
+      鐗规畩鎶�鑳� '49'
+      ^
+
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:464)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:278)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.scanner.ScannerImpl.checkToken(ScannerImpl.java:226)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:558)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.composer.Composer.composeMappingNode(Composer.java:235)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.composer.Composer.composeNode(Composer.java:162)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.composer.Composer.composeValueNode(Composer.java:257)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.composer.Composer.composeMappingChildren(Composer.java:248)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.composer.Composer.composeMappingNode(Composer.java:236)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.composer.Composer.composeNode(Composer.java:162)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.composer.Composer.getNode(Composer.java:95)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.composer.Composer.getSingleNode(Composer.java:119)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.Yaml.loadFromReader(Yaml.java:490)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.Yaml.load(Yaml.java:416)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	at org.yaml.snakeyamla.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:68)
+[04:00:55] [Client thread/INFO]: [java.lang.Throwable:printStackTrace:677]: 	... 35 more
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: java.io.FileNotFoundException: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\config\options_white.dat (系统找不到指定的文件。)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.io.FileInputStream.open0(Native Method)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at org.serverct.nanmui.element.player.FilterListHelper.readAndLoad(FilterListHelper.kt:18)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at org.serverct.nanmui.element.ElementServer.preInit(ElementServer.kt:88)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:654)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:132)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:584)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:272)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:465)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at net.minecraft.client.main.Main.main(Main.java:110)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+[04:00:55] [Client thread/INFO]: [org.serverct.nanmui.element.ElementServer:preInit:91]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:55] [Client thread/INFO]: white read size error !!!
+[04:00:55] [Client thread/INFO]: Started loading config. 
+[04:00:55] [Client thread/INFO]: Finished loading config. 
+[04:00:55] [Client thread/INFO]: Registering equipment cube - id:0 name:sf
+[04:00:55] [Client thread/INFO]: Registering equipment cube - id:1 name:zf
+[04:00:55] [Client thread/INFO]: Registering equipment cube - id:2 name:ze
+[04:00:55] [Client thread/INFO]: Registering equipment cube - id:3 name:ek
+[04:00:56] [Client thread/INFO]: field_75975_e:java.lang.String
+[04:00:56] [Client thread/INFO]: field_75978_a:net.minecraft.util.text.ITextComponent
+[04:00:56] [Client thread/INFO]: field_75972_f:boolean
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: java.lang.NoSuchFieldException: keyName
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2382)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer.Init(KeyNameTransfer.java:14)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.netease.mc.mod.departmod.DepartMod.preinit(DepartMod.java:36)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:654)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:84)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:141)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.lambda$dispatchEvent$0(Subscriber.java:70)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:67)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:112)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:262)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:132)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:584)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:272)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:465)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at net.minecraft.client.main.Main.main(Main.java:110)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+[04:00:56] [Client thread/INFO]: [com.netease.mc.mod.departmod.keyboardname.KeyNameTransfer:Init:29]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:56] [Client thread/INFO]: Patching net.minecraft.client.gui.GuiOptions... (ble)
+[04:00:56] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:56] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:56] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `lit_furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:56] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:56] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:56] [Client thread/INFO]: Setting Object Holders with value...
+[04:00:56] [Client thread/INFO]: Object Holders set.
+[04:00:56] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:56] [Client thread/INFO]: Setting Object Holders with value...
+[04:00:56] [Client thread/INFO]: Object Holders set.
+[04:00:56] [Client thread/INFO]: Setting Object Holders with value...
+[04:00:56] [Client thread/INFO]: Object Holders set.
+[04:00:56] [Client thread/INFO]: Setting Object Holders with value...
+[04:00:56] [Client thread/INFO]: Object Holders set.
+[04:00:56] [Client thread/INFO]: Injecting itemstacks
+[04:00:56] [Client thread/INFO]: Itemstack injection complete
+[04:00:56] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[04:00:56] [Client thread/INFO]: [OptiFine] Resource packs: EpicOfElement.zip, Faithful 3D - 1.12 r2.zip, Faithful 32x - 1.12.2.zip, §9-视材质§e（亮度可调）§61.12 (2).zip
+[04:00:56] [Cleanroom Version Check/INFO]: [fugue] Found status: UP_TO_DATE Target: null
+[04:00:56] [Cleanroom Version Check/INFO]: [cleanroom] Starting version check at https://download.cleanroommc.com/api/forge
+[04:00:57] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[04:00:57] [Cleanroom Version Check/INFO]: [cleanroom] Found status: BETA_OUTDATED Target: 0.7.12-alpha
+[04:00:57] [Cleanroom Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04:00:57] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[04:00:57] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:00:57] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack dragonarmourers (eos.moe.armourers.xk)
+[04:00:57] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack BetterFps (guichaguri.betterfps.gui.BetterFpsResourcePack)
+[04:00:57] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.yq)
+[04:00:57] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.dr)
+[04:00:57] [ForkJoinPool-1-worker-1/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.ty)
+[04:00:57] [ForkJoinPool-1-worker-1/INFO]: Found 2729 sprites (some possibly duplicated among resource packs)
+[04:00:57] [Client thread/WARN]: Not applying mixin 'mixin.dynamic_resources.hide_model_exceptions.ModelErrorMixin' as 'mixin.dynamic_resources.hide_model_exceptions' is disabled in config
+[04:00:57] [Client thread/WARN]: Cannot list resources from pack dragonarmourers (eos.moe.armourers.xk)
+[04:00:57] [Client thread/WARN]: Cannot list resources from pack BetterFps (guichaguri.betterfps.gui.BetterFpsResourcePack)
+[04:00:57] [Client thread/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.yq)
+[04:00:57] [Client thread/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.dr)
+[04:00:57] [Client thread/WARN]: Cannot list resources from pack dragoncore (eos.moe.dragoncore.ty)
+[04:00:57] [Client thread/INFO]: Early loading 0 models
+[04:00:57] [Client thread/INFO]: Permanently loaded 0 models
+[04:00:58] [Thread-4/INFO]: OpenAL initialized.
+[04:00:58] [Sound Library Loader/INFO]: Sound engine started
+[04:00:58] [Cleanroom Version Check/INFO]: [forge] Found status: BETA Target: null
+[04:00:58] [Cleanroom Version Check/INFO]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[04:00:58] [ForkJoinPool-1-worker-1/INFO]: Texture search took 1.612 s, total of 3636 collected sprites
+[04:00:58] [Client thread/INFO]: [OptiFine] Multitexture: false
+[04:00:58] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/bookshelf/bookshelf.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/black_stained_glass/black_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/black_stained_glass/black_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/blue_stained_glass/blue_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/blue_stained_glass/blue_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/brown_stained_glass/brown_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/brown_stained_glass/brown_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/cyan_stained_glass/cyan_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/cyan_stained_glass/cyan_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/glass/glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/glass/glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/gray_stained_glass/gray_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/gray_stained_glass/gray_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/green_stained_glass/green_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/green_stained_glass/green_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/light_blue_stained_glass/light_blue_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/light_blue_stained_glass/light_blue_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/light_gray_stained_glass/light_gray_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/light_gray_stained_glass/light_gray_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/lime_stained_glass/lime_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/lime_stained_glass/lime_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/magenta_stained_glass/magenta_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/magenta_stained_glass/magenta_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/orange_stained_glass/orange_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/orange_stained_glass/orange_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/pink_stained_glass/pink_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/pink_stained_glass/pink_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/purple_stained_glass/purple_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/purple_stained_glass/purple_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/red_stained_glass/red_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/red_stained_glass/red_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/white_stained_glass/white_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/white_stained_glass/white_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/yellow_stained_glass/yellow_stained_glass.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/yellow_stained_glass/yellow_stained_glass_pane.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/red_sandstone/red_sandstone.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/sandstone/sandstone.properties
+[04:00:58] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:00:58] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:00:58] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:00:58] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:00:58] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/iron_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/iron_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/entity/chest/normal_double.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/items/zombie_head.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/entity/chest/christmas_double.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Using missing texture, unable to load gbook:textures/transparent.png, java.io.FileNotFoundException
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/leather_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/leather_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Using missing texture, unable to load gbook:textures/cover_gray.png, java.io.FileNotFoundException
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/diamond_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/diamond_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/chainmail_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/chainmail_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/gold_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/gold_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Using missing texture, unable to load mekanism:textures/entities/robit.png, java.io.FileNotFoundException
+[04:00:59] [Client thread/ERROR]: Using missing texture, unable to load gbook:textures/paper.png, java.io.FileNotFoundException
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/leather_layer_1_overlay.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/netherite_layer_2.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/netherite_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/leather_layer_2_overlay.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Using missing texture, unable to load gbook:textures/cover.png, java.io.FileNotFoundException
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/entity/chest/trapped_double.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/models/armor/turtle_layer_1.png
+java.lang.RuntimeException: broken aspect ratio and not an animation
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.func_188538_a(TextureAtlasSprite.java:380)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:228)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:152)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:1237)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:106)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:509)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:00:59] [Client thread/INFO]: [OptiFine] Custom loader sprites: 3
+[04:00:59] [Client thread/INFO]: [OptiFine] Sprite dependencies: 5
+[04:00:59] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[04:01:00] [Client thread/INFO]: [OptiFine] Animated sprites: 29
+[04:01:00] [Cleanroom Version Check/INFO]: [mousetweaks] Found status: BETA Target: null
+[04:01:00] [Cleanroom Version Check/INFO]: [mclib] Starting version check at https://raw.githubusercontent.com/mchorse/mclib/1.12/version.json
+[04:01:00] [VintageFix item baking thread/INFO]: Baking 613 models in background
+[04:01:00] [Cleanroom Version Check/INFO]: [aperture] Starting version check at https://raw.githubusercontent.com/mchorse/aperture/1.12/version.json
+[04:01:00] [VintageFix item baking thread/ERROR]: Failed to load model minecraft:purpur_double_slab#inventory
+org.embeddedt.vintagefix.dynamicresources.model.DynamicModelProvider$DynamicModelLoadFailException: Variant minecraft:purpur_double_slab#inventory does not exist
+[04:01:00] [VintageFix item baking thread/ERROR]: Failed to load model minecraft:purpur_double_slab#inventory as item minecraft:purpur_double_slab
+org.embeddedt.vintagefix.dynamicresources.model.DynamicModelProvider$DynamicModelLoadFailException: Variant minecraft:purpur_double_slab#inventory does not exist
+[04:01:00] [VintageFix item baking thread/ERROR]: Error occured while loading model minecraft:purpur_double_slab#inventory
+[04:01:00] [VintageFix item baking thread/ERROR]: Failed to load model minecraft:old_wood_slab#inventory
+org.embeddedt.vintagefix.dynamicresources.model.DynamicModelProvider$DynamicModelLoadFailException: Variant minecraft:old_wood_slab#inventory does not exist
+[04:01:00] [VintageFix item baking thread/ERROR]: Failed to load model minecraft:old_wood_slab#inventory as item minecraft:old_wood_slab
+org.embeddedt.vintagefix.dynamicresources.model.DynamicModelProvider$DynamicModelLoadFailException: Variant minecraft:old_wood_slab#inventory does not exist
+[04:01:00] [VintageFix item baking thread/ERROR]: Error occured while loading model minecraft:old_wood_slab#inventory
+[04:01:00] [Client thread/INFO]: Setting Object Holders with value...
+[04:01:00] [Client thread/INFO]: Object Holders set.
+[04:01:01] [Client thread/INFO]: Mod initialized
+[04:01:01] [Client thread/INFO]: 元素之诗伤害统计测试 Mod 已加载，报告目录：D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\config\element-damage-test\reports
+[04:01:01] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Fia] fia.z 直读就绪：eos.moe.dragoncore.fia#z（当前 0 个变量，无条件主源）
+[04:01:01] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Crystal] 龙核动画状态直读就绪：eos.moe.dragoncore.ry#h
+[04:01:01] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Vault] 轮廓管线字段直写就绪（MethodHandle 预热完成）：王之宝库_盾 / 龙型机械_火_爆桶 透视高亮可用
+[04:01:01] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_冰=雷2（五行只能是风/水/火/光/雷）
+[04:01:01] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_土=风3（五行只能是风/水/火/光/雷）
+[04:01:01] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_火=水1（五行只能是风/水/火/光/雷）
+[04:01:01] [Client thread/INFO]: [moreshow.extra.MseLog:warn:34]: [MSE-Rune] BOSS 弱点表条目无效，已跳过: [old_slan_ruin_] 龙型机械_风=火4（五行只能是风/水/火/光/雷）
+[04:01:01] [Client thread/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-Rune] 已载入 BOSS 弱点表 10 个副本组 / 32 条: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\config\moreshowextra\boss-elements.json
+[04:01:01] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] A call to initialize, entry point: FORGE.
+[04:01:01] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Reflecting GuiContainer...
+[04:01:01] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Detected obfuscation: FORGE.
+[04:01:01] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Success.
+[04:01:01] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Minecraft Forge is installed.
+[04:01:01] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] LiteLoader is not installed.
+[04:01:01] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Using Forge for the mod operation.
+[04:01:01] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Mouse Tweaks has been initialized.
+[04:01:01] [Client thread/INFO]: Injecting itemstacks
+[04:01:01] [Client thread/INFO]: Itemstack injection complete
+[04:01:01] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.monster.EntitySkeleton
+[04:01:01] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.monster.EntityPigZombie
+[04:01:01] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.monster.EntityZombie
+[04:01:01] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.monster.EntityWitherSkeleton
+[04:01:01] [Client thread/INFO]: [eos.moe.armourers.df:a:88]: 已注册渲染: class net.minecraft.entity.item.EntityArmorStand
+[04:01:01] [Client thread/INFO]: Loading error model.
+[04:01:01] [Client thread/INFO]: Registering render ping handler
+[04:01:01] [Client thread/ERROR]: Config option 'pingTextColor' is invalid - it must be a hex color code
+[04:01:01] [Client thread/ERROR]: Config option 'textFormatString' is invalid - it needs to contain %d
+[04:01:01] [VintageFix item baking thread/INFO]: Item baking finished in 1.669 s
+[04:01:02] [Client thread/INFO]: [org.bytedeco.javacpp.tools.Logger:warn:62]: Warning: Version of org.bytedeco:ffmpeg could not be found.
+[04:01:03] [Client thread/WARN]: Could not find particle class org.orecruncher.dsurround.client.fx.particle.mote.ParticleCollection. If the mod is not installed, this can be ignored.
+[04:01:03] [Client thread/WARN]: Could not find particle class com.TominoCZ.FBP.particle.FBPParticleBlock. If the mod is not installed, this can be ignored.
+[04:01:03] [Client thread/WARN]: Could not find particle class xzeroair.trinkets.client.particles.ParticleGreed. If the mod is not installed, this can be ignored.
+[04:01:03] [Client thread/WARN]: Could not find particle class thaumcraft.client.fx.beams.FXBolt. If the mod is not installed, this can be ignored.
+[04:01:03] [Client thread/INFO]: Forge Mod Loader has successfully loaded 58 mods
+[04:01:03] [Client thread/INFO]: Starts refreshing McTTF font.
+[04:01:14] [Client thread/INFO]: Cached generated Minecraft font: D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\cache\kirino\font\317ca50298361fee58214a67bdfee3f5c08599c53a979f9ca7fe41dd207a13d1.bin
+[04:01:15] [Client thread/INFO]: Refreshed McTTF font. Time taken: 11704ms
+[04:01:15] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[04:01:15] [Client thread/ERROR]: Exception caught during firing event net.minecraftforge.client.event.GuiOpenEvent@7ee3ddbf:
+java.lang.IncompatibleClassChangeError: Method 'boolean com.github.timmyovo.virtualui.client.packet.IPacketOut.lllIIlII(java.lang.Object)' must be InterfaceMethodref constant
+	at com.github.timmyovo.virtualui.client.packet.IPacketOut.sendPacket(Unknown Source)
+	at com.github.timmyovo.virtualui.client.packet.out_.PacketOutEvent.notifyEvent(Unknown Source)
+	at com.github.timmyovo.virtualui.client.hook.EventListener.onGUIOpen(Unknown Source)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:79)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:197)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:915)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:540)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+[04:01:15] [Client thread/ERROR]: Index: 7 Listeners:
+[04:01:15] [Client thread/ERROR]: 0: NORMAL
+[04:01:15] [Client thread/ERROR]: 1: ASM: class eos.moe.dragoncore.ca ALLATORIxDEMO(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 2: ASM: class eos.moe.dragoncore.uia ALLATORIxDEMO(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 3: ASM: class eos.moe.armourers.gg a(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 4: ASM: class net.minecraftforge.client.ForgeClientHandler onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 5: ASM: mchorse.mclib.client.KeyboardHandler@7d08a9b9 onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 6: ASM: com.teamderpy.shouldersurfing.event.KeyHandler@6a1b7d8e onGuiClosed(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 7: ASM: com.github.timmyovo.virtualui.client.hook.EventListener@943e8a1 onGUIOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 8: ASM: moreshow.extra.MoreshowUiTakeover@2b0a72ec onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 9: ASM: me.pieking1215.invmove.InvMove@295d6df5 onGUIOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 10: ASM: bre.fpsreducer.handler.GuiOpenEventHandler@4cfefb14 onGuiOpenEvent(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 11: ASM: eos.moe.dragoncore.pda@6c131250 ALLATORIxDEMO(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 12: LOW
+[04:01:15] [Client thread/ERROR]: 13: ASM: class eos.moe.dragoncore.yd ALLATORIxDEMO(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 14: LOWEST
+[04:01:15] [Client thread/ERROR]: 15: ASM: org.embeddedt.vintagefix.VintageFixClient@78bd05fc onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 16: ASM: class net.minecraftforge.client.ForgeClientHandler onGuiOpenLast(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:15] [Client thread/ERROR]: 17: ASM: me.ichun.mods.ding.common.core.Ding@1430ed3b onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[04:01:16] [Client thread/INFO]: [net.minecraft.init.Bootstrap:func_179870_a:545]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  ShoulderPlugin (4690092032298438117@2@14.jar)
+  MoreShowExtraCore ([更多显示附属]MoreShow_Extra-1.0.5FIX.jar)
+  Inventory Tweaks Coremod ([R键整理] InventoryTweaks-1.63.jar)
+  ParticleCullingLoadingPlugin (4690092032168851780@2@14.jar)
+  LesslagCorePlugin (4690092032144627436@2@14.jar)
+  ElementCorePlugin (4690092032220354801@2@14.jar)
+  ForgePlugin (CustomSkinLoader_ForgeV1-14.27.jar)
+  ForgePlugin (4690092032251152283@2@14.jar)
+  DepartCore ([元素开卡].jar)
+  ForgePlugin (4690092032090172607@2@14.jar)
+  APCoreMod (4690092032188884184@2@14.jar)
+  Fugue (Fugue-0.25.5.jar)
+  VintageFix (VintageFix-0.7.2.jar)
+  McLib core mod (4690092032240817439@2@14.jar)
+  LoadingPlugin (ChunkAnimator-MC1.12-1.2.jar)
+Contact their authors BEFORE contacting forge
+
+// You're mean.
+
+Time: 2026-10-28 04:01
+Description: Initializing game
+
+java.lang.IncompatibleClassChangeError: Method 'boolean com.github.timmyovo.virtualui.client.packet.IPacketOut.lllIIlII(java.lang.Object)' must be InterfaceMethodref constant
+	at com.github.timmyovo.virtualui.client.packet.IPacketOut.sendPacket(Unknown Source)
+	at com.github.timmyovo.virtualui.client.packet.out_.PacketOutEvent.notifyEvent(Unknown Source)
+	at com.github.timmyovo.virtualui.client.hook.EventListener.onGUIOpen(Unknown Source)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:79)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:197)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:915)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:540)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.github.timmyovo.virtualui.client.packet.IPacketOut.sendPacket(Unknown Source)
+	at com.github.timmyovo.virtualui.client.packet.out_.PacketOutEvent.notifyEvent(Unknown Source)
+	at com.github.timmyovo.virtualui.client.hook.EventListener.onGUIOpen(Unknown Source)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:79)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:197)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:915)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:540)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:394)
+	at net.minecraft.client.main.Main.main(Main.java:110)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:59)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 25.0.1, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 489764680 bytes (467 MB) / 1409286144 bytes (1344 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 20 total; -Xmx4096m -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseG1GC -XX:G1MixedGCCountTarget=5 -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:TieredCompileTaskTimeout=10000 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NmethodSweepActivity=1 -XX:+UseCompactObjectHeaders -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 VintageFix 0.7.2 Cleanroom 0.7.11-alpha Optifine OptiFine_1.12.2_HD_U_G5 58 mods loaded, 56 mods active
+States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	| State  | ID                                  | Version                  | Source                                |
+	|:------ |:----------------------------------- |:------------------------ |:------------------------------------- |
+	| LCHIJA | minecraft                           | 1.12.2                   | minecraft.jar                         |
+	| LCHIJA | mcp                                 | 9.42                     | minecraft.jar                         |
+	| LCHIJA | cleanroom                           | 0.7.11-alpha             | cleanroom-0.7.11-alpha-universal.jar  |
+	| LCHIJA | cleanmix                            | 0.7.4                    | cleanmix-0.7.4.jar                    |
+	| LCHIJA | mixinbooter                         | 11.8                     | cleanroom-0.7.11-alpha-universal.jar  |
+	| LCHIJA | configanytime                       | 3.0                      | cleanroom-0.7.11-alpha-universal.jar  |
+	| LCHIJA | FML                                 | 8.0.99.99                | cleanroom-0.7.11-alpha-universal.jar  |
+	| LCHIJA | forge                               | 14.23.5.2864             | cleanroom-0.7.11-alpha-universal.jar  |
+	| LCHIJA | departcoremod                       | 1.12.2                   | minecraft.jar                         |
+	| LCHIJA | lesslag                             | 1.0                      | minecraft.jar                         |
+	| LCHIJA | nbtedit                             | 1.11.2-2.0.2             | 4690092032090172607@2@14.jar          |
+	| LCHIJA | dynamiclights_dragoncore            | 1.4.9                    | 4690092032090172607@2@14.jar          |
+	| LCHIJA | dragoncore                          | 2.0.1                    | 4690092032090172607@2@14.jar          |
+	| LCHIJA | dynamiclights_onglowname_dragoncore | 1.0.0                    | 4690092032090172607@2@14.jar          |
+	| LCHIJA | aiimprovements                      | 0.0.1.3                  | 4690092032115045508@2@14.jar          |
+	| LCHIJA | aireducer                           | 0.3.0                    | 4690092032124951368@2@14.jar          |
+	| LCHIJA | particleculling                     | v1.4.3                   | 4690092032168851780@2@14.jar          |
+	| LCHIJA | performant                          | 1.12.2-1.5               | 4690092032179114696@2@14.jar          |
+	| LCHIJA | mclib                               | 2.4.3                    | 4690092032240817439@2@14.jar          |
+	| LCHIJA | aperture                            | 1.8.2                    | 4690092032188884184@2@14.jar          |
+	| LCHIJA | autoattack                          | 1.0                      | 4690092032198940862@2@14.jar          |
+	| LCHIJA | clearwater                          | 1.2                      | 4690092032209916191@2@14.jar          |
+	| LCHIJA | elementserver                       | 1.0.1                    | 4690092032220354801@2@14.jar          |
+	| LCHIJA | epicofelementmod                    | 2021.5.10.1              | 4690092032229877956@2@14.jar          |
+	| LCHIJA | rfp2                                | 1.12.2-1.3.2             | 4690092032251152283@2@14.jar          |
+	| LCHIJA | mobends                             | 1.0                      | 4690092032251152283@2@14.jar          |
+	| LCHIJA | dragonarmourers                     | 1.0                      | 4690092032251152283@2@14.jar          |
+	| LCHIJA | armourers_workshops                 | 1.12.2-0.49.1            | 4690092032251152283@2@14.jar          |
+	| LCHIJA | dragongps                           | 1.12.2                   | 4690092032261795791@2@14.jar          |
+	| LCHIJA | shouldersurfing                     | 2.2.1                    | 4690092032298438117@2@14.jar          |
+	| LCHIJA | statusbar                           | 1.0                      | 4690092032308724718@2@14.jar          |
+	| LCHIJA | virtualui                           | 1.0-SNAPSHOT             | 4690092032318069481@2@14.jar          |
+	| LCHIJA | fpsreducer                          | mc1.12.2-1.20            | [FPS减速器] FpsReducer-mc1.12.2-1.20.jar |
+	| LCHIJA | inventorytweaks                     | 1.63+release.109.220f184 | [R键整理] InventoryTweaks-1.63.jar       |
+	| LCHIJA | elementdamagetest                   | 0.5.5-test               | [元素优化]Boss伤害展示-v0.5.5.jar             |
+	| LCHIJA | departmod                           | 1.0                      | [元素开卡].jar                            |
+	| LCHIJA | moreshow                            | 1.6.4                    | [更多显示]moreshow-1.6.4.jar              |
+	| LCHIJA | moreshow_extra                      | 1.0.5FIX                 | [更多显示附属]MoreShow_Extra-1.0.5FIX.jar   |
+	| LCHIJA | autoreconnect                       | 1.1.0                    | autoreconnect-1.1.jar                 |
+	| LCHIJA | betterpingdisplay                   | 1.0                      | BetterPingDisplay-1.12.2-1.0.jar      |
+	| LCHIJA | chatcopier                          | 1.2.0                    | ChatCopier-1.12.2-1.2.0.jar           |
+	| LCHIJA | chunkanimator                       | 1.2                      | ChunkAnimator-MC1.12-1.2.jar          |
+	| LCHIJA | cleanview                           | 1.12.2-v1c               | CleanView-1.12.2-v1c.jar              |
+	| LCHIJA | clearspam                           | 0.4                      | ClearSpam-0.4.jar                     |
+	| LCHIJA | customskinloader                    | 14.27                    | CustomSkinLoader_ForgeV1-14.27.jar    |
+	| LCHIJA | ding                                | 1.0.2                    | Ding-1.12.2-1.0.2.jar                 |
+	| LCHIJA | eyltrafix                           | 1.0                      | ElytraFix-1.12.2-1.0.0.jar            |
+	| LCHIJA | fastfurnace                         | 1.3.1                    | FastFurnace-1.12.2-1.3.1.jar          |
+	| LCHIJA | fastbench                           | 1.7.3                    | FastWorkbench-1.12.2-1.7.3.jar        |
+	| LCHIJA | fugue                               | 0.25.5                   | Fugue-0.25.5.jar                      |
+	| LCHIJA | gpu_tape                            | 1.0.4                    | GPUTape-1.12.2-1.0.4.jar              |
+	| LCHIJA | invmove                             | 0.4.6                    | InvMove-1.12.2-0.4.6.jar              |
+	| LCHIJA | kalandassistant                     | 1.0.1                    | kaland-assistant-1.0.1.jar            |
+	| LCHIJA | mousetweaks                         | 2.10                     | MouseTweaks-2.10-mc1.12.2.jar         |
+	| LCHIJA | vintagefix                          | 0.7.2                    | VintageFix-0.7.2.jar                  |
+	| LCHIJA | fake_netease                        | 1.0                      | 崩溃修复.jar                              |
+	| UD     | aperture_core                       | 1.8.2                    | minecraft.jar                         |
+	| UD     | mclib_core                          | 2.4.3                    | minecraft.jar                         |
+
+	Cleanroom Version: 0.7.11-alpha
+	Loaded coremods (and transformers): 
+ShoulderPlugin (4690092032298438117@2@14.jar)
+  com.teamderpy.shouldersurfing.asm.transformers.EntityPlayerRayTrace
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererGetMouseOver
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererGetMouseOver2
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererOrientCamera
+  com.teamderpy.shouldersurfing.asm.transformers.EntityRendererRayTrace
+  com.teamderpy.shouldersurfing.asm.transformers.GuiIngameRenderAttackIndicator
+  com.teamderpy.shouldersurfing.asm.transformers.GuiCrosshairsBCRenderAttackIndicator
+MoreShowExtraCore ([更多显示附属]MoreShow_Extra-1.0.5FIX.jar)
+  moreshow.extra.asm.ScoreboardGuardTransformer
+  moreshow.extra.asm.HotbarSwitchTransformer
+  moreshow.extra.asm.VaultShieldTransformer
+  moreshow.extra.asm.EntityDispatchTransformer
+Inventory Tweaks Coremod ([R键整理] InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+ParticleCullingLoadingPlugin (4690092032168851780@2@14.jar)
+  
+LesslagCorePlugin (4690092032144627436@2@14.jar)
+  
+ElementCorePlugin (4690092032220354801@2@14.jar)
+  org.serverct.nanmui.element.bridge.ElementTransformer
+ForgePlugin (CustomSkinLoader_ForgeV1-14.27.jar)
+  customskinloader.forge.loader.LaunchWrapper
+ForgePlugin (4690092032251152283@2@14.jar)
+  
+DepartCore ([元素开卡].jar)
+  com.netease.mc.mod.departmod.coremod.DepartTransformer
+ForgePlugin (4690092032090172607@2@14.jar)
+  eos.moe.dragoncore.tweaker.TransformerManager
+APCoreMod (4690092032188884184@2@14.jar)
+  mchorse.aperture.core.APCoreClassTransformer
+Fugue (Fugue-0.25.5.jar)
+  
+VintageFix (VintageFix-0.7.2.jar)
+  org.embeddedt.vintagefix.transformer.ASMModParserTransformer
+McLib core mod (4690092032240817439@2@14.jar)
+  mchorse.mclib.core.McLibCMClassTransformer
+LoadingPlugin (ChunkAnimator-MC1.12-1.2.jar)
+  lumien.chunkanimator.asm.ClassTransformer
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 31.0.101.2140' Renderer: 'Intel(R) UHD Graphics'
+	Armourer's Workshop: 
+		Baking Queue: 1
+		Request Queue: -1
+		Texture Paint Type: TEXTURE_REPLACE
+		Multipass Skin Rendering: true
+	Render Layers:
+		 Render Class: net.minecraft.client.renderer.entity.RenderPlayer
+			eos.moe.armourers.am
+			net.minecraft.client.renderer.entity.layers.LayerBipedArmor
+			net.minecraft.client.renderer.entity.layers.LayerHeldItem
+			net.minecraft.client.renderer.entity.layers.LayerArrow
+			net.minecraft.client.renderer.entity.layers.LayerDeadmau5Head
+			net.minecraft.client.renderer.entity.layers.LayerCape
+			net.minecraft.client.renderer.entity.layers.LayerCustomHead
+			net.minecraft.client.renderer.entity.layers.LayerElytra
+			net.minecraft.client.renderer.entity.layers.LayerEntityOnShoulder
+			net.optifine.player.PlayerItemsLayer
+			eos.moe.armourers.ym
+		 Render Class: net.minecraft.client.renderer.entity.RenderPlayer
+			eos.moe.armourers.am
+			net.minecraft.client.renderer.entity.layers.LayerBipedArmor
+			net.minecraft.client.renderer.entity.layers.LayerHeldItem
+			net.minecraft.client.renderer.entity.layers.LayerArrow
+			net.minecraft.client.renderer.entity.layers.LayerDeadmau5Head
+			net.minecraft.client.renderer.entity.layers.LayerCape
+			net.minecraft.client.renderer.entity.layers.LayerCustomHead
+			net.minecraft.client.renderer.entity.layers.LayerElytra
+			net.minecraft.client.renderer.entity.layers.LayerEntityOnShoulder
+			net.optifine.player.PlayerItemsLayer
+			eos.moe.armourers.ym
+	Launched Version: 1.12.2-Cleanroom_0.7.11-alpha
+	LWJGL: 3.4.3-snapshot
+	OpenGL: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.2140, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge,cleanroom'
+	Type: Client (map_client.txt)
+	Resource Packs: EpicOfElement.zip, Faithful 3D - 1.12 r2.zip, Faithful 32x - 1.12.2.zip, §9-视材质§e（亮度可调）§61.12 (2).zip
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 10
+	Mipmaps: 2
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 - Build 31.0.101.2140
+	OpenGlRenderer: Intel(R) UHD Graphics
+	OpenGlVendor: Intel
+	CpuCount: 8
+[04:01:16] [Client thread/INFO]: [net.minecraft.init.Bootstrap:func_179870_a:545]: #@!@# Game crashed! Crash report saved to: #@!@# D:\Desktop\元素之诗v0.8beta\元素之诗v0.8.2beta\.minecraft\crash-reports\crash-2026-10-28_04.01.15-client.txt
