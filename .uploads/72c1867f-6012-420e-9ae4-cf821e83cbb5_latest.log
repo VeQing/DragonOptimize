@@ -1,0 +1,138 @@
+[19:32:58] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:32:58] [main/INFO]: Using primary tweak name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:32:58] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLTweaker@2101b44a
+[19:32:58] [main/INFO]: Jar location: file:/D:/Desktop/元素之诗v0.8beta/clr元素/.minecraft/libraries/com/cleanroommc/cleanroom/0.6.13-alpha/cleanroom-0.6.13-alpha.jar
+[19:32:58] [main/INFO]: Forge Mod Loader version 14.23.5.2864 for Minecraft 1.12.2 loading
+[19:32:58] [main/INFO]: Cleanroom version 0.6.13-alpha
+[19:32:58] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 25.0.1, running on Windows 10:amd64:10.0, installed at C:\Users\a3185\AppData\Roaming\.hmcl\java\windows-x86_64\mojang-java-runtime-epsilon
+[19:32:58] [main/INFO]: Initializing CleanMix...
+[19:32:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:/D:/Desktop/元素之诗v0.8beta/clr元素/.minecraft/libraries/com/cleanroommc/cleanmix/0.7.2/cleanmix-0.7.2.jar!/org/spongepowered/asm/mixin/MixinEnvironment.class Service=CleanMix Env=CLIENT
+[19:32:58] [main/INFO]: Discovering mods
+[19:32:58] [main/INFO]: Searching D:\Desktop\元素之诗v0.8beta\clr元素\.minecraft\mods for mods
+[19:33:02] [main/INFO]: Finished discovering mods. Found 61 discovered mod ids in 3737 ms.
+[19:33:02] [main/INFO]: Initializing MixinExtras...
+[19:33:02] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032090172607@2@14.jar
+[19:33:02] [main/INFO]: Cascading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from 4690092032134710447@2@14.jar
+[19:33:02] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032144627436@2@14.jar
+[19:33:02] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032159022945@2@14.jar
+[19:33:02] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032168851780@2@14.jar
+[19:33:02] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032220354801@2@14.jar
+[19:33:02] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from 4690092032251152283@2@14.jar
+[19:33:02] [main/INFO]: Cascading tweaker optifine.OptiFineForgeTweaker from 4690092032272129567@2@14.jar
+[19:33:02] [main/WARN]: Loading plugin net.shadowfacts.forgelin.preloader.ForgelinPlugin for mod 4690092032283850634@2@14.jar is in the forge_early.cfg blacklist and won't be loaded.
+[19:33:02] [main/INFO]: [moreshow.extra.MseLog:info:29]: [MSE-ASM] 核心模组已加载，字节码转换器已登记
+[19:33:02] [main/INFO]: Cascading tweaker cc.polyfrost.oneconfig.loader.stage0.LaunchWrapperTweaker from Aoneconfigbootstrap-1.12.2-forge-1.0.3.jar
+[19:33:02] [main/INFO]: Cascading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[19:33:02] [main/INFO]: Cascading tweaker cc.polyfrost.oneconfig.loader.stage0.LaunchWrapperTweaker from Chat-0.1.0+1.12.2-forge-modified.jar
+[19:33:02] [main/INFO]: Cascading tweaker customskinloader.forge.ForgeTweaker from CustomSkinLoader_ForgeV1-14.27.jar
+[19:33:02] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from ElytraFix-1.12.2-1.0.0.jar
+[19:33:02] [main/INFO]: Cascading tweaker org.spongepowered.asm.launch.MixinTweaker from GPUTape-1.12.2-1.0.4.jar
+[19:33:02] [main/INFO]: Lolis are on the client-side.
+[19:33:02] [main/INFO]: Lolis are preparing and loading in mixins since Rongmario's too lazy to write pure ASM at times despite the mod being called 'LoliASM'
+[19:33:02] [main/WARN]: Replacing CA Certs with an updated one...
+[19:33:02] [main/INFO]: Initializing StacktraceDeobfuscator...
+[19:33:02] [main/INFO]: Found MCP stable-39 method mappings: methods-stable_39.csv
+[19:33:02] [main/INFO]: Initialized StacktraceDeobfuscator.
+[19:33:02] [main/INFO]: Installing DeobfuscatingRewritePolicy...
+[19:33:02] [main/INFO]: Installed DeobfuscatingRewritePolicy.
+[19:33:02] [main/INFO]: Cascading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[19:33:02] [main/INFO]: Cascading tweaker cc.polyfrost.oneconfig.loader.stage0.LaunchWrapperTweaker from PolySprint-1.12.2-forge-1.0.2.jar
+[19:33:02] [main/INFO]: Loading tweak name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:33:02] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:33:02] [main/INFO]: [eos.moe.dragoncore.tweaker.ForgePlugin:<init>:21]: [DragonCore] LoadingPlugin
+[19:33:02] [main/ERROR]: Coremod ForgePlugin: The plugin class eos.moe.dragoncore.tweaker.ForgePlugin was not instantiable
+java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:369)
+	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreModFromDiscoveredJar(CoreModManager.java:406)
+	at com.cleanroommc.discovery.CleanroomModDiscoverer.rescueDroppedCoremods(CleanroomModDiscoverer.java:215)
+	at net.minecraftforge.fml.relauncher.CoreModManager.injectCoreModTweaks(CoreModManager.java:424)
+	at net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker.<init>(FMLInjectionAndSortingTweaker.java:41)
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:93)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:43)
+Caused by: java.lang.IllegalArgumentException: URI is not hierarchical
+	at java.io.File.<init>(File.java:425)
+	at eos.moe.dragoncore.tweaker.ForgePlugin.<init>(ForgePlugin.java:34)
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	... 12 more
+[19:33:02] [main/ERROR]: Failed to manually load coremod eos.moe.dragoncore.tweaker.ForgePlugin from 4690092032090172607@2@14.jar.
+[19:33:02] [main/WARN]: Added 4690092032090172607@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[19:33:02] [main/WARN]: 4690092032144627436@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and com.minecolonies.lesslag.LesslagCorePlugin was loaded by Cleanroom.
+[19:33:02] [main/WARN]: Added 4690092032144627436@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[19:33:02] [main/WARN]: 4690092032168851780@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and bl4ckscor3.mod.particleculling.ParticleCullingLoadingPlugin was loaded by Cleanroom.
+[19:33:02] [main/WARN]: Added 4690092032168851780@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[19:33:02] [main/WARN]: 4690092032220354801@2@14.jar declares both a MixinTweaker TweakClass and FMLCorePlugin. Forge skips the coremod in this case and org.serverct.nanmui.element.bridge.ElementCorePlugin was loaded by Cleanroom.
+[19:33:02] [main/WARN]: Added 4690092032220354801@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[19:33:02] [main/INFO]: [eos.moe.armourers.tweaker.ForgePlugin:<init>:56]: [DragonArmourers] LoadingPlugin
+[19:33:02] [main/ERROR]: Coremod ForgePlugin: The plugin class eos.moe.armourers.tweaker.ForgePlugin was not instantiable
+java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:369)
+	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreModFromDiscoveredJar(CoreModManager.java:406)
+	at com.cleanroommc.discovery.CleanroomModDiscoverer.rescueDroppedCoremods(CleanroomModDiscoverer.java:215)
+	at net.minecraftforge.fml.relauncher.CoreModManager.injectCoreModTweaks(CoreModManager.java:424)
+	at net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker.<init>(FMLInjectionAndSortingTweaker.java:41)
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:93)
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:43)
+Caused by: java.lang.IllegalArgumentException: URI is not hierarchical
+	at java.io.File.<init>(File.java:425)
+	at eos.moe.armourers.tweaker.ForgePlugin.<init>(ao:16)
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	... 12 more
+[19:33:02] [main/ERROR]: Failed to manually load coremod eos.moe.armourers.tweaker.ForgePlugin from 4690092032251152283@2@14.jar.
+[19:33:02] [main/WARN]: Added 4690092032251152283@2@14.jar back to reparseable collection, ready to be identified as a mod.
+[19:33:02] [main/INFO]: Loading early loader zone.rong.loliasm.core.LoliLoadingPlugin for its mixins.
+[19:33:02] [main/INFO]: Adding [mixins.devenv.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.internal.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.vanities.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.registries.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.stripitemstack.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.lockcode.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.recipes.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.misc_fluidregistry.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.forgefixes.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.capability.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.efficienthashing.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.crashes.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.fix_mc129057.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.bucket.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.priorities.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.rendering.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.datastructures_modelmanager.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.screenshot.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.ondemand_sprites.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.searchtree_vanilla.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.resolve_mc2071.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.fix_mc_skindownloading.json] mixin configuration.
+[19:33:02] [main/INFO]: Adding [mixins.fix_mc186052.json] mixin configuration.
+[19:33:02] [main/INFO]: Loading tweak name org.spongepowered.asm.launch.MixinTweaker
+[19:33:02] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:33:02] [main/INFO]: Loading tweak name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[19:33:02] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:33:02] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:33:02] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:33:02] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:33:02] [main/WARN]: Tweak name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:33:02] [main/INFO]: Loading tweak name optifine.OptiFineForgeTweaker
+[19:33:02] [main/INFO]: Loading tweak name cc.polyfrost.oneconfig.loader.stage0.LaunchWrapperTweaker
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:addSSLStore:258]: Attempting to load Polyfrost certificate.
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:49]: OneConfig has detected the version 1.12.2. If this is false, report this at https://inv.wtf/polyfrost
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: 	at cc.polyfrost.oneconfig.loader.stage0.LaunchWrapperTweaker.isInitialized(LaunchWrapperTweaker.java:75)
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: 	at cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase.<init>(OneConfigWrapperBase.java:53)
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: 	at cc.polyfrost.oneconfig.loader.stage0.LaunchWrapperTweaker.<init>(LaunchWrapperTweaker.java:26)
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: 	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:93)
+[19:33:02] [main/INFO]: [cc.polyfrost.oneconfig.loader.stage0.OneConfigWrapperBase:<init>:86]: 	at top.outlands.foundation.boot.Foundation.main(Foundation.java:43)
